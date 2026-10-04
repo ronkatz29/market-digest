@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 from .finnhub_client import Article, Quote
 from .universe import Company
 
-DEFAULT_MODEL = "claude-sonnet-4-6"
+DEFAULT_MODEL = "claude-sonnet-5"
 MAX_ARTICLES = 40
 HORIZON_TRADING_DAYS = 5
 

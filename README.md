@@ -17,7 +17,7 @@ Environment variables:
 |---|---|
 | `FINNHUB_API_KEY` | Free key from https://finnhub.io/register |
 | `ANTHROPIC_API_KEY` | Claude API key for the explanations and predictions |
-| `MARKET_DIGEST_MODEL` | Optional model override (default `claude-sonnet-4-6`) |
+| `MARKET_DIGEST_MODEL` | Optional model override (default `claude-sonnet-5`) |
 
 ## Run
 
