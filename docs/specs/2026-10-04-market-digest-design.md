@@ -98,6 +98,19 @@ reasoning got right or missed"). This retrospective is the main learning payoff.
 
 Tests are written with each module (TDD), using saved API responses so they run offline.
 
+## v2: whole-market dashboard and more movers
+
+- **10 movers a day**: top 5 gainers and top 5 losers get the full LLM analysis (10 Claude
+  calls), replacing the 6 above.
+- **`market.py`** keeps the full scan instead of discarding it. Each digest gets a `market`
+  block: `scanned`, `advancers`, `decliners`, `unchanged`, `median_change_pct`, `sectors`
+  (equal-weighted average move, best first) and `stocks` (ticker, name, sector, close,
+  change for every stock). No extra API calls.
+- **Page**: stat tiles, a breadth bar, sector bars and a heatmap of every stock grouped by
+  sector sit above the stories; "Top 20 up" and "Top 20 down" tables sit below them. Plain
+  DOM and CSS, no chart library. Digests without a `market` block render as before.
+- Sector figures are the average stock in the sector, not the cap-weighted sector index.
+
 ## Things to know
 
 - The repo and site are **public** on free GitHub Pages. They hold only market data and LLM

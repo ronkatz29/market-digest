@@ -65,8 +65,25 @@ def test_run_writes_digest_and_opens_predictions(tmp_path):
         {"headline": "UP news", "source": "Reuters", "url": "https://example.com/UP"}
     ]
     assert "source_urls" not in digest["movers"][0]
+    assert digest["market"]["scanned"] == 3
+    assert (digest["market"]["advancers"], digest["market"]["decliners"]) == (1, 1)
+    assert [s["ticker"] for s in digest["market"]["stocks"]] == ["UP", "FLAT", "DOWN"]
     assert store.load_digest("2026-10-02") == digest
     assert [p["id"] for p in store.load_predictions()] == ["2026-10-02:UP", "2026-10-02:DOWN"]
+
+
+def test_run_analyses_five_movers_each_way(tmp_path, monkeypatch):
+    changes = {f"G{i}": float(i) for i in range(1, 8)} | {f"L{i}": -float(i) for i in range(1, 8)}
+    for ticker, change in changes.items():
+        monkeypatch.setitem(CHANGES, ticker, change)
+    companies = [Company(t, f"{t} Inc", "Tech") for t in changes]
+
+    digest = run(FakeFinnhub(), FakeClaude(), Store(tmp_path), companies)
+
+    assert [m["ticker"] for m in digest["movers"]] == [
+        "G7", "G6", "G5", "G4", "G3", "L7", "L6", "L5", "L4", "L3",
+    ]
+    assert digest["market"]["scanned"] == 14
 
 
 def test_run_is_a_no_op_when_the_day_is_already_digested(tmp_path):

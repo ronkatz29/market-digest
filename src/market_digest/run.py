@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 
 import anthropic
 
-from . import scorer
+from . import market, scorer
 from .analyst import analyze, retrospect
 from .finnhub_client import FinnhubClient, FinnhubError, Quote
 from .movers import pick_movers
@@ -17,6 +17,7 @@ from .universe import Company, load_universe
 
 BENCHMARK = "SPY"
 NEWS_LOOKBACK_DAYS = 3
+MOVERS_PER_SIDE = 5
 
 
 def scan_quotes(client: FinnhubClient, companies: list[Company]) -> list[Quote]:
@@ -58,7 +59,7 @@ def run(
     by_ticker = {c.ticker: c for c in companies}
     quotes = scan_quotes(finnhub, companies)
     closes = {q.ticker: q.price for q in quotes}
-    movers = pick_movers(quotes)
+    movers = pick_movers(quotes, n=MOVERS_PER_SIDE)
     print(f"{day}: scanned {len(quotes)}/{len(companies)} tickers")
 
     predictions = store.load_predictions()
@@ -110,6 +111,7 @@ def run(
     digest = {
         "date": day,
         "benchmark": {"ticker": BENCHMARK, "close": benchmark.price, "change_pct": benchmark.change_pct},
+        "market": market.summarize(quotes, by_ticker),
         "movers": entries,
         "resolved": resolved,
     }

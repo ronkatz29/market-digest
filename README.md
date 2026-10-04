@@ -40,10 +40,12 @@ python3 -m http.server 8000 --directory site
 
 1. `universe.py` loads the S&P 500 list from `data/sp500.csv`.
 2. `finnhub_client.py` quotes every ticker and SPY.
-3. `movers.py` picks the top 3 gainers and top 3 losers.
-4. `analyst.py` makes one Claude call per mover: what happened, why, a concept, a prediction.
-5. `scorer.py` scores predictions that are 5 trading days old against SPY.
-6. `store.py` writes the JSON that the static site in `site/` reads.
+3. `movers.py` picks the top 5 gainers and top 5 losers.
+4. `market.py` summarises the whole scan: advancers and decliners, the median stock, the
+   average move per sector, and every stock's change (for the heatmap and top-20 tables).
+5. `analyst.py` makes one Claude call per mover: what happened, why, a concept, a prediction.
+6. `scorer.py` scores predictions that are 5 trading days old against SPY.
+7. `store.py` writes the JSON that the static site in `site/` reads.
 
 `.github/workflows/daily.yml` runs this on weekdays after the US close, commits the new data,
 and deploys `site/` to GitHub Pages. It needs `FINNHUB_API_KEY` and `ANTHROPIC_API_KEY` as
