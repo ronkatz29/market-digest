@@ -37,7 +37,7 @@ class FakeClaude:
         if ticker in self.fail_for:
             raise RuntimeError("boom")
         parsed = Analysis(
-            what_happened="w", why="y", no_clear_news=False,
+            headline="h", what_happened="w", why="y", no_clear_news=False,
             source_urls=[f"https://example.com/{ticker}"],
             concept={"name": "Concept", "lesson": "l"},
             prediction={"call": "outperform", "confidence": "low", "reasoning": "r"},

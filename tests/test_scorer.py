@@ -15,7 +15,7 @@ def prediction(made_on="2026-09-25", call="underperform", status="open"):
 
 def test_new_prediction_records_entry_prices_and_the_call():
     analysis = Analysis(
-        what_happened="x", why="y", no_clear_news=False,
+        headline="h", what_happened="x", why="y", no_clear_news=False,
         concept={"name": "Guidance cut", "lesson": "z"},
         prediction={"call": "underperform", "confidence": "low", "reasoning": "r"},
     )

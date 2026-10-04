@@ -44,29 +44,47 @@ function predictionBox(mover, prediction) {
       : null);
 }
 
-function moverCard(mover, prediction) {
-  return h("article", { class: "card" },
-    h("div", { class: "card-head" },
-      h("div", {},
-        h("span", { class: "ticker" }, mover.ticker), " ",
-        h("span", { class: "company" }, `${mover.name} · ${mover.sector}`)),
-      h("span", { class: `change ${direction(mover.change_pct)}` },
-        `${pct(mover.change_pct)} to $${mover.close.toFixed(2)}`)),
-    h("p", {}, mover.what_happened),
-    h("p", {},
-      h("span", { class: "label" }, "Why", mover.no_clear_news ? " (no clear news)" : ""),
-      mover.why),
-    h("div", { class: "concept" },
-      h("span", { class: "label" }, "Concept"),
-      h("strong", {}, mover.concept.name),
-      mover.concept.lesson),
-    predictionBox(mover, prediction),
-    mover.sources.length
-      ? h("ul", { class: "sources" }, mover.sources.map((s) =>
-          h("li", {},
-            h("a", { href: s.url, target: "_blank", rel: "noopener" }, s.headline),
-            h("span", {}, ` (${s.source})`))))
-      : null);
+function callChip(call, prediction) {
+  const arrow = call === "outperform" ? "▲" : "▼";
+  if (prediction && prediction.status === "resolved") {
+    return h("span", { class: `chip ${prediction.hit ? "hit" : "miss"}` },
+      `${arrow} ${call} · ${prediction.hit ? "hit" : "miss"}`);
+  }
+  return h("span", { class: "chip" }, `${arrow} ${call}`);
+}
+
+function moverRow(mover, prediction) {
+  return h("details", { class: "row" },
+    h("summary", {},
+      h("span", { class: "ticker" }, mover.ticker),
+      h("span", { class: `change ${direction(mover.change_pct)}` }, pct(mover.change_pct)),
+      h("span", { class: "headline" }, mover.headline || mover.concept.name),
+      callChip(mover.prediction.call, prediction)),
+    h("div", { class: "detail" },
+      h("p", { class: "company" }, `${mover.name} · ${mover.sector} · closed at $${mover.close.toFixed(2)}`),
+      h("p", {}, mover.what_happened),
+      h("p", {},
+        h("span", { class: "label" }, "Why", mover.no_clear_news ? " (no clear news)" : ""),
+        mover.why),
+      h("div", { class: "concept" },
+        h("span", { class: "label" }, "Concept"),
+        h("strong", {}, mover.concept.name),
+        mover.concept.lesson),
+      predictionBox(mover, prediction),
+      mover.sources.length
+        ? h("ul", { class: "sources" }, mover.sources.map((s) =>
+            h("li", {},
+              h("a", { href: s.url, target: "_blank", rel: "noopener" }, s.headline),
+              h("span", {}, ` (${s.source})`))))
+        : null));
+}
+
+function moverGroup(title, movers, byId, day) {
+  if (!movers.length) return [];
+  return [
+    h("h2", {}, title),
+    h("div", { class: "rows" }, movers.map((m) => moverRow(m, byId[`${day}:${m.ticker}`]))),
+  ];
 }
 
 async function showDigest(day) {
@@ -98,9 +116,13 @@ async function showDigest(day) {
         [...dates].reverse().map((d) => h("option", { value: d, selected: d === day ? "" : null }, d))),
       link("Newer →", dates[i + 1])),
     digest.movers.length
-      ? digest.movers.map((m) => moverCard(m, byId[`${day}:${m.ticker}`]))
+      ? [
+          h("p", { class: "hint" }, "Click a stock to see the full story."),
+          moverGroup("Gainers", digest.movers.filter((m) => m.change_pct >= 0), byId, day),
+          moverGroup("Losers", digest.movers.filter((m) => m.change_pct < 0), byId, day),
+        ]
       : h("p", { class: "empty" }, "No movers were analysed for this day."),
-  ].flat());
+  ].flat(Infinity));
 }
 
 function rate(rows) {
@@ -150,19 +172,22 @@ async function showScoreboard() {
       ...breakdown("By confidence", resolved, "confidence"),
       ...breakdown("By concept", resolved, "concept"),
       h("h2", {}, "Scored predictions"),
-      resolved.map((p) => h("article", { class: "card" },
-        h("div", { class: "card-head" },
-          h("div", {},
-            h("a", { class: "ticker", href: `#/d/${p.made_on}` }, p.ticker), " ",
-            h("span", { class: "company" }, `${p.name} · ${p.made_on} to ${p.resolved_on}`)),
-          h("span", { class: `badge ${p.hit ? "hit" : "miss"}` }, p.hit ? "hit" : "miss")),
-        h("p", {},
-          `Called ${p.call} (${p.confidence}). Stock ${pct(p.stock_return_pct)}, ` +
-          `S&P 500 ${pct(p.benchmark_return_pct)}, difference ${pct(p.excess_return_pct)}.`),
-        h("p", {}, h("span", { class: "label" }, "Reasoning then"), p.reasoning),
-        p.retrospective ? h("p", {}, h("span", { class: "label" }, "Looking back"), p.retrospective) : null)));
+      h("div", { class: "rows" }, resolved.map((p) => h("details", { class: "row" },
+        h("summary", {},
+          h("span", { class: "ticker" }, p.ticker),
+          h("span", { class: `change ${direction(p.excess_return_pct)}` }, pct(p.excess_return_pct)),
+          h("span", { class: "headline" }, `${p.concept} · ${p.made_on}`),
+          callChip(p.call, p)),
+        h("div", { class: "detail" },
+          h("p", { class: "company" }, `${p.name} · ${p.made_on} to ${p.resolved_on} · `,
+            h("a", { href: `#/d/${p.made_on}` }, "open that day's digest")),
+          h("p", {},
+            `Called ${p.call} (${p.confidence}). Stock ${pct(p.stock_return_pct)}, ` +
+            `S&P 500 ${pct(p.benchmark_return_pct)}, difference ${pct(p.excess_return_pct)}.`),
+          h("p", {}, h("span", { class: "label" }, "Reasoning then"), p.reasoning),
+          p.retrospective ? h("p", {}, h("span", { class: "label" }, "Looking back"), p.retrospective) : null)))));
   }
-  app.replaceChildren(...nodes.flat());
+  app.replaceChildren(...nodes.flat(Infinity));
 }
 
 async function route() {

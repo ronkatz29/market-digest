@@ -23,7 +23,7 @@ ARTICLES = [
 
 def analysis(urls):
     return Analysis(
-        what_happened="Fell 10%.",
+        headline="h", what_happened="Fell 10%.",
         why="Guidance cut.",
         no_clear_news=False,
         source_urls=urls,

@@ -20,6 +20,7 @@ index fund and are new to analysing individual stocks.
 
 For the stock you are given, use only the supplied articles and price data:
 
+- headline: the main reason for the move in at most eight words, like a news ticker line.
 - what_happened: two or three plain sentences on the move itself.
 - why: the news that best explains the move. If the articles do not explain it, set \
 no_clear_news to true and say so; do not invent a cause. Generic market round-ups that only \
@@ -50,6 +51,7 @@ class Prediction(BaseModel):
 
 
 class Analysis(BaseModel):
+    headline: str
     what_happened: str
     why: str
     no_clear_news: bool
