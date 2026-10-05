@@ -18,6 +18,8 @@ Environment variables:
 | `FINNHUB_API_KEY` | Free key from https://finnhub.io/register |
 | `ANTHROPIC_API_KEY` | Claude API key for the explanations and predictions |
 | `MARKET_DIGEST_MODEL` | Optional model override (default `claude-sonnet-5`) |
+| `GMAIL_ADDRESS` | Gmail account the summary email is sent from and to |
+| `GMAIL_APP_PASSWORD` | App password for that account (https://myaccount.google.com/apppasswords) |
 
 ## Run
 
@@ -46,10 +48,12 @@ python3 -m http.server 8000 --directory site
 5. `analyst.py` makes one Claude call per mover: what happened, why, a concept, a prediction.
 6. `scorer.py` scores predictions that are 5 trading days old against SPY.
 7. `store.py` writes the JSON that the static site in `site/` reads.
+8. `notify.py` emails a summary of the new digest with a link to the site.
 
 `.github/workflows/daily.yml` runs this on weekdays after the US close, commits the new data,
-and deploys `site/` to GitHub Pages. It needs `FINNHUB_API_KEY` and `ANTHROPIC_API_KEY` as
-repository secrets.
+deploys `site/` to GitHub Pages, and emails the summary when there is a new digest. It needs
+`FINNHUB_API_KEY`, `ANTHROPIC_API_KEY`, `GMAIL_ADDRESS` and `GMAIL_APP_PASSWORD` as repository
+secrets.
 
 ## Tests
 
