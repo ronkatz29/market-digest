@@ -85,9 +85,14 @@ class FinnhubClient:
     def _get(self, path: str, params: dict):
         for attempt in range(MAX_RETRIES):
             self._pace()
-            resp = self._http.get(
-                BASE_URL + path, params={**params, "token": self._api_key}
-            )
+            try:
+                resp = self._http.get(
+                    BASE_URL + path, params={**params, "token": self._api_key}
+                )
+            except httpx.TransportError:
+                # Dropped connections and timeouts never produce a response; retry like a 5xx.
+                self._sleep(2**attempt * 5)
+                continue
             if resp.status_code == 429 or resp.status_code >= 500:
                 self._sleep(2**attempt * 5)
                 continue

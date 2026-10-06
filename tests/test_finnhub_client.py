@@ -92,3 +92,26 @@ def test_paces_calls_under_the_rate_limit():
     now[0] = 0.25
     client.quote("B")
     assert sleeps == [0.75]
+
+
+def test_retries_after_dropped_connection():
+    calls = []
+
+    def handler(request):
+        calls.append(1)
+        if len(calls) == 1:
+            raise httpx.RemoteProtocolError("Server disconnected without sending a response.")
+        return httpx.Response(200, json=QUOTE)
+
+    client, sleeps = make_client(handler)
+    assert client.quote("ACME").price == 110.0
+    assert 5 in sleeps
+
+
+def test_gives_up_after_repeated_connection_failures():
+    def handler(request):
+        raise httpx.ConnectError("no route")
+
+    client, _ = make_client(handler)
+    with pytest.raises(FinnhubError):
+        client.quote("ACME")
