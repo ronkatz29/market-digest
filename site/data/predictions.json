@@ -142,7 +142,16 @@
     "confidence": "low",
     "reasoning": "A 106% one-day jump driven largely by options mechanics ahead of a merger close is unusual and historically prone to partial reversion once the catalyst (Oct. 6 close) passes and hedging unwinds. However, merger completion itself could also bring genuine re-rating of the combined company, so this is a low-confidence call; check whether PSKY gives back a meaningful chunk of today's gain over the next week relative to SPY.",
     "concept": "Gamma squeeze",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 9.16,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": -6.29,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -6.71,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "PSKY underperformed as predicted, with a roughly 6-7 point gap versus the S&P over the week—consistent with the view that the 106% options-driven spike would partially unwind once the merger closed and hedging pressure faded. That said, this was explicitly a low-confidence, mechanics-based call, not a fundamental judgment on the combined company's prospects, and a single week's reversion doesn't confirm the reasoning was right for the right reasons—post-merger stocks are volatile for many reasons, and the same setup could easily have produced a continued squeeze instead. Take from it: short-term mean-reversion logic around options-driven spikes is a reasonable low-confidence heuristic, but treat this one hit as a data point, not validation, and keep watching whether the drift continues or reverses further out."
   },
   {
     "id": "2026-10-05:PTC",
@@ -155,7 +164,16 @@
     "confidence": "high",
     "reasoning": "PTC will likely trade in a narrow range just below the $205 cash offer price as it awaits regulatory approval, with little room to rally further and minimal correlation to the broader market; SPY's moves (up or down) should outpace PTC's now-capped upside over the next 5 trading days.",
     "concept": "Merger arbitrage",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 194.39,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": 1.11,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": 0.69,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "PTC edged out the S&P over this window, so the prediction missed—but the underlying logic (a pending-deal stock trading in a tight band near the offer price with low beta to the market) was reasonable and often holds; this particular week just saw a small idiosyncratic pop in PTC alongside modest market gains, which is well within normal noise for a merger-arb situation. One five-day result doesn't confirm or refute the deal-spread thesis; what matters going forward is still deal-completion risk and spread convergence, not short-term correlation with SPY."
   },
   {
     "id": "2026-10-05:ILMN",
@@ -168,7 +186,16 @@
     "confidence": "low",
     "reasoning": "The large single-day jump on a credible analyst upgrade suggests positive momentum may continue briefly, but a 7.56% move already prices in much of the good news, and without additional confirming catalysts (earnings, other upgrades) the stock could just as easily consolidate or pull back over the next 5 trading days. Check if ILMN holds above ~290 and whether other analysts follow RBC's lead.",
     "concept": "Analyst price target hike",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 276.67,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": -5.8,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -6.22,
+    "outcome": "underperform",
+    "hit": false,
+    "retrospective": "Illumina pulled back over the following week, so this call missed—the predicted brief continuation of momentum didn't materialize, and the stock gave back a chunk of its post-upgrade pop instead of holding above ~290. In hindsight, the reasoning was appropriately cautious (correctly flagging low confidence and noting the move already priced in much of the good news), but it leaned slightly bullish when the setup was really just as consistent with a reversal, which is what happened. The checklist items (holding 290, other analysts following RBC) were sensible things to track, but the outcome shows a single upgrade-driven spike is thin ground for a directional call either way. As always, one miss doesn't prove the logic was flawed—it's a reminder that single-catalyst, low-confidence setups are genuine coin-flips and should be sized/trusted accordingly, not retrofitted into a story of what \"should\" have been foreseen."
   },
   {
     "id": "2026-10-05:CRL",
@@ -181,7 +208,16 @@
     "confidence": "low",
     "reasoning": "The stock had a strong move on broad analyst optimism following its investor day, which could continue to attract buying interest in the short term as more analysts update models. However, a 7% single-day pop often sees some near-term consolidation or profit-taking, so confidence is low. Check CRL's price relative to SPY over the next 5 trading days to see if the post-investor-day enthusiasm persists or fades.",
     "concept": "Analyst upgrade momentum",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 301.86,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": -2.87,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -3.29,
+    "outcome": "underperform",
+    "hit": false,
+    "retrospective": "Charles River underperformed over the five-day window, so this one came in as a miss. The original reasoning correctly flagged the risk—big single-day pops on analyst enthusiasm often give back ground as short-term buyers take profits—and that's roughly what played out, with the stock fading instead of extending its investor-day gains. That said, the call was framed as low confidence precisely because this kind of mean-reversion vs. continuation is close to a coin flip over just five days, so treat this outcome as one noisy data point rather than vindication of \"pops fade\" as a reliable rule. The useful takeaway is less about CRL specifically and more about calibration: when a prediction is explicitly low confidence and the rationale anticipates both outcomes as plausible, a single miss (or hit) shouldn't move your confidence in the underlying reasoning process much—look for a pattern across many such calls before concluding whether this heuristic has real edge."
   },
   {
     "id": "2026-10-05:MRNA",
@@ -194,7 +230,16 @@
     "confidence": "low",
     "reasoning": "Much of the index-inclusion buying pressure may already be priced in ahead of the October 9 effective date, and the stock's valuation is already stretched after a nearly 600% year-to-date run on unconfirmed trial data. If the full melanoma data readout disappoints relative to sky-high expectations, shares could give back some of the recent gains once the mechanical index-fund buying is complete. However, there's also a chance the rally continues on momentum and if data exceeds expectations, hence only low confidence.",
     "concept": "Index inclusion effect",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 213.74,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": 5.18,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": 4.76,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "The call leaned on a reasonable idea—that index-inclusion flows often get front-run and “sell the news” once the mechanical buying concludes—but it underweighted the possibility that momentum and actual trial-data strength could dominate in the week right around the inclusion date. The miss suggests the melanoma readout or continued enthusiasm likely outweighed any profit-taking, and that flagging “stretched valuation” isn’t itself a catalyst for reversal, especially over a one-week horizon. Since this was already a low-confidence call, the outperformance doesn't discredit the logic about eventual index-flow fade; it just shows that in a short window, sentiment/data catalysts can easily overwhelm a mechanical-flow thesis. Takeaway: treat this as one noisy data point, not validation that the valuation call was wrong or that the reasoning was flawed—short-term biotech moves around binary catalysts are inherently hard to predict regardless of flow dynamics."
   },
   {
     "id": "2026-10-05:CHRW",
@@ -207,7 +252,16 @@
     "confidence": "medium",
     "reasoning": "Large cash-and-stock acquisitions that trigger a negative outlook from rating agencies and a double-digit stock drop often continue to see pressure in the following days as analysts digest deal terms, dilution, and integration risk. Unless management issues a strong rebuttal or analysts come out with upgrades defending the deal's synergies, CHRW is likely to continue underperforming SPY over the next 5 trading days, though some stabilization/rebound is possible if the market decides the long-term synergies justify the price.",
     "concept": "Acquirer sell-off",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 139.75,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": -0.61,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -1.03,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "CHRW underperformed as predicted, giving a modest hit to the thesis that deal-related negative sentiment (ratings outlook, dilution worries, integration risk) would keep pressure on the stock for several days. The reasoning correctly identified the mechanism—unresolved analyst skepticism without a strong management rebuttal tends to extend underperformance—and the magnitude of the move was in line with \"continued pressure\" rather than a sharp new leg down, suggesting the market was still digesting rather than escalating concerns. That said, a one-week, roughly 1-point relative gap is a small sample and easily within noise; it doesn't confirm the deal's long-term economics are bad or that sentiment won't stabilize or reverse once more clarity on synergies emerges. Treat this as a single data point consistent with the logic, not validation of it."
   },
   {
     "id": "2026-10-05:LEN",
@@ -220,7 +274,16 @@
     "confidence": "medium",
     "reasoning": "The combination of an unresolved short-seller allegation about accounting integrity and a deteriorating housing market (7%+ mortgage rates, weak affordability, margin compression) creates ongoing downside risk and headline sensitivity. Unless Lennar issues a strong rebuttal or resolves the Millrose questions quickly, uncertainty is likely to keep pressuring the stock relative to the S&P 500 over the next five trading days.",
     "concept": "Short-seller report",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 74.65,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": 0.28,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -0.14,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Lennar underperformed the S&P 500 by about 14 basis points over the five-day window, a marginal miss-the-market move that technically counts as a hit for the \"underperform\" call. The reasoning's logic—unresolved short-seller allegations plus a weakening housing backdrop creating headline risk—was directionally reasonable, but the magnitude of underperformance was tiny, essentially noise-level, so this doesn't strongly validate the thesis. A move this small could easily flip with different timing or market conditions, so treat this as weak confirming evidence at best, not proof the accounting concerns or housing weakness are actually driving the stock. The broader lesson: thesis-level reasoning about company-specific risk catalysts can point in the right direction while explaining very little of the actual short-term price action, which is often dominated by sector-wide or macro moves unrelated to the specific allegation."
   },
   {
     "id": "2026-10-05:CMG",
@@ -233,7 +296,16 @@
     "confidence": "low",
     "reasoning": "The stock has been in a persistent downtrend (down 14% over recent weeks per article [10], down 24% from highs per article [8]) and showed outsized weakness versus peers today with options markets signaling further defensive positioning. This pattern of relative weakness and negative options sentiment suggests continued pressure over the next 5 trading days, but confidence is low since no concrete negative catalyst (like a guidance cut or food safety issue) was identified, and Cramer's comment about historical bounces at this price level adds some counter-evidence.",
     "concept": "Relative weakness",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 30.4,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": -1.46,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -1.88,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "CMG underperformed the S&P 500 over the five sessions, matching the call, and the reasoning's core logic—persistent downtrend plus negative options positioning tends to persist short-term absent a reversal catalyst—held up this time. But the original analysis was honest that this was a momentum-continuation bet without a fundamental trigger, which is inherently fragile, and Cramer's \"bounce\" counterpoint was a real risk that simply didn't materialize this round. Treat this as one data point supporting the idea that technical/options-flow deterioration can persist briefly, not confirmation that downtrends in CMG (or similarly battered names) reliably continue—mean-reversion after a 24% drawdown remains a live possibility on any given week."
   },
   {
     "id": "2026-10-05:BMY",
@@ -246,7 +318,16 @@
     "confidence": "low",
     "reasoning": "The downgrade reflects a specific concern about pipeline execution that may take time to resolve, and the stock already fell to levels close to the new $59 price target, suggesting much of the move may be priced in. However, negative analyst sentiment can linger and invite further selling or cautious positioning over the next week, so I lean toward underperformance versus SPY, though with low confidence since no new fundamental catalyst beyond the single analyst note has emerged.",
     "concept": "Analyst downgrade",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 57.58,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": -2.09,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": -2.51,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "BMY underperformed as predicted, but treat this as a weak confirmation rather than vindication. The reasoning correctly flagged that a fresh downgrade and lingering negative sentiment can pressure a stock even without new fundamental news, and that near-term price action often follows analyst tone rather than waiting for catalysts. But the call was explicitly low-confidence and based on thin logic—one analyst note and a \"priced in\" guess cut both ways and could easily have gone the other direction. The single-week hit doesn't prove the pipeline concern was well-founded or that sentiment-driven calls like this are reliable; it's just one data point in what should be judged as a probabilistic, low-conviction bet."
   },
   {
     "id": "2026-10-05:DOC",
@@ -259,7 +340,16 @@
     "confidence": "low",
     "reasoning": "The stock fell sharply on anticipation of weak Q3 EPS ahead of its earnings report. If the actual report confirms or worsens this expectation, the stock could continue underperforming over the next 5 days; however, earnings could also beat lowered expectations and cause a rebound, making this a low-confidence call based mainly on negative pre-earnings sentiment.",
     "concept": "Pre-earnings anticipation",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-12",
+    "exit_close": 18.95,
+    "benchmark_exit_close": 778.1,
+    "stock_return_pct": 0.58,
+    "benchmark_return_pct": 0.42,
+    "excess_return_pct": 0.16,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "Healthpeak modestly outperformed the S&P 500 over the five days, so the underperform call missed—but only narrowly (a 0.16-point gap), which fits the low-confidence framing rather than contradicting it. The original reasoning correctly flagged the setup (weak pre-earnings sentiment, binary earnings outcome) but had no real edge on which way the earnings surprise would break; the slight outperformance is consistent with the \"beat lowered expectations\" scenario it acknowledged as plausible. Takeaway: this was a coin-flip-style bet on earnings direction, explicitly labeled low confidence, and the small miss doesn't discredit the logic—pre-earnings sentiment alone isn't a reliable signal for post-earnings drift, and such calls should be weighted lightly regardless of outcome."
   },
   {
     "id": "2026-10-06:CIEN",
@@ -779,6 +869,136 @@
     "confidence": "low",
     "reasoning": "Charter is in a well-documented downtrend driven by structural cable/broadband subscriber concerns, and with Q3 earnings looming November 6, uncertainty may keep pressuring the stock in the near term. However, since no specific negative catalyst was identified for this particular drop, a bounce or stabilization is also plausible, so confidence is low. Check CHTR vs SPY performance over the next 5 trading days to see if the downtrend persisted or reversed.",
     "concept": "Momentum in a downtrend",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:FICO",
+    "ticker": "FICO",
+    "name": "Fair Isaac",
+    "made_on": "2026-10-12",
+    "entry_close": 740,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The underlying competitive threat to FICO's scoring monopoly described in the Fannie/Freddie article is a genuine long-term risk, and a single-day bounce after a 34% multi-month decline often reflects short-term positioning (short covering, oversold technicals) rather than a reversal of the fundamental story. If the credit-score shift proves more impactful than today's price action implies, FICO could give back some of these gains over the next week, though confidence is low given the lack of clarity on what specifically drove the 10.85% move.",
+    "concept": "Oversold bounce",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:MDT",
+    "ticker": "MDT",
+    "name": "Medtronic",
+    "made_on": "2026-10-12",
+    "entry_close": 91.93,
+    "benchmark_entry_close": 778.1,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "The share-count reduction from the oversubscribed MiniMed split-off is a real, EPS-accretive change, and the stock also has a maintained Buy rating and a string of bullish valuation articles this week, which could sustain momentum over the next 5 trading days. However, a 3.9% single-day pop on an already mechanical corporate action carries reversion risk if buyers were largely arbitrage-driven, so confidence is low.",
+    "concept": "Split-off share retirement",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:ZBH",
+    "ticker": "ZBH",
+    "name": "Zimmer Biomet",
+    "made_on": "2026-10-12",
+    "entry_close": 92.17,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Without a clear fundamental catalyst, a 3.4% single-day pop in a mega-cap health care stock has some chance of partially reverting (mean reversion) over the next week, especially if it was driven by short-term flows rather than genuine news. Confidence is low since there's no concrete evidence either way; check if ZBH gives back some of this gain relative to SPY over the next 5 trading days.",
+    "concept": "Unexplained price move",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:META",
+    "ticker": "META",
+    "name": "Meta Platforms",
+    "made_on": "2026-10-12",
+    "entry_close": 742.96,
+    "benchmark_entry_close": 778.1,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "The AI narrative momentum and positive analyst commentary (Cramer's 'monster long' call, strong retention data) could continue to support the stock in the short term, especially heading into Meta's Oct 21 earnings where investors will look for monetization details on Muse. However, with chipmaker weakness and AI valuation doubts weighing on the broader tech sector, and no fundamental earnings confirmation yet, the edge is modest. Check whether META's 5-day return from Oct 12 close exceeds SPY's return over the same period.'",
+    "concept": "Product catalyst re-rating",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:PODD",
+    "ticker": "PODD",
+    "name": "Insulet Corporation",
+    "made_on": "2026-10-12",
+    "entry_close": 139.81,
+    "benchmark_entry_close": 778.1,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "The stock jumped on a specific positive product announcement with no broader negative market pressure, suggesting some near-term momentum. However, a single product launch announcement rarely has lasting multi-day price impact without further confirming news (e.g., analyst upgrades, sales data), so confidence is low. Check if PODD's 5-day return from 2026-10-12 close exceeds SPY's 5-day return to validate this call.",
+    "concept": "Product launch catalyst",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:CIEN",
+    "ticker": "CIEN",
+    "name": "Ciena",
+    "made_on": "2026-10-12",
+    "entry_close": 405.01,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "CIEN had an extreme short-term run (up ~33% in a month) before this near-10% drop with no clear negative catalyst, suggesting elevated volatility and possible further mean-reversion as momentum traders and profit-takers continue to react. However, the underlying AI/optical demand story remains intact per recent earnings and deal news, so a quick snap-back is also plausible. Check CIEN's 5-day return versus SPY to see whether the stock stabilized or kept falling.",
+    "concept": "Profit-taking after a parabolic rally",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:LITE",
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "made_on": "2026-10-12",
+    "entry_close": 995.41,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Lumentum remains caught in a volatile AI-infrastructure sentiment trade; after a nearly 10% drop driven by sector-wide fear rather than company-specific bad news, the stock could stabilize or rebound if sentiment calms, but continued volatility and AI bubble concerns make it likely to swing more than the S&P 500 in either direction over the next week. Check LITE's 5-day return vs SPY from 2026-10-12 close to 2026-10-19 close to verify.",
+    "concept": "Sentiment reversal / round-trip",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:COHR",
+    "ticker": "COHR",
+    "name": "Coherent Corp.",
+    "made_on": "2026-10-12",
+    "entry_close": 288.02,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "With no clear negative catalyst found, this looks like volatility typical of a high-beta AI-optics name that had run up sharply on hype. Such stocks often see continued choppy price action as investors reassess valuation, especially with no COHR-specific news to anchor a view. Low confidence because the cause of the drop is unclear, and a rebound driven by sector-wide AI optimism (as seen on Oct 9) is equally plausible over the next 5 days.",
+    "concept": "Momentum reversal",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:CVNA",
+    "ticker": "CVNA",
+    "name": "Carvana",
+    "made_on": "2026-10-12",
+    "entry_close": 59.51,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The stock dropped sharply on no clear single catalyst, suggesting accumulating concern about margins and valuation rather than a one-off event, which could continue to pressure shares in the near term. However, with no concrete news driving the move and a bullish analyst price target (BTIG's $87) still in place, the direction over the next 5 days is uncertain, hence low confidence.",
+    "concept": "Growth vs. profitability concern",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-12:BE",
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "made_on": "2026-10-12",
+    "entry_close": 262.28,
+    "benchmark_entry_close": 778.1,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Bloom trades at an extreme valuation and has a history of 20%+ drawdowns followed by recoveries; with Q3 earnings due October 22 (just after the 5-day window), there's no fresh catalyst expected in the next week, and the stock may stay volatile and pressured by continued AI-valuation jitters, but history also shows it can snap back quickly, so confidence is low.",
+    "concept": "Valuation risk",
     "status": "open"
   }
 ]
