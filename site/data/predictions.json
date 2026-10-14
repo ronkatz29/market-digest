@@ -362,7 +362,16 @@
     "confidence": "low",
     "reasoning": "A 14% single-day pop driven by a peer's forecast rather than Ciena's own fundamentals or guidance often sees some giveback or consolidation in the following days as the initial enthusiasm cools, especially after such an outsized move relative to the market. However, if AI/optical demand sentiment stays strong, gains could hold or extend, so confidence is low given the speculative nature of the catalyst.",
     "concept": "Peer read-through",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 400.4,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -9.75,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -9.61,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Ciena underperformed as predicted, with roughly a 9.75% pullback versus a flat S&P 500 — consistent with the idea that a 14% peer-driven pop would see some giveback once the initial enthusiasm faded. That said, this was explicitly flagged as low-confidence, speculative reasoning based on sentiment rather than Ciena's own fundamentals, so the hit shouldn't be read as validation of a repeatable edge. Mean-reversion after sympathy rallies is a reasonable heuristic, but it's a coin-flip-ish bet that could easily have gone the other way if AI/optical enthusiasm had persisted — treat this as one data point, not proof the logic reliably works."
   },
   {
     "id": "2026-10-06:CTVA",
@@ -375,7 +384,16 @@
     "confidence": "low",
     "reasoning": "The sharp re-rating higher by JPMorgan and reaffirmed buy rating by BofA suggest some institutional support for the stock post-spinoff, and inclusion in the S&P MidCap 400 could bring passive index-fund buying flows in the near term. However, the stock is in an unusual post-spin-off trading phase with high volatility and little historical trading history, making the next 5 days hard to predict with confidence. Check closing price versus SPY over the next week to see if the upgrade-driven momentum persisted or faded quickly.",
     "concept": "Analyst upgrade",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 13.36,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -3.95,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -3.82,
+    "outcome": "underperform",
+    "hit": false,
+    "retrospective": "Corteva underperformed over the week, so the low-confidence call for outperformance missed. The reasoning correctly flagged the key uncertainty—thin post-spinoff trading history and volatility—but leaned on analyst upgrades and index-inclusion flows that evidently weren't enough to offset other pressures, possibly profit-taking after the spinoff pop or sector-wide weakness. Since this was already labeled low confidence over a short, noisy window, treat this single miss as a reminder that technical/flow-based catalysts are fragile in illiquid, newly-listed stocks, not as proof the logic itself was flawed."
   },
   {
     "id": "2026-10-06:CEG",
@@ -388,7 +406,16 @@
     "confidence": "medium",
     "reasoning": "The deal represents a structural, long-duration demand signal (20-year contract) rather than a one-time news spike, and it is the second such deal with a hyperscaler in a week, suggesting continued sector momentum and possible analyst upgrades/price target increases in the following days. However, after a 12% single-day pop some mean reversion or profit-taking is possible, so confidence is medium rather than high. Check CEG vs SPY performance over the next 5 trading days to see if the nuclear/AI-power theme continued to attract buyers or if the stock gave back gains.",
     "concept": "Contract-driven re-rating",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 295.79,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -1.53,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -1.4,
+    "outcome": "underperform",
+    "hit": false,
+    "retrospective": "The original call correctly identified the structural bull case—long-duration hyperscaler power deals signal durable demand rather than a one-off headline—but underweighted the near-term mechanics: a 12% pop is exactly the kind of move prone to profit-taking, and that's what seems to have played out over the following week. The underperformance doesn't invalidate the structural thesis; five trading days is too short a window to judge a 20-year contract's implications, and mean reversion after a big spike is common regardless of fundamentals. Takeaway: separate the long-term thesis (nuclear/AI power demand) from short-term price-action predictions—being right about the former doesn't guarantee a near-term outperform call, and one miss here just confirms that post-spike continuation is genuinely hard to call, not that the sector narrative was wrong."
   },
   {
     "id": "2026-10-06:VST",
@@ -401,7 +428,16 @@
     "confidence": "low",
     "reasoning": "The combination of a confirmed $4.2B DOE loan and a sector-wide re-rating around AI/data-center power demand is a strong fundamental catalyst that could sustain momentum in the short term, especially with analyst price targets (BMO $210) well above current price. However, after a ~10.8% one-day pop, some mean-reversion or profit-taking risk exists, and the stock could be vulnerable to broader market swings or follow-through news on PJM pricing concerns (article on 2027 EBITDA assumptions). Check VST vs SPY over the next 5 trading days to see if the nuclear/AI power theme keeps outperforming or fades.",
     "concept": "Sector re-rating on catalyst",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 162.36,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": 1.16,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": 1.3,
+    "outcome": "outperform",
+    "hit": true,
+    "retrospective": "Outperform call confirmed, but with low confidence and a short five-day horizon, this is a thin sample — a +1.16% vs -0.14% spread is a real but modest gap, not proof the AI/power-demand thesis is durable. The reasoning correctly flagged both the bullish catalyst (DOE loan, sector re-rating, high price targets) and the key risk (post-pop mean reversion, PJM pricing concerns on 2027 EBITDA), and the outcome suggests the catalyst outweighed the reversion risk over this window, but it doesn't resolve whether PJM/EBITDA concerns are a longer-term overhang. Takeaway: treat this as one data point showing the momentum didn't fade immediately, not confirmation that the stock will keep beating the market — watch for how the 2027 EBITDA/PJM pricing debate evolves over a longer horizon before drawing conclusions."
   },
   {
     "id": "2026-10-06:NRG",
@@ -414,7 +450,16 @@
     "confidence": "low",
     "reasoning": "NRG's surge was driven by news directly benefiting Vistra and Constellation (federal loan, Google deal) rather than NRG-specific catalysts, suggesting some of the move may be sympathy-driven and could partially unwind or underperform the more directly-impacted peers over the next week. However, broad sector enthusiasm for AI power demand could persist, so confidence is low.",
     "concept": "Sympathy move",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 107.18,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": 3.46,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": 3.59,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "NRG outperformed despite the \"sympathy rally\" thesis, suggesting the AI-power-demand enthusiasm was broad and durable enough to lift NRG on its own merits rather than fading as a secondary beneficiary. The original reasoning wasn't unreasonable—distinguishing direct catalysts from spillover effects is a sound instinct—but it underweighted the possibility that sector-wide tailwinds would keep pushing correlated names higher together, and it was explicitly low confidence to begin with. Take from it: one miss on a low-confidence call doesn't invalidate the sympathy-versus-fundamentals framework, it just shows that in strong thematic rallies, \"sympathy\" money can persist rather than unwind on a one-week horizon."
   },
   {
     "id": "2026-10-06:STX",
@@ -427,7 +472,16 @@
     "confidence": "low",
     "reasoning": "The stock is caught in a high-volatility narrative (Toshiba capacity fears, now a bidding war for a key supplier) with conflicting analyst views, some calling it a buying opportunity, others worried about margin pressure. A 9% single-day drop after a rapid round-trip of sentiment suggests continued instability rather than a clean resolution, and insider selling just before the initial selloff adds a mild overhang. However, several reputable analysts (Goldman, Bernstein) have defended the stock's fundamentals, so a rebound is plausible if the TDK deal resolves favorably or further reassurance emerges, making this a low-confidence call.",
     "concept": "Narrative whiplash",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 747.2,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -7.25,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -7.11,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Score one hit, but treat it cautiously: the thesis was essentially \"volatility continues, direction uncertain,\" which is a low-bar, hedged call that happened to land on the correct side. The reasoning correctly identified the instability and overhang from insider selling, but it also flagged credible bullish counterarguments (Goldman, Bernstein) that didn't pan out this week — the miss on timing the rebound just hasn't been tested yet. Since this was explicitly low-confidence, the hit shouldn't be read as validation of a sharp causal story; it's one data point in a noisy, event-driven situation, and the next print could easily reverse it."
   },
   {
     "id": "2026-10-06:MRNA",
@@ -440,7 +494,16 @@
     "confidence": "low",
     "reasoning": "Moderna remains up hundreds of percent YTD on a melanoma-vaccine story that is still speculative (full Phase 3 readout from Madrid pending) and the stock just lost a speculative plague-trade catalyst, making it prone to profit-taking and volatility. However, Nasdaq-100 inclusion on Oct 9 could bring index-fund buying that offsets further downside, so confidence is low. Check whether MRNA's 5-day return trails SPY given these competing forces around the melanoma data and index-inclusion flows.",
     "concept": "Speculative momentum unwind",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 216.25,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": 15.36,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": 15.5,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "Moderna sharply outperformed over this window, the opposite of the call. The original reasoning correctly flagged two live catalysts pulling in different directions—profit-taking risk after a huge run versus Nasdaq-100 inclusion flows—but underweighted how strong index-inclusion buying plus apparently well-received melanoma data could combine to drive a sharp pop rather than a fade; it leaned bearish on \"speculative run\" optics when the fundamental/technical flows actually pointed up. Given the explicitly low confidence and the single 5-day sample, this miss shouldn't be read as proof the framework was wrong—just a reminder that binary catalyst stocks (data readouts + index flows) are genuinely coin-flip-ish short-term, and low-confidence predictions should be weighted lightly regardless of outcome."
   },
   {
     "id": "2026-10-06:WDC",
@@ -453,7 +516,16 @@
     "confidence": "low",
     "reasoning": "WDC has shown repeated high-volatility reversals over the past week tied to an unresolved Toshiba supply question, and sentiment remains split between 'buy the dip' analysts and renewed competitive fears. Given the stock is down nearly 7% today versus a positive tape, some further weakness or continued high volatility seems more likely than a clean recovery in the next 5 days, but conviction is low because the bull case (tight supply, strong estimates) is well-documented and could quickly reassert itself on any positive note.",
     "concept": "Narrative whipsaw",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 380.71,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -7.38,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -7.24,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "The call correctly flagged WDC as volatility-prone and leaning toward near-term weakness, and the Toshiba/supply overhang did keep playing out negatively, so the directional lean paid off. But the reasoning explicitly carried low confidence and acknowledged the bull case (tight supply, strong estimates) could easily reassert itself—it didn't identify a specific catalyst for the further 7% drop, so this looks more like a correct hunch on momentum/sentiment than a high-conviction thesis. Takeaway: treat this as one data point confirming that reversionary, news-driven setups can extend further, not as validation that the underlying bull/bear debate was resolved—watch whether the Toshiba supply question and competitive fears actually got clarified before trusting this pattern again."
   },
   {
     "id": "2026-10-06:ILMN",
@@ -466,7 +538,16 @@
     "confidence": "low",
     "reasoning": "The stock's recent volatility (up 7.7% then down 6.86% with no clear fundamental news) suggests it is being driven by sentiment and short-term trading rather than durable catalysts. Without a solid news-based reason for either the spike or the drop, there's no strong basis to expect outperformance; if anything, further unwinding of the hype-driven rally could pressure shares near-term. Confidence is low given the lack of clear information explaining the moves.",
     "concept": "Mean reversion",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 271.175,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -0.86,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -0.73,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Reasonable outcome, but weak evidence either way. The original call wasn't really a fundamental thesis—it was essentially \"no clear catalyst, so fade the noise,\" which happened to line up with a modest underperformance over the week. That's consistent with the reasoning's logic (mean-reversion after unexplained volatility), but a single-week, low-confidence call like this could easily have gone the other way, and the magnitude here (-0.86% vs -0.14%) is small enough to be noise itself. The takeaway: treat this as one data point that didn't contradict the \"sentiment-driven, no durable catalyst\" framework, not as validation that fading unexplained spikes is a reliable edge—you'd want to see this play out across many similar setups before trusting it."
   },
   {
     "id": "2026-10-06:KLAC",
@@ -479,7 +560,16 @@
     "confidence": "low",
     "reasoning": "The drop appears disconnected from the fundamentally positive analyst commentary (Zacks Buy upgrade, Morgan Stanley on easing supply constraints, bullish long-term semiconductor equipment thesis), which suggests this could be a short-term overreaction or unrelated technical selling that may partially reverse. However, confidence is low because no clear negative catalyst was identified, meaning there could be an undisclosed reason for the decline (e.g., a sector rotation out of chip equipment names) that persists over the next week.",
     "concept": "News-price disconnect",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-13",
+    "exit_close": 184,
+    "benchmark_exit_close": 778.01,
+    "stock_return_pct": -6.82,
+    "benchmark_return_pct": -0.14,
+    "excess_return_pct": -6.68,
+    "outcome": "underperform",
+    "hit": false,
+    "retrospective": "The prediction leaned on the idea that a drop unaccompanied by a clear negative catalyst should mean-revert, but KLAC instead kept falling well past the S&P 500, suggesting there was indeed an undisclosed or emerging headwind (likely sector-wide rotation out of chip equipment names, or follow-through on supply/demand concerns) that the \"overreaction\" framing missed. The low confidence was appropriate given the thin evidence, and this single miss doesn't invalidate the logic of fading unexplained drops—it just shows that absence of a known catalyst doesn't mean absence of a real one. Takeaway: treat \"no clear reason for the move\" as genuine uncertainty rather than a tilt toward reversal, especially in volatile, sentiment-driven sectors like semiconductor equipment."
   },
   {
     "id": "2026-10-07:NRG",
@@ -999,6 +1089,136 @@
     "confidence": "low",
     "reasoning": "Bloom trades at an extreme valuation and has a history of 20%+ drawdowns followed by recoveries; with Q3 earnings due October 22 (just after the 5-day window), there's no fresh catalyst expected in the next week, and the stock may stay volatile and pressured by continued AI-valuation jitters, but history also shows it can snap back quickly, so confidence is low.",
     "concept": "Valuation risk",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:CDW",
+    "ticker": "CDW",
+    "name": "CDW Corporation",
+    "made_on": "2026-10-13",
+    "entry_close": 151.97,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Without a clear fundamental catalyst, a 5.7% single-day pop is more likely to partially mean-revert over the next few days than to continue, especially given the stock's weak 3-year total return trend mentioned in the valuation article. However, confidence is low since the absence of visible news doesn't rule out a real underlying development (e.g., a contract win or upgrade) that could sustain momentum. Check CDW vs SPY over the next 5 trading days to see if gains hold or fade.",
+    "concept": "Unexplained price spike",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:VLO",
+    "ticker": "VLO",
+    "name": "Valero Energy",
+    "made_on": "2026-10-13",
+    "entry_close": 456.46,
+    "benchmark_entry_close": 778.01,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "The move is driven by a sector-wide margin tailwind (geopolitical supply disruption plus widening crack spreads) rather than a one-off company event, and an analyst just raised its price target, suggesting some follow-through support. However, these supply disruption narratives can reverse quickly if tensions ease or SPR releases increase supply, so confidence is low. Check VLO vs SPY over the next 5 trading days and also compare against peers like PSX/DINO to see if this was sector-wide or VLO-specific.",
+    "concept": "Crack spread expansion",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:CHTR",
+    "ticker": "CHTR",
+    "name": "Charter Communications",
+    "made_on": "2026-10-13",
+    "entry_close": 106.95,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The jump appears driven by short covering in a structurally challenged cable business facing subscriber losses and new wireless competition from SpaceX, not a fundamental improvement. Without a real catalyst, such squeezes often fade within days, so CHTR could give back some gains relative to SPY over the next week. Confidence is low because heavily shorted stocks can also keep squeezing higher unpredictably.",
+    "concept": "Short squeeze",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:ORCL",
+    "ticker": "ORCL",
+    "name": "Oracle Corporation",
+    "made_on": "2026-10-13",
+    "entry_close": 143.2,
+    "benchmark_entry_close": 778.01,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "Oracle's move was driven by reinforcing AI-infrastructure news and bullish sentiment rather than a single hard catalyst like earnings, so momentum could continue if the AI capex theme stays strong, but it is also vulnerable to a reversal if sentiment on AI spending sours (several articles this week flagged AI-bubble concerns). Check ORCL vs SPY over the next 5 trading days: if Oracle extends gains on continued Project Jupiter/cloud-growth headlines, this call is validated; if it gives back the gain on no new news, that would suggest the jump was a temporary sentiment spike rather than a durable repricing.",
+    "concept": "Theme-driven rally",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:EXE",
+    "ticker": "EXE",
+    "name": "Expand Energy",
+    "made_on": "2026-10-13",
+    "entry_close": 92.37,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Without a clear fundamental catalyst, a 4% single-day pop in an energy stock often reflects a transient move tied to commodity price swings (natural gas) rather than a lasting re-rating. Energy stocks tend to be volatile and mean-reverting after unexplained spikes. I'd expect some give-back relative to the broader market over the next 5 days, but confidence is low since I can't verify the actual catalyst (e.g., it could be M&A speculation or a genuine commodity rally that persists).",
+    "concept": "Unexplained move",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:AMAT",
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "made_on": "2026-10-13",
+    "entry_close": 464.24,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The drop reflects profit-taking after a huge rally and disappointment over lack of near-term guidance rather than a fundamental business problem, so the stock could stabilize or even bounce if peers (like ASML) report strong earnings. But near-term sentiment is shaky and semiconductor equipment stocks broadly sold off, suggesting continued volatility or further underperformance versus SPY over the next week. Check AMAT's price versus SPY over the next 5 trading days, and watch for ASML/KLA earnings reactions as a read on sector sentiment.",
+    "concept": "Sell the news",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:JNJ",
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "made_on": "2026-10-13",
+    "entry_close": 248.61,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The sharp earnings-driven drop reflects specific concerns (MedTech deceleration, Abiomed weakness, talc liability) that are unlikely to reverse quickly, and guidance disappointment often weighs on sentiment for several days after the initial reaction. However, J&J is a large, stable dividend stock and the overall business raised guidance, so any further underperformance versus SPY is likely to be modest; this is a low-confidence call given the mixed nature of the report.",
+    "concept": "Beat-but-sell-off",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:C",
+    "ticker": "C",
+    "name": "Citigroup",
+    "made_on": "2026-10-13",
+    "entry_close": 124.53,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The sharp single-day drop despite an EPS and revenue beat suggests the market has real concerns about sequential momentum and future net interest income that may persist for a few days as analysts digest the call and revise estimates. However, banks often stabilize quickly after earnings-day volatility once the initial reaction is priced in, so confidence is low.  Check SPY vs C over the next 5 trading days from the 124.53 close.",
+    "concept": "Sell the news",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:FLEX",
+    "ticker": "FLEX",
+    "name": "Flex Ltd.",
+    "made_on": "2026-10-13",
+    "entry_close": 110.88,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "medium",
+    "reasoning": "The sharp single-day drop reflects a genuine reassessment of the Axiom spin-off economics rather than a one-off technical glitch, and such valuation concerns often take days to fully digest as more analysts weigh in. Combined with elevated volatility from a stock that ran up strongly in prior months, FLEX is likely to see continued swings and probably underperform SPY over the next 5 trading days as the market digests whether the spin-off terms will be revised or clarified.",
+    "concept": "Spin-off valuation risk",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-13:DPZ",
+    "ticker": "DPZ",
+    "name": "Domino's",
+    "made_on": "2026-10-13",
+    "entry_close": 296.1,
+    "benchmark_entry_close": 778.01,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The stock dropped nearly 5% on real fundamental concerns (slowing same-store sales, cautious guidance, consumer pressure) rather than a one-day overreaction, and a price-target hold from TD Cowen at $320 suggests limited near-term upside catalysts. However, the earnings beat on EPS/revenue and potential for a bounce after a sharp drop make this a low-confidence call over just 5 trading days.",
+    "concept": "Earnings beat, guidance miss",
     "status": "open"
   }
 ]
