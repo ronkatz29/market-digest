@@ -1682,7 +1682,16 @@
     "confidence": "medium",
     "reasoning": "UNH rallied nearly 5% on a strong beat-and-raise with multiple analysts reiterating bullish ratings and one major bank seeing 40% further upside, suggesting positive sentiment momentum could persist over the next few days. However, some price target cuts and lingering Medicaid/medical cost concerns could cap near-term gains, so confidence is only medium rather than high.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 417,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": 5.4,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": 4.95,
+    "outcome": "outperform",
+    "hit": true,
+    "retrospective": "UNH beat the S&P by almost 5 points, so the call to lean bullish on post-earnings momentum played out this time. The reasoning correctly flagged the beat-and-raise and bullish analyst reaction as a real catalyst, and appropriately hedged with medium confidence given the Medicaid/cost overhang and price-target cuts that could have capped gains but didn't. Still, a one-week, one-stock result is a small sample—earnings drift continuing for a week is a plausible but not guaranteed pattern, and this single hit doesn't confirm the underlying momentum thesis will work reliably going forward; it just shows this instance aligned with it."
   },
   {
     "id": "2026-10-14:DLTR",
@@ -1695,7 +1704,16 @@
     "confidence": "low",
     "reasoning": "The move was driven by a soft narrative (trading-down trend) rather than hard financial news like earnings or guidance, so the durability of the gain is uncertain. However, if economic uncertainty persists and the 'value shopping' narrative continues to draw attention, DLTR could keep attracting relative interest versus the broader market over the next week. Confidence is low because there's no concrete catalyst like a guidance raise to anchor the move.",
     "concept": "Defensive rotation",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 125.48,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": 3.06,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": 2.6,
+    "outcome": "outperform",
+    "hit": true,
+    "retrospective": "DLTR beat the S&P 500 over the week, so the directional call landed, but the original reasoning flagged—correctly—that this was a soft, narrative-driven thesis (trade-down behavior) rather than something anchored to a hard catalyst like earnings or guidance. That caveat still applies: a one-week outperformance doesn't confirm the trade-down narrative was the actual driver, nor that it's durable: it could just as easily reflect sector rotation, short covering, or noise unrelated to the thesis. Low confidence was the right posture here, and the lesson is to keep treating this single hit as one data point, not validation that \"value shopping\" narratives reliably predict relative performance going forward."
   },
   {
     "id": "2026-10-14:MRNA",
@@ -1708,7 +1726,16 @@
     "confidence": "low",
     "reasoning": "Moderna has already risen roughly 7x over the past year and over 20% in the past two weeks on speculative cancer-vaccine optimism, with multiple articles questioning whether the valuation is now disconnected from actual revenue (which has fallen three years straight). After such a rapid, sentiment-driven run some mean reversion or profit-taking is plausible within the next 5 trading days, though this is a volatile, news-driven stock where upside surprises (e.g., further NIH/FDA developments) could just as easily keep it elevated, hence low confidence.",
     "concept": "Momentum rally",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 245.81,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": 8.62,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": 8.17,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "The miss doesn't invalidate the logic: betting against a momentum-driven, news-sensitive biotech after a huge speculative run is a reasonable low-confidence call, but by its nature it's a coin-flip-ish bet on sentiment continuing versus reversing, and this time momentum simply won out, likely on further positive news flow the reasoning explicitly flagged as a risk. The valuation/revenue disconnect argument may still be directionally correct over a longer horizon, but short 5-day windows on hyped stocks are dominated by catalysts and crowd psychology, not fundamentals, which is exactly why the original take was hedged as low confidence. Takeaway: treat this as one data point in a noisy, catalyst-driven name—don't update much on either the reasoning's soundness or its weakness from a single week's result."
   },
   {
     "id": "2026-10-14:BMY",
@@ -1721,7 +1748,16 @@
     "confidence": "low",
     "reasoning": "BMY has had a volatile week around real trial data (two Phase 3 wins, one with mixed dosing results) and the stock has now partially recovered the prior day's dip. With no fresh negative catalyst and possible continued defensive rotation if market weakness persists, a modest outperformance versus SPY over the next 5 days is plausible, but the thin same-day news makes this a low-conviction call that could easily reverse on earnings-related headlines later in October.",
     "concept": "Sector rotation",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 61.12,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": 3.1,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": 2.65,
+    "outcome": "outperform",
+    "hit": true,
+    "retrospective": "BMY outperformed the S&P 500 by a solid margin, so this call registered as a hit, but the original reasoning flagged itself as low-conviction and thin on real catalysts beyond the recent trial news and a one-day bounce—it got the direction right without strong grounds to be confident it would. Since the call explicitly anticipated this could reverse on earnings headlines, the actual move may owe more to subsequent news (possibly earnings-related) than to the reasoning's stated logic about defensive rotation. Takeaway: treat this as one data point that happened to land correctly, not validation of the \"defensive rotation\" framing—low-confidence calls like this need a string of outcomes, not one favorable print, before trusting the underlying logic."
   },
   {
     "id": "2026-10-14:DG",
@@ -1734,7 +1770,16 @@
     "confidence": "low",
     "reasoning": "Without a clear fundamental catalyst, a near-4% single-day gain against a falling market looks more like a short-term rotation or technical bounce than the start of a sustained trend. In the absence of confirmed good news, there's a reasonable chance some of this gain reverses over the next five trading days, but confidence is low given the lack of information explaining the initial move.",
     "concept": "Unexplained move",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 132.12,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": 1.68,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": 1.22,
+    "outcome": "outperform",
+    "hit": false,
+    "retrospective": "Dollar General outperformed the S&P 500 over the five days following the call, so this prediction missed. The original reasoning was explicitly a low-confidence bet that an unexplained one-day pop was more likely noise or rotation than the start of a real move, with no actual catalyst identified either way. That's a defensible heuristic for short-term fades, but it had no real informational edge—it was essentially a coin-flip dressed up as analysis, and this time the bounce simply continued (or new buying interest emerged) rather than reversing. Since the reasoning never claimed strong conviction, this single miss doesn't discredit the mean-reversion logic generally; it just shows that on this particular five-day window, the gain held. The takeaway: treat \"unexplained pop, low confidence fade\" calls as genuinely low-information bets—track many of them before drawing conclusions about whether this pattern has real predictive value."
   },
   {
     "id": "2026-10-14:DELL",
@@ -1747,7 +1792,16 @@
     "confidence": "low",
     "reasoning": "The downgrade reflects a genuine debate about whether enterprise AI spending justifies current valuations, and the stock dropped alongside broader AI-sector weakness tied to inflation/rate fears. These macro and sentiment-driven concerns may persist over the next week, but sharp single-day drops after downgrades can also see partial mean-reversion bounces, making the outcome uncertain.",
     "concept": "Analyst downgrade on valuation",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 485.88,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": -4.34,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": -4.79,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Dell underperformed as predicted, but the original call was explicitly low-confidence and framed as a coin-flip between continued macro/AI-valuation pressure and a mean-reversion bounce—so this hit should be read as one data point, not vindication of a clear thesis. The reasoning correctly identified the relevant forces (rate/inflation-driven AI de-rating vs. technical bounce potential) without strongly favoring either, and the outcome happened to land on the bearish side. Takeaway: judge this kind of call by whether the risk framing was sound, not by the single-week result, since a symmetric, low-conviction prediction will \"hit\" roughly as often by chance as by insight."
   },
   {
     "id": "2026-10-14:CIEN",
@@ -1760,7 +1814,16 @@
     "confidence": "low",
     "reasoning": "The drop appears driven by sector rotation/profit-taking rather than any deterioration in Ciena's business—if anything, analyst commentary (BofA's raised backlog target, strong Q3 results) remains bullish. If sentiment toward AI-infrastructure stocks stabilizes over the next week, Ciena could see a partial rebound outperforming SPY, but confidence is low since further AI-trade weakness could extend the slide.",
     "concept": "Sector-wide selloff",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 361.34,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": 0.48,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": 0.03,
+    "outcome": "outperform",
+    "hit": true,
+    "retrospective": "Ciena edged out the S&P 500 by a hair, technically confirming the call, but the margin (0.03pp) is so small it barely counts as a meaningful \"outperform\"—this looks more like noise than a vindication of the sector-rotation-reversal thesis. The reasoning correctly identified that nothing fundamental had changed (backlog, Q3 strength) and that the drop was sentiment-driven, which is a sound way to frame low-confidence mean-reversion bets, but it couldn't actually predict whether AI-trade sentiment would stabilize that particular week—it just hoped so. Takeaway: treat this as a essentially a coin-flip that happened to land right side up; the logic (no fundamental deterioration → potential rebound) is reasonable for generating a thesis, but with such a thin margin and explicitly low confidence, this single hit tells you little about whether the sentiment-stabilization read was actually correct or just lucky timing."
   },
   {
     "id": "2026-10-14:P",
@@ -1773,7 +1836,16 @@
     "confidence": "low",
     "reasoning": "The drop appears driven by a market-wide rate shock rather than any deterioration in Everpure's business \\u2014 analyst sentiment (Guggenheim's $215 target) and recent earnings strength remain intact. If bond yields stabilize over the next week, oversold high-multiple names like this often see a partial bounce relative to the index, but the high valuation leaves it vulnerable to further macro-driven weakness, hence low confidence.",
     "concept": "Valuation multiple compression",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 130.93,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": -7.46,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": -7.92,
+    "outcome": "underperform",
+    "hit": false,
+    "retrospective": "The original call leaned on a reasonable but narrow thesis—that the selloff was macro-driven rather than company-specific, so a rate stabilization would let Everpure bounce. That thesis simply didn't materialize: yields may not have stabilized, or the stock's high multiple kept it under pressure even as sentiment and fundamentals stayed intact. Since this was flagged as low confidence going in, a single-week miss doesn't invalidate the logic; it just shows that oversold high-multiple names don't always bounce on schedule, and macro conditions can keep working against them longer than expected. The lesson isn't \"the reasoning was wrong\" but a reminder that low-confidence, mean-reversion bets on rate-sensitive, expensive stocks are genuinely coin-flip propositions—treat this as one data point, not confirmation of a flawed framework."
   },
   {
     "id": "2026-10-14:FLEX",
@@ -1786,7 +1858,16 @@
     "confidence": "medium",
     "reasoning": "The stock is under a specific, unresolved overhang (skepticism about Axiom's valuation and spin-off terms) that is likely to keep weighing on sentiment over the next few days, compounded by a macro backdrop of rising yields that pressures growth and infrastructure-linked names. Unless Flex issues clarifying guidance on the spin-off terms, downward pressure is more likely to persist than reverse quickly, making underperformance versus SPY over the next 5 trading days more probable, though a sharp short-term bounce after a nearly 16% two-day drop is possible.",
     "concept": "Spin-off valuation skepticism",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 86.25,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": -14.05,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": -14.5,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Flex underperformed sharply, so the call was directionally correct, and the reasoning's core logic—unresolved skepticism about the Axiom spin-off terms plus a rate-sensitive macro backdrop—appears to have been the right lens, since the stock kept sliding rather than bouncing after the initial drop. That said, a 14% move in five days is a large magnitude that generic \"overhang + rising yields\" reasoning wouldn't necessarily predict; something more specific (further negative news, analyst downgrades, or forced selling) likely drove the size of the decline, which the original reasoning didn't anticipate. Takeaway: the framework correctly identified a live, unresolved catalyst as the dominant driver, which is a reasonable basis for a directional call, but one correct outcome doesn't validate the magnitude or the macro-rates component specifically—treat this as one data point on a sound process, not confirmation that the reasoning nailed the \"why.\""
   },
   {
     "id": "2026-10-14:LITE",
@@ -1799,7 +1880,16 @@
     "confidence": "low",
     "reasoning": "Lumentum is now caught in a high-beta AI narrative where sentiment on sector-wide capex fears is driving price more than fundamentals. After a two-day ~18% drawdown, a bounce is possible if fears ease, but the stock's volatility and exposure to further AI-bubble headlines make it likely to swing more than SPY in either direction over the next 5 days; given the current negative momentum and unresolved funding concerns, I lean toward continued underperformance versus SPY, but confidence is low given how quickly sentiment on AI stocks has reversed in the past.",
     "concept": "Sector contagion selloff",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-21",
+    "exit_close": 850.7,
+    "benchmark_exit_close": 773.09,
+    "stock_return_pct": -5.09,
+    "benchmark_return_pct": 0.45,
+    "excess_return_pct": -5.54,
+    "outcome": "underperform",
+    "hit": true,
+    "retrospective": "Lumentum underperformed as predicted, and the reasoning's core logic—that it's a high-beta AI-sentiment stock whose price swings are driven more by sector narrative than fundamentals—held up over this window. The call to lean underperform given negative momentum and unresolved capex/funding fears was directionally correct, but the analysis itself flagged low confidence precisely because such sentiment can reverse fast, so this single week shouldn't be read as validating a durable bearish thesis. The main takeaway: the framework (high beta, narrative-driven, two-sided risk) was sound, but one hit doesn't confirm the magnitude or direction was predictable—treat it as one data point in a noisy, sentiment-driven name rather than proof the underperform call was \"right\" for the right reasons."
   },
   {
     "id": "2026-10-15:EFX",
@@ -2319,6 +2409,136 @@
     "confidence": "low",
     "reasoning": "With no identifiable negative catalyst, the drop could be noise or the start of profit-taking after Howmet's long outperformance streak noted in article 5. Given the lack of clear information, confidence is low, but the sharp underperformance versus SPY today (-3.82% vs +0.34%) suggests some selling pressure that could persist briefly before reverting. Check HWM vs SPY over the next 5 trading days to see if the gap narrows or widens.",
     "concept": "Unexplained drop",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:SMCI",
+    "ticker": "SMCI",
+    "name": "Supermicro",
+    "made_on": "2026-10-21",
+    "entry_close": 35.57,
+    "benchmark_entry_close": 773.09,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "The guidance raise is a strong fundamental catalyst and analysts reacted positively, which often sustains momentum for a few days, but SMCI is a historically volatile stock with past accounting/governance concerns (the open board review mentioned) that could trigger reversals. A 5-day outperform call vs SPY is reasonable given the fresh bullish catalyst, but confidence is low given the stock's volatility and binary risk around lingering governance questions.",
+    "concept": "Guidance raise",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:CRL",
+    "ticker": "CRL",
+    "name": "Charles River Laboratories",
+    "made_on": "2026-10-21",
+    "entry_close": 344.87,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "A 9% single-day jump with no clear catalyst in the provided articles often reflects a company-specific event (earnings beat, guidance raise, or M&A) that could have follow-through, but without knowing the actual cause, there's meaningful risk of mean reversion after such a large move. Check CRL's own press releases around Oct 20 for an earnings report or analyst action to see if the move was justified and sustained, or if it fades over the next week.",
+    "concept": "Unexplained move",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:ECHO",
+    "ticker": "ECHO",
+    "name": "EchoStar",
+    "made_on": "2026-10-21",
+    "entry_close": 92.64,
+    "benchmark_entry_close": 773.09,
+    "call": "outperform",
+    "confidence": "low",
+    "reasoning": "The rally is driven by an analyst upgrade and association with SpaceX's momentum rather than EchoStar's own operating improvement (one article even notes 'operating weakness'). Such sentiment-driven spikes can continue briefly if SpaceX-related enthusiasm persists, but could also fade if no further catalysts emerge, so confidence is low. Check SATS vs SPY over the next 5 trading days to see if the spectrum/SpaceX narrative keeps driving gains or if it reverses.",
+    "concept": "Analyst upgrade momentum",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:BE",
+    "ticker": "BE",
+    "name": "Bloom Energy",
+    "made_on": "2026-10-21",
+    "entry_close": 238.53,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Bloom Energy reports Q3 earnings after close on October 22, and the stock has priced in a lot of optimism (up 7% pre-earnings on a comment unrelated to its own fundamentals) while already trading at a premium valuation versus peers. High expectations plus elevated options-implied volatility (double-digit swing priced in) create risk of a sell-the-news reaction even on decent results, which could cause underperformance versus SPY over the next 5 trading days. Confidence is low because a strong beat-and-raise could just as easily extend the rally.",
+    "concept": "Pre-earnings volatility",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:DDOG",
+    "ticker": "DDOG",
+    "name": "Datadog",
+    "made_on": "2026-10-21",
+    "entry_close": 273.09,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "DDOG has already had an enormous run (nearly 100% in six months) plus two separate one-day pops this week (Bernstein upgrade and PHP flaw news), making it vulnerable to profit-taking or mean reversion over the next 5 trading days. However, strong AI-driven momentum and analyst upgrades could keep buyers interested, so confidence is low. Check whether DDOG gives back some of this week's gains relative to SPY by Oct 28.",
+    "concept": "Thematic news catalyst",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:T",
+    "ticker": "T",
+    "name": "AT&T",
+    "made_on": "2026-10-21",
+    "entry_close": 21.91,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "The sharp drop reflects genuine investor concern about wireless subscriber growth and a credible new competitor (SpaceX/Starlink) entering telecom, which could weigh on sentiment for several days. However, the underlying business beat estimates and raised guidance, which could support a bounce-back if the sell-off is seen as overdone. Check AT&T's price relative to SPY over the next 5 trading days to see if the negative sentiment persists or reverses.",
+    "concept": "Sell the news",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:DXCM",
+    "ticker": "DXCM",
+    "name": "Dexcom",
+    "made_on": "2026-10-21",
+    "entry_close": 80.26,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "A 6%+ single-day drop against a rising market usually reflects a negative catalyst (likely earnings or guidance) whose effects often persist for several days as analysts revise estimates. Without confirming the cause, confidence is low, but the magnitude and direction of the move suggest continued underperformance versus SPY over the next week.",
+    "concept": "Earnings reaction gap",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:NFLX",
+    "ticker": "NFLX",
+    "name": "Netflix",
+    "made_on": "2026-10-21",
+    "entry_close": 65.04,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "medium",
+    "reasoning": "The stock just suffered a guidance-driven selloff with multiple analyst price-target cuts and a downgrade, reflecting a genuine reset of growth expectations (slowing ad revenue, decelerating subscriber/revenue growth) rather than a one-day overreaction. Negative sentiment and uncertainty around ad monetization typically take more than a few days to resolve, so I'd expect continued relative weakness vs. SPY over the next 5 trading days, though some analysts (BMO, Deutsche Bank) see the selloff as overdone, which adds uncertainty.",
+    "concept": "Guidance cut",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:CMG",
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill",
+    "made_on": "2026-10-21",
+    "entry_close": 28.12,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "Chipotle faces a cluster of negative signals (downgrade, multiple price-target cuts, weak October sales data) right before its October 28 earnings report, which could keep the stock volatile and under pressure if the print confirms the soft trends. However, some analysts (BofA, Citigroup, Wells Fargo) remain bullish, and a reversal is possible if earnings surprise positively, so confidence is low.",
+    "concept": "Analyst downgrade",
+    "status": "open"
+  },
+  {
+    "id": "2026-10-21:EXPE",
+    "ticker": "EXPE",
+    "name": "Expedia Group",
+    "made_on": "2026-10-21",
+    "entry_close": 285.64,
+    "benchmark_entry_close": 773.09,
+    "call": "underperform",
+    "confidence": "low",
+    "reasoning": "A 5% single-day drop without a clear explanatory catalyst sometimes reflects a real but under-reported negative development (e.g., a downgrade, guidance concern, or sector-wide travel demand worry) that could continue to weigh on sentiment short-term. However, since no concrete negative news was found, this is a low-confidence call; check whether EXPE stabilizes or continues falling over the next 5 trading days relative to SPY, and look for any delayed news (earnings date, analyst actions) that surfaces to explain the move.",
+    "concept": "Unexplained move",
     "status": "open"
   }
 ]
