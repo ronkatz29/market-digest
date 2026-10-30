@@ -1,0 +1,4101 @@
+{
+  "date": "2026-10-29",
+  "benchmark": {
+    "ticker": "SPY",
+    "close": 769.36,
+    "change_pct": -0.382
+  },
+  "market": {
+    "scanned": 503,
+    "advancers": 407,
+    "decliners": 96,
+    "unchanged": 0,
+    "median_change_pct": 1.45,
+    "sectors": [
+      {
+        "sector": "Consumer Discretionary",
+        "change_pct": 3.21,
+        "advancers": 43,
+        "decliners": 4,
+        "count": 47
+      },
+      {
+        "sector": "Real Estate",
+        "change_pct": 2.18,
+        "advancers": 29,
+        "decliners": 1,
+        "count": 30
+      },
+      {
+        "sector": "Industrials",
+        "change_pct": 1.71,
+        "advancers": 72,
+        "decliners": 11,
+        "count": 83
+      },
+      {
+        "sector": "Financials",
+        "change_pct": 1.59,
+        "advancers": 71,
+        "decliners": 5,
+        "count": 76
+      },
+      {
+        "sector": "Health Care",
+        "change_pct": 1.53,
+        "advancers": 55,
+        "decliners": 5,
+        "count": 60
+      },
+      {
+        "sector": "Utilities",
+        "change_pct": 1.51,
+        "advancers": 30,
+        "decliners": 1,
+        "count": 31
+      },
+      {
+        "sector": "Materials",
+        "change_pct": 1.31,
+        "advancers": 17,
+        "decliners": 8,
+        "count": 25
+      },
+      {
+        "sector": "Consumer Staples",
+        "change_pct": 1.13,
+        "advancers": 29,
+        "decliners": 4,
+        "count": 33
+      },
+      {
+        "sector": "Energy",
+        "change_pct": 0.07,
+        "advancers": 13,
+        "decliners": 8,
+        "count": 21
+      },
+      {
+        "sector": "Communication Services",
+        "change_pct": -0.06,
+        "advancers": 17,
+        "decliners": 6,
+        "count": 23
+      },
+      {
+        "sector": "Information Technology",
+        "change_pct": -1.1,
+        "advancers": 31,
+        "decliners": 43,
+        "count": 74
+      }
+    ],
+    "stocks": [
+      {
+        "ticker": "MMM",
+        "name": "3M",
+        "sector": "Industrials",
+        "close": 177.36,
+        "change_pct": 2.64
+      },
+      {
+        "ticker": "AOS",
+        "name": "A. O. Smith",
+        "sector": "Industrials",
+        "close": 63.49,
+        "change_pct": 4.32
+      },
+      {
+        "ticker": "ABT",
+        "name": "Abbott Laboratories",
+        "sector": "Health Care",
+        "close": 104.57,
+        "change_pct": 1.88
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie",
+        "sector": "Health Care",
+        "close": 290.79,
+        "change_pct": 1.68
+      },
+      {
+        "ticker": "ACN",
+        "name": "Accenture",
+        "sector": "Information Technology",
+        "close": 247.22,
+        "change_pct": 1.57
+      },
+      {
+        "ticker": "ADBE",
+        "name": "Adobe Inc.",
+        "sector": "Information Technology",
+        "close": 248.12,
+        "change_pct": -0.66
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Devices",
+        "sector": "Information Technology",
+        "close": 566.42,
+        "change_pct": -2.08
+      },
+      {
+        "ticker": "AES",
+        "name": "AES Corporation",
+        "sector": "Utilities",
+        "close": 15.05,
+        "change_pct": 0.47
+      },
+      {
+        "ticker": "AFL",
+        "name": "Aflac",
+        "sector": "Financials",
+        "close": 123.54,
+        "change_pct": 1.47
+      },
+      {
+        "ticker": "A",
+        "name": "Agilent Technologies",
+        "sector": "Health Care",
+        "close": 181.15,
+        "change_pct": -0.18
+      },
+      {
+        "ticker": "APD",
+        "name": "Air Products",
+        "sector": "Materials",
+        "close": 311.75,
+        "change_pct": 1.48
+      },
+      {
+        "ticker": "ABNB",
+        "name": "Airbnb",
+        "sector": "Consumer Discretionary",
+        "close": 166.45,
+        "change_pct": 0.24
+      },
+      {
+        "ticker": "AKAM",
+        "name": "Akamai Technologies",
+        "sector": "Information Technology",
+        "close": 99.38,
+        "change_pct": 1.3
+      },
+      {
+        "ticker": "ALB",
+        "name": "Albemarle Corporation",
+        "sector": "Materials",
+        "close": 93.27,
+        "change_pct": -3.81
+      },
+      {
+        "ticker": "ARE",
+        "name": "Alexandria Real Estate Equities",
+        "sector": "Real Estate",
+        "close": 40.6,
+        "change_pct": 1.73
+      },
+      {
+        "ticker": "ALGN",
+        "name": "Align Technology",
+        "sector": "Health Care",
+        "close": 153.71,
+        "change_pct": 0.06
+      },
+      {
+        "ticker": "ALLE",
+        "name": "Allegion",
+        "sector": "Industrials",
+        "close": 187.06,
+        "change_pct": 3.54
+      },
+      {
+        "ticker": "LNT",
+        "name": "Alliant Energy",
+        "sector": "Utilities",
+        "close": 70.68,
+        "change_pct": 1.89
+      },
+      {
+        "ticker": "ALL",
+        "name": "Allstate",
+        "sector": "Financials",
+        "close": 255.92,
+        "change_pct": 2.29
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc. (Class A)",
+        "sector": "Communication Services",
+        "close": 283.82,
+        "change_pct": -12.64
+      },
+      {
+        "ticker": "GOOG",
+        "name": "Alphabet Inc. (Class C)",
+        "sector": "Communication Services",
+        "close": 282.32,
+        "change_pct": -12.29
+      },
+      {
+        "ticker": "MO",
+        "name": "Altria",
+        "sector": "Consumer Staples",
+        "close": 76.75,
+        "change_pct": 5.15
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "sector": "Consumer Discretionary",
+        "close": 243.79,
+        "change_pct": -4.25
+      },
+      {
+        "ticker": "AMCR",
+        "name": "Amcor",
+        "sector": "Materials",
+        "close": 47.13,
+        "change_pct": 3.22
+      },
+      {
+        "ticker": "AEE",
+        "name": "Ameren",
+        "sector": "Utilities",
+        "close": 110.21,
+        "change_pct": 2.05
+      },
+      {
+        "ticker": "AEP",
+        "name": "American Electric Power",
+        "sector": "Utilities",
+        "close": 129.34,
+        "change_pct": 0.89
+      },
+      {
+        "ticker": "AXP",
+        "name": "American Express",
+        "sector": "Financials",
+        "close": 323.71,
+        "change_pct": 1.81
+      },
+      {
+        "ticker": "AIG",
+        "name": "American International Group",
+        "sector": "Financials",
+        "close": 81.44,
+        "change_pct": 1.95
+      },
+      {
+        "ticker": "AMT",
+        "name": "American Tower",
+        "sector": "Real Estate",
+        "close": 185.88,
+        "change_pct": 1.16
+      },
+      {
+        "ticker": "AWK",
+        "name": "American Water Works",
+        "sector": "Utilities",
+        "close": 142.21,
+        "change_pct": 1.73
+      },
+      {
+        "ticker": "AMP",
+        "name": "Ameriprise Financial",
+        "sector": "Financials",
+        "close": 497.9,
+        "change_pct": 1.65
+      },
+      {
+        "ticker": "AME",
+        "name": "Ametek",
+        "sector": "Industrials",
+        "close": 251.78,
+        "change_pct": 1.47
+      },
+      {
+        "ticker": "AMGN",
+        "name": "Amgen",
+        "sector": "Health Care",
+        "close": 460.73,
+        "change_pct": 1.97
+      },
+      {
+        "ticker": "APH",
+        "name": "Amphenol",
+        "sector": "Information Technology",
+        "close": 82.08,
+        "change_pct": 1.38
+      },
+      {
+        "ticker": "ADI",
+        "name": "Analog Devices",
+        "sector": "Information Technology",
+        "close": 433.28,
+        "change_pct": 1.17
+      },
+      {
+        "ticker": "AON",
+        "name": "Aon plc",
+        "sector": "Financials",
+        "close": 321.64,
+        "change_pct": 1.88
+      },
+      {
+        "ticker": "APA",
+        "name": "APA Corporation",
+        "sector": "Energy",
+        "close": 51.51,
+        "change_pct": 0.78
+      },
+      {
+        "ticker": "APO",
+        "name": "Apollo Global Management",
+        "sector": "Financials",
+        "close": 118.56,
+        "change_pct": 4.5
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "Information Technology",
+        "close": 348.91,
+        "change_pct": 1.48
+      },
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "sector": "Information Technology",
+        "close": 421.66,
+        "change_pct": 1.36
+      },
+      {
+        "ticker": "APP",
+        "name": "AppLovin",
+        "sector": "Communication Services",
+        "close": 254.91,
+        "change_pct": -1.95
+      },
+      {
+        "ticker": "APTV",
+        "name": "Aptiv",
+        "sector": "Consumer Discretionary",
+        "close": 44.43,
+        "change_pct": 0.79
+      },
+      {
+        "ticker": "ACGL",
+        "name": "Arch Capital Group",
+        "sector": "Financials",
+        "close": 103.94,
+        "change_pct": 1.4
+      },
+      {
+        "ticker": "ADM",
+        "name": "Archer Daniels Midland",
+        "sector": "Consumer Staples",
+        "close": 76.2,
+        "change_pct": -1.33
+      },
+      {
+        "ticker": "ARES",
+        "name": "Ares Management",
+        "sector": "Financials",
+        "close": 127.47,
+        "change_pct": 2.95
+      },
+      {
+        "ticker": "ANET",
+        "name": "Arista Networks",
+        "sector": "Information Technology",
+        "close": 184.22,
+        "change_pct": -1.34
+      },
+      {
+        "ticker": "AJG",
+        "name": "Arthur J. Gallagher & Co.",
+        "sector": "Financials",
+        "close": 268.2,
+        "change_pct": 2.99
+      },
+      {
+        "ticker": "AIZ",
+        "name": "Assurant",
+        "sector": "Financials",
+        "close": 292.69,
+        "change_pct": 2.7
+      },
+      {
+        "ticker": "T",
+        "name": "AT&T",
+        "sector": "Communication Services",
+        "close": 20.92,
+        "change_pct": 1.06
+      },
+      {
+        "ticker": "ATO",
+        "name": "Atmos Energy",
+        "sector": "Utilities",
+        "close": 171.07,
+        "change_pct": 0.91
+      },
+      {
+        "ticker": "ADSK",
+        "name": "Autodesk",
+        "sector": "Information Technology",
+        "close": 241.73,
+        "change_pct": -0.27
+      },
+      {
+        "ticker": "ADP",
+        "name": "Automatic Data Processing",
+        "sector": "Industrials",
+        "close": 286.08,
+        "change_pct": 0.25
+      },
+      {
+        "ticker": "AZO",
+        "name": "AutoZone",
+        "sector": "Consumer Discretionary",
+        "close": 3137.04,
+        "change_pct": -0.62
+      },
+      {
+        "ticker": "AVY",
+        "name": "Avery Dennison",
+        "sector": "Materials",
+        "close": 182.06,
+        "change_pct": 0.75
+      },
+      {
+        "ticker": "AXON",
+        "name": "Axon Enterprise",
+        "sector": "Industrials",
+        "close": 438.05,
+        "change_pct": 3.52
+      },
+      {
+        "ticker": "BKR",
+        "name": "Baker Hughes",
+        "sector": "Energy",
+        "close": 54.51,
+        "change_pct": -0.27
+      },
+      {
+        "ticker": "BALL",
+        "name": "Ball Corporation",
+        "sector": "Materials",
+        "close": 64.5,
+        "change_pct": 1.96
+      },
+      {
+        "ticker": "BAC",
+        "name": "Bank of America",
+        "sector": "Financials",
+        "close": 51.14,
+        "change_pct": 0.57
+      },
+      {
+        "ticker": "BAX",
+        "name": "Baxter International",
+        "sector": "Health Care",
+        "close": 23.5,
+        "change_pct": -7.7
+      },
+      {
+        "ticker": "BDX",
+        "name": "Becton Dickinson",
+        "sector": "Health Care",
+        "close": 198.34,
+        "change_pct": 1.63
+      },
+      {
+        "ticker": "BRK.B",
+        "name": "Berkshire Hathaway",
+        "sector": "Financials",
+        "close": 541.96,
+        "change_pct": 0.3
+      },
+      {
+        "ticker": "BBY",
+        "name": "Best Buy",
+        "sector": "Consumer Discretionary",
+        "close": 100.39,
+        "change_pct": 3.54
+      },
+      {
+        "ticker": "TECH",
+        "name": "Bio-Techne",
+        "sector": "Health Care",
+        "close": 72.71,
+        "change_pct": 0.03
+      },
+      {
+        "ticker": "BIIB",
+        "name": "Biogen",
+        "sector": "Health Care",
+        "close": 249.65,
+        "change_pct": 2.29
+      },
+      {
+        "ticker": "BLK",
+        "name": "BlackRock",
+        "sector": "Financials",
+        "close": 1176.24,
+        "change_pct": 1.59
+      },
+      {
+        "ticker": "BX",
+        "name": "Blackstone Inc.",
+        "sector": "Financials",
+        "close": 120.6,
+        "change_pct": 3.02
+      },
+      {
+        "ticker": "XYZ",
+        "name": "Block, Inc.",
+        "sector": "Financials",
+        "close": 76.95,
+        "change_pct": 2.31
+      },
+      {
+        "ticker": "BE",
+        "name": "Bloom Energy",
+        "sector": "Industrials",
+        "close": 222.3,
+        "change_pct": -2.53
+      },
+      {
+        "ticker": "BNY",
+        "name": "BNY Mellon",
+        "sector": "Financials",
+        "close": 149.37,
+        "change_pct": 0.52
+      },
+      {
+        "ticker": "BA",
+        "name": "Boeing",
+        "sector": "Industrials",
+        "close": 172.65,
+        "change_pct": 3.3
+      },
+      {
+        "ticker": "BKNG",
+        "name": "Booking Holdings",
+        "sector": "Consumer Discretionary",
+        "close": 150.43,
+        "change_pct": 1.68
+      },
+      {
+        "ticker": "BSX",
+        "name": "Boston Scientific",
+        "sector": "Health Care",
+        "close": 42.69,
+        "change_pct": 0.61
+      },
+      {
+        "ticker": "BMY",
+        "name": "Bristol Myers Squibb",
+        "sector": "Health Care",
+        "close": 61.39,
+        "change_pct": 1.35
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "sector": "Information Technology",
+        "close": 345,
+        "change_pct": -1.94
+      },
+      {
+        "ticker": "BR",
+        "name": "Broadridge Financial Solutions",
+        "sector": "Industrials",
+        "close": 178.14,
+        "change_pct": 0.66
+      },
+      {
+        "ticker": "BRO",
+        "name": "Brown & Brown",
+        "sector": "Financials",
+        "close": 67.84,
+        "change_pct": 2.98
+      },
+      {
+        "ticker": "BF.B",
+        "name": "Brown–Forman",
+        "sector": "Consumer Staples",
+        "close": 28.04,
+        "change_pct": 1.04
+      },
+      {
+        "ticker": "BG",
+        "name": "Bunge Global",
+        "sector": "Consumer Staples",
+        "close": 96.02,
+        "change_pct": -4.74
+      },
+      {
+        "ticker": "BXP",
+        "name": "BXP, Inc.",
+        "sector": "Real Estate",
+        "close": 63.02,
+        "change_pct": 2.5
+      },
+      {
+        "ticker": "CHRW",
+        "name": "C.H. Robinson",
+        "sector": "Industrials",
+        "close": 127.43,
+        "change_pct": -0.13
+      },
+      {
+        "ticker": "CDNS",
+        "name": "Cadence Design Systems",
+        "sector": "Information Technology",
+        "close": 342.75,
+        "change_pct": 0.08
+      },
+      {
+        "ticker": "CPT",
+        "name": "Camden Property Trust",
+        "sector": "Real Estate",
+        "close": 100.94,
+        "change_pct": 1.46
+      },
+      {
+        "ticker": "COF",
+        "name": "Capital One",
+        "sector": "Financials",
+        "close": 208.74,
+        "change_pct": 1.88
+      },
+      {
+        "ticker": "CAH",
+        "name": "Cardinal Health",
+        "sector": "Health Care",
+        "close": 251.09,
+        "change_pct": 2.59
+      },
+      {
+        "ticker": "CCL",
+        "name": "Carnival Corporation",
+        "sector": "Consumer Discretionary",
+        "close": 28.84,
+        "change_pct": 2.78
+      },
+      {
+        "ticker": "CARR",
+        "name": "Carrier Global",
+        "sector": "Industrials",
+        "close": 55.54,
+        "change_pct": -1.3
+      },
+      {
+        "ticker": "CVNA",
+        "name": "Carvana",
+        "sector": "Consumer Discretionary",
+        "close": 68.31,
+        "change_pct": 15.68
+      },
+      {
+        "ticker": "CASY",
+        "name": "Casey's",
+        "sector": "Consumer Staples",
+        "close": 677.74,
+        "change_pct": 1.15
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar Inc.",
+        "sector": "Industrials",
+        "close": 647.39,
+        "change_pct": -9.25
+      },
+      {
+        "ticker": "CBOE",
+        "name": "Cboe Global Markets",
+        "sector": "Financials",
+        "close": 314.25,
+        "change_pct": -1.93
+      },
+      {
+        "ticker": "CBRE",
+        "name": "CBRE Group",
+        "sector": "Real Estate",
+        "close": 128.58,
+        "change_pct": 3.94
+      },
+      {
+        "ticker": "CDW",
+        "name": "CDW Corporation",
+        "sector": "Information Technology",
+        "close": 165.2,
+        "change_pct": 1.56
+      },
+      {
+        "ticker": "COR",
+        "name": "Cencora",
+        "sector": "Health Care",
+        "close": 330.53,
+        "change_pct": 1.91
+      },
+      {
+        "ticker": "CNC",
+        "name": "Centene Corporation",
+        "sector": "Health Care",
+        "close": 68.62,
+        "change_pct": 2.34
+      },
+      {
+        "ticker": "CNP",
+        "name": "CenterPoint Energy",
+        "sector": "Utilities",
+        "close": 42.21,
+        "change_pct": 1.49
+      },
+      {
+        "ticker": "CF",
+        "name": "CF Industries",
+        "sector": "Materials",
+        "close": 118.09,
+        "change_pct": -1.53
+      },
+      {
+        "ticker": "CRL",
+        "name": "Charles River Laboratories",
+        "sector": "Health Care",
+        "close": 376.1,
+        "change_pct": 0.57
+      },
+      {
+        "ticker": "SCHW",
+        "name": "Charles Schwab Corporation",
+        "sector": "Financials",
+        "close": 89.47,
+        "change_pct": 0.8
+      },
+      {
+        "ticker": "CHTR",
+        "name": "Charter Communications",
+        "sector": "Communication Services",
+        "close": 109,
+        "change_pct": 3.43
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron Corporation",
+        "sector": "Energy",
+        "close": 231.46,
+        "change_pct": 0.99
+      },
+      {
+        "ticker": "CMG",
+        "name": "Chipotle Mexican Grill",
+        "sector": "Consumer Discretionary",
+        "close": 31.28,
+        "change_pct": 8.88
+      },
+      {
+        "ticker": "CB",
+        "name": "Chubb Limited",
+        "sector": "Financials",
+        "close": 362.28,
+        "change_pct": 1.91
+      },
+      {
+        "ticker": "CHD",
+        "name": "Church & Dwight",
+        "sector": "Consumer Staples",
+        "close": 106,
+        "change_pct": 1.19
+      },
+      {
+        "ticker": "CIEN",
+        "name": "Ciena",
+        "sector": "Information Technology",
+        "close": 349.45,
+        "change_pct": -3.79
+      },
+      {
+        "ticker": "CI",
+        "name": "Cigna",
+        "sector": "Health Care",
+        "close": 298.41,
+        "change_pct": 1.16
+      },
+      {
+        "ticker": "CINF",
+        "name": "Cincinnati Financial",
+        "sector": "Financials",
+        "close": 181.87,
+        "change_pct": 1.38
+      },
+      {
+        "ticker": "CTAS",
+        "name": "Cintas",
+        "sector": "Industrials",
+        "close": 218.07,
+        "change_pct": 2.47
+      },
+      {
+        "ticker": "CSCO",
+        "name": "Cisco",
+        "sector": "Information Technology",
+        "close": 108.59,
+        "change_pct": -1.54
+      },
+      {
+        "ticker": "C",
+        "name": "Citigroup",
+        "sector": "Financials",
+        "close": 125.76,
+        "change_pct": 1.33
+      },
+      {
+        "ticker": "CFG",
+        "name": "Citizens Financial Group",
+        "sector": "Financials",
+        "close": 65.76,
+        "change_pct": 0.75
+      },
+      {
+        "ticker": "CLX",
+        "name": "Clorox",
+        "sector": "Consumer Staples",
+        "close": 88.67,
+        "change_pct": 2.11
+      },
+      {
+        "ticker": "CME",
+        "name": "CME Group",
+        "sector": "Financials",
+        "close": 296.42,
+        "change_pct": 0.81
+      },
+      {
+        "ticker": "CMS",
+        "name": "CMS Energy",
+        "sector": "Utilities",
+        "close": 69.52,
+        "change_pct": 1.92
+      },
+      {
+        "ticker": "KO",
+        "name": "Coca-Cola Company (The)",
+        "sector": "Consumer Staples",
+        "close": 92.82,
+        "change_pct": 1.19
+      },
+      {
+        "ticker": "CTSH",
+        "name": "Cognizant",
+        "sector": "Information Technology",
+        "close": 62.52,
+        "change_pct": -5.79
+      },
+      {
+        "ticker": "COHR",
+        "name": "Coherent Corp.",
+        "sector": "Information Technology",
+        "close": 237.22,
+        "change_pct": -0.99
+      },
+      {
+        "ticker": "COIN",
+        "name": "Coinbase",
+        "sector": "Financials",
+        "close": 160.59,
+        "change_pct": -1.07
+      },
+      {
+        "ticker": "CL",
+        "name": "Colgate-Palmolive",
+        "sector": "Consumer Staples",
+        "close": 93.16,
+        "change_pct": 1.6
+      },
+      {
+        "ticker": "CMCSA",
+        "name": "Comcast",
+        "sector": "Communication Services",
+        "close": 22.27,
+        "change_pct": 3.25
+      },
+      {
+        "ticker": "FIX",
+        "name": "Comfort Systems USA",
+        "sector": "Industrials",
+        "close": 1326.23,
+        "change_pct": -1.45
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "Energy",
+        "close": 150.03,
+        "change_pct": 0.65
+      },
+      {
+        "ticker": "ED",
+        "name": "Consolidated Edison",
+        "sector": "Utilities",
+        "close": 115.49,
+        "change_pct": 1.17
+      },
+      {
+        "ticker": "STZ",
+        "name": "Constellation Brands",
+        "sector": "Consumer Staples",
+        "close": 130.35,
+        "change_pct": 0.42
+      },
+      {
+        "ticker": "CEG",
+        "name": "Constellation Energy",
+        "sector": "Utilities",
+        "close": 264.58,
+        "change_pct": 2.52
+      },
+      {
+        "ticker": "COO",
+        "name": "Cooper Companies (The)",
+        "sector": "Health Care",
+        "close": 60.34,
+        "change_pct": 1.57
+      },
+      {
+        "ticker": "CPRT",
+        "name": "Copart",
+        "sector": "Industrials",
+        "close": 29.55,
+        "change_pct": 2.04
+      },
+      {
+        "ticker": "GLW",
+        "name": "Corning Inc.",
+        "sector": "Information Technology",
+        "close": 128.88,
+        "change_pct": -1.77
+      },
+      {
+        "ticker": "CPAY",
+        "name": "Corpay",
+        "sector": "Financials",
+        "close": 397.97,
+        "change_pct": 0.53
+      },
+      {
+        "ticker": "CTVA",
+        "name": "Corteva",
+        "sector": "Materials",
+        "close": 11.47,
+        "change_pct": 1.24
+      },
+      {
+        "ticker": "CSGP",
+        "name": "CoStar Group",
+        "sector": "Real Estate",
+        "close": 28.14,
+        "change_pct": 2.18
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco",
+        "sector": "Consumer Staples",
+        "close": 996.08,
+        "change_pct": 1.36
+      },
+      {
+        "ticker": "CRH",
+        "name": "CRH plc",
+        "sector": "Materials",
+        "close": 90.62,
+        "change_pct": 4.71
+      },
+      {
+        "ticker": "CRWD",
+        "name": "CrowdStrike",
+        "sector": "Information Technology",
+        "close": 261.15,
+        "change_pct": -2.07
+      },
+      {
+        "ticker": "CCI",
+        "name": "Crown Castle",
+        "sector": "Real Estate",
+        "close": 88.83,
+        "change_pct": 1.24
+      },
+      {
+        "ticker": "CSX",
+        "name": "CSX Corporation",
+        "sector": "Industrials",
+        "close": 52.24,
+        "change_pct": 0.5
+      },
+      {
+        "ticker": "CMI",
+        "name": "Cummins",
+        "sector": "Industrials",
+        "close": 518.03,
+        "change_pct": -2.51
+      },
+      {
+        "ticker": "CVS",
+        "name": "CVS Health",
+        "sector": "Health Care",
+        "close": 90.33,
+        "change_pct": 0.42
+      },
+      {
+        "ticker": "DHR",
+        "name": "Danaher Corporation",
+        "sector": "Health Care",
+        "close": 236.98,
+        "change_pct": 1.24
+      },
+      {
+        "ticker": "DRI",
+        "name": "Darden Restaurants",
+        "sector": "Consumer Discretionary",
+        "close": 220.48,
+        "change_pct": 1.81
+      },
+      {
+        "ticker": "DDOG",
+        "name": "Datadog",
+        "sector": "Information Technology",
+        "close": 265.84,
+        "change_pct": -4.51
+      },
+      {
+        "ticker": "DVA",
+        "name": "DaVita",
+        "sector": "Health Care",
+        "close": 193.31,
+        "change_pct": 5.1
+      },
+      {
+        "ticker": "DECK",
+        "name": "Deckers Brands",
+        "sector": "Consumer Discretionary",
+        "close": 82.76,
+        "change_pct": 2.5
+      },
+      {
+        "ticker": "DE",
+        "name": "Deere & Company",
+        "sector": "Industrials",
+        "close": 660,
+        "change_pct": 3.02
+      },
+      {
+        "ticker": "DELL",
+        "name": "Dell Technologies",
+        "sector": "Information Technology",
+        "close": 475.51,
+        "change_pct": -3.7
+      },
+      {
+        "ticker": "DAL",
+        "name": "Delta Air Lines",
+        "sector": "Industrials",
+        "close": 81.64,
+        "change_pct": 1.61
+      },
+      {
+        "ticker": "DVN",
+        "name": "Devon Energy",
+        "sector": "Energy",
+        "close": 51.17,
+        "change_pct": -0.2
+      },
+      {
+        "ticker": "DXCM",
+        "name": "Dexcom",
+        "sector": "Health Care",
+        "close": 79.93,
+        "change_pct": 1.67
+      },
+      {
+        "ticker": "FANG",
+        "name": "Diamondback Energy",
+        "sector": "Energy",
+        "close": 206.43,
+        "change_pct": 0.1
+      },
+      {
+        "ticker": "DLR",
+        "name": "Digital Realty",
+        "sector": "Real Estate",
+        "close": 182.91,
+        "change_pct": 1.75
+      },
+      {
+        "ticker": "DG",
+        "name": "Dollar General",
+        "sector": "Consumer Staples",
+        "close": 130.09,
+        "change_pct": 3.11
+      },
+      {
+        "ticker": "DLTR",
+        "name": "Dollar Tree",
+        "sector": "Consumer Staples",
+        "close": 132.03,
+        "change_pct": 3.81
+      },
+      {
+        "ticker": "D",
+        "name": "Dominion Energy",
+        "sector": "Utilities",
+        "close": 65.12,
+        "change_pct": 1.31
+      },
+      {
+        "ticker": "DPZ",
+        "name": "Domino's",
+        "sector": "Consumer Discretionary",
+        "close": 312,
+        "change_pct": 0.82
+      },
+      {
+        "ticker": "DASH",
+        "name": "DoorDash",
+        "sector": "Consumer Discretionary",
+        "close": 179,
+        "change_pct": 5.61
+      },
+      {
+        "ticker": "DOV",
+        "name": "Dover Corporation",
+        "sector": "Industrials",
+        "close": 210.37,
+        "change_pct": 1.14
+      },
+      {
+        "ticker": "DOW",
+        "name": "Dow Inc.",
+        "sector": "Materials",
+        "close": 33.62,
+        "change_pct": -1.49
+      },
+      {
+        "ticker": "DHI",
+        "name": "D. R. Horton",
+        "sector": "Consumer Discretionary",
+        "close": 146.53,
+        "change_pct": 2.47
+      },
+      {
+        "ticker": "DTE",
+        "name": "DTE Energy",
+        "sector": "Utilities",
+        "close": 134.52,
+        "change_pct": 1.94
+      },
+      {
+        "ticker": "DUK",
+        "name": "Duke Energy",
+        "sector": "Utilities",
+        "close": 125.9,
+        "change_pct": 1.89
+      },
+      {
+        "ticker": "DD",
+        "name": "DuPont",
+        "sector": "Industrials",
+        "close": 140.58,
+        "change_pct": 1.37
+      },
+      {
+        "ticker": "ETN",
+        "name": "Eaton Corporation",
+        "sector": "Industrials",
+        "close": 393.72,
+        "change_pct": 0.21
+      },
+      {
+        "ticker": "EBAY",
+        "name": "eBay Inc.",
+        "sector": "Consumer Discretionary",
+        "close": 121.19,
+        "change_pct": 2.69
+      },
+      {
+        "ticker": "ECHO",
+        "name": "EchoStar",
+        "sector": "Communication Services",
+        "close": 97.66,
+        "change_pct": 3.56
+      },
+      {
+        "ticker": "ECL",
+        "name": "Ecolab",
+        "sector": "Materials",
+        "close": 300.86,
+        "change_pct": 2.89
+      },
+      {
+        "ticker": "EIX",
+        "name": "Edison International",
+        "sector": "Utilities",
+        "close": 59.38,
+        "change_pct": 0.93
+      },
+      {
+        "ticker": "EW",
+        "name": "Edwards Lifesciences",
+        "sector": "Health Care",
+        "close": 94.44,
+        "change_pct": 2.9
+      },
+      {
+        "ticker": "ELV",
+        "name": "Elevance Health",
+        "sector": "Health Care",
+        "close": 422.02,
+        "change_pct": 1.84
+      },
+      {
+        "ticker": "EME",
+        "name": "Emcor",
+        "sector": "Industrials",
+        "close": 689.32,
+        "change_pct": 1.59
+      },
+      {
+        "ticker": "EMR",
+        "name": "Emerson Electric",
+        "sector": "Industrials",
+        "close": 170.74,
+        "change_pct": 1.81
+      },
+      {
+        "ticker": "ETR",
+        "name": "Entergy",
+        "sector": "Utilities",
+        "close": 109.97,
+        "change_pct": 1.94
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources",
+        "sector": "Energy",
+        "close": 162.22,
+        "change_pct": 0.81
+      },
+      {
+        "ticker": "EQT",
+        "name": "EQT Corporation",
+        "sector": "Energy",
+        "close": 54.54,
+        "change_pct": -2.99
+      },
+      {
+        "ticker": "EFX",
+        "name": "Equifax",
+        "sector": "Industrials",
+        "close": 179.39,
+        "change_pct": 1.91
+      },
+      {
+        "ticker": "EQIX",
+        "name": "Equinix",
+        "sector": "Real Estate",
+        "close": 1036.67,
+        "change_pct": 2.88
+      },
+      {
+        "ticker": "ERIE",
+        "name": "Erie Indemnity",
+        "sector": "Financials",
+        "close": 250.79,
+        "change_pct": 1.79
+      },
+      {
+        "ticker": "ESS",
+        "name": "Essex Property Trust",
+        "sector": "Real Estate",
+        "close": 265.22,
+        "change_pct": 1.45
+      },
+      {
+        "ticker": "EL",
+        "name": "Estée Lauder Companies (The)",
+        "sector": "Consumer Staples",
+        "close": 108.81,
+        "change_pct": -0.46
+      },
+      {
+        "ticker": "EG",
+        "name": "Everest Group",
+        "sector": "Financials",
+        "close": 400.59,
+        "change_pct": 3.54
+      },
+      {
+        "ticker": "EVRG",
+        "name": "Evergy",
+        "sector": "Utilities",
+        "close": 85.41,
+        "change_pct": 1.38
+      },
+      {
+        "ticker": "P",
+        "name": "Everpure",
+        "sector": "Information Technology",
+        "close": 137.2,
+        "change_pct": -1.01
+      },
+      {
+        "ticker": "ES",
+        "name": "Eversource Energy",
+        "sector": "Utilities",
+        "close": 67.9,
+        "change_pct": 1.49
+      },
+      {
+        "ticker": "EXC",
+        "name": "Exelon",
+        "sector": "Utilities",
+        "close": 45.91,
+        "change_pct": 2.55
+      },
+      {
+        "ticker": "EXE",
+        "name": "Expand Energy",
+        "sector": "Energy",
+        "close": 90.44,
+        "change_pct": -1.23
+      },
+      {
+        "ticker": "EXPE",
+        "name": "Expedia Group",
+        "sector": "Consumer Discretionary",
+        "close": 282.73,
+        "change_pct": 2.61
+      },
+      {
+        "ticker": "EXPD",
+        "name": "Expeditors International",
+        "sector": "Industrials",
+        "close": 198.39,
+        "change_pct": 0.63
+      },
+      {
+        "ticker": "EXR",
+        "name": "Extra Space Storage",
+        "sector": "Real Estate",
+        "close": 149.9,
+        "change_pct": 3.56
+      },
+      {
+        "ticker": "XOM",
+        "name": "ExxonMobil",
+        "sector": "Energy",
+        "close": 183.29,
+        "change_pct": 0.7
+      },
+      {
+        "ticker": "FFIV",
+        "name": "F5, Inc.",
+        "sector": "Information Technology",
+        "close": 363.46,
+        "change_pct": -0.57
+      },
+      {
+        "ticker": "FDS",
+        "name": "FactSet",
+        "sector": "Financials",
+        "close": 320.04,
+        "change_pct": 2.35
+      },
+      {
+        "ticker": "FICO",
+        "name": "Fair Isaac",
+        "sector": "Information Technology",
+        "close": 709.18,
+        "change_pct": 1.58
+      },
+      {
+        "ticker": "FAST",
+        "name": "Fastenal",
+        "sector": "Industrials",
+        "close": 52.55,
+        "change_pct": 2.14
+      },
+      {
+        "ticker": "FRT",
+        "name": "Federal Realty Investment Trust",
+        "sector": "Real Estate",
+        "close": 111.44,
+        "change_pct": 2.96
+      },
+      {
+        "ticker": "FDX",
+        "name": "FedEx",
+        "sector": "Industrials",
+        "close": 307.82,
+        "change_pct": 1.06
+      },
+      {
+        "ticker": "FDXF",
+        "name": "FedEx Freight",
+        "sector": "Industrials",
+        "close": 109.69,
+        "change_pct": 1.26
+      },
+      {
+        "ticker": "FERG",
+        "name": "Ferguson Enterprises",
+        "sector": "Industrials",
+        "close": 240.45,
+        "change_pct": 4.21
+      },
+      {
+        "ticker": "FIS",
+        "name": "Fidelity National Information Services",
+        "sector": "Financials",
+        "close": 37.28,
+        "change_pct": 2.19
+      },
+      {
+        "ticker": "FITB",
+        "name": "Fifth Third Bancorp",
+        "sector": "Financials",
+        "close": 54.44,
+        "change_pct": 1.81
+      },
+      {
+        "ticker": "FSLR",
+        "name": "First Solar",
+        "sector": "Information Technology",
+        "close": 176.89,
+        "change_pct": 0.33
+      },
+      {
+        "ticker": "FE",
+        "name": "FirstEnergy",
+        "sector": "Utilities",
+        "close": 46.83,
+        "change_pct": 0.93
+      },
+      {
+        "ticker": "FISV",
+        "name": "Fiserv",
+        "sector": "Financials",
+        "close": 48.48,
+        "change_pct": 1.3
+      },
+      {
+        "ticker": "FLEX",
+        "name": "Flex Ltd.",
+        "sector": "Information Technology",
+        "close": 93.07,
+        "change_pct": 0.04
+      },
+      {
+        "ticker": "F",
+        "name": "Ford Motor Company",
+        "sector": "Consumer Discretionary",
+        "close": 12.36,
+        "change_pct": 3.43
+      },
+      {
+        "ticker": "FTNT",
+        "name": "Fortinet",
+        "sector": "Information Technology",
+        "close": 139.1,
+        "change_pct": -20.09
+      },
+      {
+        "ticker": "FTV",
+        "name": "Fortive",
+        "sector": "Industrials",
+        "close": 65.84,
+        "change_pct": 2.7
+      },
+      {
+        "ticker": "FOXA",
+        "name": "Fox Corporation (Class A)",
+        "sector": "Communication Services",
+        "close": 64.51,
+        "change_pct": 1.77
+      },
+      {
+        "ticker": "FOX",
+        "name": "Fox Corporation (Class B)",
+        "sector": "Communication Services",
+        "close": 57.25,
+        "change_pct": 1.6
+      },
+      {
+        "ticker": "BEN",
+        "name": "Franklin Resources",
+        "sector": "Financials",
+        "close": 32.34,
+        "change_pct": 1.92
+      },
+      {
+        "ticker": "FCX",
+        "name": "Freeport-McMoRan",
+        "sector": "Materials",
+        "close": 66.14,
+        "change_pct": -0.69
+      },
+      {
+        "ticker": "GRMN",
+        "name": "Garmin",
+        "sector": "Consumer Discretionary",
+        "close": 279.94,
+        "change_pct": 2.73
+      },
+      {
+        "ticker": "IT",
+        "name": "Gartner",
+        "sector": "Information Technology",
+        "close": 225.06,
+        "change_pct": 2.69
+      },
+      {
+        "ticker": "GE",
+        "name": "GE Aerospace",
+        "sector": "Industrials",
+        "close": 313.05,
+        "change_pct": 3.96
+      },
+      {
+        "ticker": "GEHC",
+        "name": "GE HealthCare",
+        "sector": "Health Care",
+        "close": 76.42,
+        "change_pct": 0.79
+      },
+      {
+        "ticker": "GEV",
+        "name": "GE Vernova",
+        "sector": "Industrials",
+        "close": 887.85,
+        "change_pct": 1.12
+      },
+      {
+        "ticker": "GEN",
+        "name": "Gen Digital",
+        "sector": "Information Technology",
+        "close": 28.2,
+        "change_pct": 15.81
+      },
+      {
+        "ticker": "GNRC",
+        "name": "Generac",
+        "sector": "Industrials",
+        "close": 203.36,
+        "change_pct": 1.0
+      },
+      {
+        "ticker": "GD",
+        "name": "General Dynamics",
+        "sector": "Industrials",
+        "close": 370.82,
+        "change_pct": 4.65
+      },
+      {
+        "ticker": "GIS",
+        "name": "General Mills",
+        "sector": "Consumer Staples",
+        "close": 33.32,
+        "change_pct": 0.82
+      },
+      {
+        "ticker": "GM",
+        "name": "General Motors",
+        "sector": "Consumer Discretionary",
+        "close": 85.72,
+        "change_pct": 3.93
+      },
+      {
+        "ticker": "GPC",
+        "name": "Genuine Parts Company",
+        "sector": "Consumer Discretionary",
+        "close": 122.39,
+        "change_pct": 0.82
+      },
+      {
+        "ticker": "GILD",
+        "name": "Gilead Sciences",
+        "sector": "Health Care",
+        "close": 165.61,
+        "change_pct": 4.03
+      },
+      {
+        "ticker": "GPN",
+        "name": "Global Payments",
+        "sector": "Financials",
+        "close": 85.72,
+        "change_pct": 2.6
+      },
+      {
+        "ticker": "GL",
+        "name": "Globe Life",
+        "sector": "Financials",
+        "close": 160.45,
+        "change_pct": 1.31
+      },
+      {
+        "ticker": "GDDY",
+        "name": "GoDaddy",
+        "sector": "Information Technology",
+        "close": 105.89,
+        "change_pct": -0.61
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs",
+        "sector": "Financials",
+        "close": 927.73,
+        "change_pct": 0.28
+      },
+      {
+        "ticker": "HAL",
+        "name": "Halliburton",
+        "sector": "Energy",
+        "close": 35.9,
+        "change_pct": 0.39
+      },
+      {
+        "ticker": "HIG",
+        "name": "Hartford (The)",
+        "sector": "Financials",
+        "close": 132.06,
+        "change_pct": 1.55
+      },
+      {
+        "ticker": "HAS",
+        "name": "Hasbro",
+        "sector": "Consumer Discretionary",
+        "close": 119.57,
+        "change_pct": 0.75
+      },
+      {
+        "ticker": "HCA",
+        "name": "HCA Healthcare",
+        "sector": "Health Care",
+        "close": 478.08,
+        "change_pct": 3.21
+      },
+      {
+        "ticker": "DOC",
+        "name": "Healthpeak Properties",
+        "sector": "Real Estate",
+        "close": 18.94,
+        "change_pct": 2.1
+      },
+      {
+        "ticker": "HSIC",
+        "name": "Henry Schein",
+        "sector": "Health Care",
+        "close": 86.44,
+        "change_pct": 1.74
+      },
+      {
+        "ticker": "HSY",
+        "name": "Hershey Company (The)",
+        "sector": "Consumer Staples",
+        "close": 160.28,
+        "change_pct": -2.13
+      },
+      {
+        "ticker": "HPE",
+        "name": "Hewlett Packard Enterprise",
+        "sector": "Information Technology",
+        "close": 58.87,
+        "change_pct": -2.42
+      },
+      {
+        "ticker": "HLT",
+        "name": "Hilton Worldwide",
+        "sector": "Consumer Discretionary",
+        "close": 356.93,
+        "change_pct": 2.09
+      },
+      {
+        "ticker": "HD",
+        "name": "Home Depot (The)",
+        "sector": "Consumer Discretionary",
+        "close": 328.98,
+        "change_pct": 3.6
+      },
+      {
+        "ticker": "HONA",
+        "name": "Honeywell Aerospace",
+        "sector": "Industrials",
+        "close": 160.04,
+        "change_pct": -9.6
+      },
+      {
+        "ticker": "HON",
+        "name": "Honeywell Technologies",
+        "sector": "Industrials",
+        "close": 222.14,
+        "change_pct": 1.31
+      },
+      {
+        "ticker": "HRL",
+        "name": "Hormel Foods",
+        "sector": "Consumer Staples",
+        "close": 20.9,
+        "change_pct": 1.41
+      },
+      {
+        "ticker": "HST",
+        "name": "Host Hotels & Resorts",
+        "sector": "Real Estate",
+        "close": 25.7,
+        "change_pct": 1.7
+      },
+      {
+        "ticker": "HWM",
+        "name": "Howmet Aerospace",
+        "sector": "Industrials",
+        "close": 205.94,
+        "change_pct": 5.51
+      },
+      {
+        "ticker": "HPQ",
+        "name": "HP Inc.",
+        "sector": "Information Technology",
+        "close": 31.83,
+        "change_pct": -1.91
+      },
+      {
+        "ticker": "HUBB",
+        "name": "Hubbell Incorporated",
+        "sector": "Industrials",
+        "close": 438.23,
+        "change_pct": 0.21
+      },
+      {
+        "ticker": "HUM",
+        "name": "Humana",
+        "sector": "Health Care",
+        "close": 417.56,
+        "change_pct": 1.38
+      },
+      {
+        "ticker": "HBAN",
+        "name": "Huntington Bancshares",
+        "sector": "Financials",
+        "close": 15.97,
+        "change_pct": 1.72
+      },
+      {
+        "ticker": "HII",
+        "name": "Huntington Ingalls Industries",
+        "sector": "Industrials",
+        "close": 316.21,
+        "change_pct": 13.23
+      },
+      {
+        "ticker": "IBM",
+        "name": "IBM",
+        "sector": "Information Technology",
+        "close": 258.28,
+        "change_pct": 2.0
+      },
+      {
+        "ticker": "IEX",
+        "name": "IDEX Corporation",
+        "sector": "Industrials",
+        "close": 239.33,
+        "change_pct": 0.33
+      },
+      {
+        "ticker": "IDXX",
+        "name": "Idexx Laboratories",
+        "sector": "Health Care",
+        "close": 575.98,
+        "change_pct": 2.32
+      },
+      {
+        "ticker": "ITW",
+        "name": "Illinois Tool Works",
+        "sector": "Industrials",
+        "close": 281.4,
+        "change_pct": 1.93
+      },
+      {
+        "ticker": "ILMN",
+        "name": "Illumina, Inc.",
+        "sector": "Health Care",
+        "close": 290.06,
+        "change_pct": 0.44
+      },
+      {
+        "ticker": "INCY",
+        "name": "Incyte",
+        "sector": "Health Care",
+        "close": 116.8,
+        "change_pct": -0.06
+      },
+      {
+        "ticker": "IR",
+        "name": "Ingersoll Rand",
+        "sector": "Industrials",
+        "close": 80.01,
+        "change_pct": 6.04
+      },
+      {
+        "ticker": "PODD",
+        "name": "Insulet Corporation",
+        "sector": "Health Care",
+        "close": 152.5,
+        "change_pct": 2.4
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "sector": "Information Technology",
+        "close": 92.07,
+        "change_pct": -3.62
+      },
+      {
+        "ticker": "IBKR",
+        "name": "Interactive Brokers",
+        "sector": "Financials",
+        "close": 81.77,
+        "change_pct": -2.12
+      },
+      {
+        "ticker": "ICE",
+        "name": "Intercontinental Exchange",
+        "sector": "Financials",
+        "close": 163.04,
+        "change_pct": 4.54
+      },
+      {
+        "ticker": "IFF",
+        "name": "International Flavors & Fragrances",
+        "sector": "Materials",
+        "close": 90.81,
+        "change_pct": 0.17
+      },
+      {
+        "ticker": "IP",
+        "name": "International Paper",
+        "sector": "Materials",
+        "close": 36.03,
+        "change_pct": 4.5
+      },
+      {
+        "ticker": "INTU",
+        "name": "Intuit",
+        "sector": "Information Technology",
+        "close": 331.19,
+        "change_pct": 0.91
+      },
+      {
+        "ticker": "ISRG",
+        "name": "Intuitive Surgical",
+        "sector": "Health Care",
+        "close": 448.76,
+        "change_pct": 1.03
+      },
+      {
+        "ticker": "IVZ",
+        "name": "Invesco",
+        "sector": "Financials",
+        "close": 29.02,
+        "change_pct": 1.19
+      },
+      {
+        "ticker": "INVH",
+        "name": "Invitation Homes",
+        "sector": "Real Estate",
+        "close": 26.64,
+        "change_pct": -0.41
+      },
+      {
+        "ticker": "IQV",
+        "name": "IQVIA",
+        "sector": "Health Care",
+        "close": 275.06,
+        "change_pct": -1.43
+      },
+      {
+        "ticker": "IRM",
+        "name": "Iron Mountain",
+        "sector": "Real Estate",
+        "close": 118.38,
+        "change_pct": 2.34
+      },
+      {
+        "ticker": "JBHT",
+        "name": "J.B. Hunt",
+        "sector": "Industrials",
+        "close": 222.06,
+        "change_pct": -0.54
+      },
+      {
+        "ticker": "JBL",
+        "name": "Jabil",
+        "sector": "Information Technology",
+        "close": 287.77,
+        "change_pct": -1.09
+      },
+      {
+        "ticker": "JKHY",
+        "name": "Jack Henry & Associates",
+        "sector": "Financials",
+        "close": 159.62,
+        "change_pct": 0.95
+      },
+      {
+        "ticker": "J",
+        "name": "Jacobs Solutions",
+        "sector": "Industrials",
+        "close": 152.76,
+        "change_pct": 1.23
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "Health Care",
+        "close": 275.2,
+        "change_pct": 1.53
+      },
+      {
+        "ticker": "JCI",
+        "name": "Johnson Controls",
+        "sector": "Industrials",
+        "close": 158.27,
+        "change_pct": 0.58
+      },
+      {
+        "ticker": "JPM",
+        "name": "JPMorgan Chase",
+        "sector": "Financials",
+        "close": 343.58,
+        "change_pct": 1.26
+      },
+      {
+        "ticker": "KVUE",
+        "name": "Kenvue",
+        "sector": "Consumer Staples",
+        "close": 19.56,
+        "change_pct": 1.19
+      },
+      {
+        "ticker": "KDP",
+        "name": "Keurig Dr Pepper",
+        "sector": "Consumer Staples",
+        "close": 35.3,
+        "change_pct": 1.06
+      },
+      {
+        "ticker": "KEY",
+        "name": "KeyCorp",
+        "sector": "Financials",
+        "close": 21.49,
+        "change_pct": 1.37
+      },
+      {
+        "ticker": "KEYS",
+        "name": "Keysight Technologies",
+        "sector": "Information Technology",
+        "close": 329.84,
+        "change_pct": -1.69
+      },
+      {
+        "ticker": "KMB",
+        "name": "Kimberly-Clark",
+        "sector": "Consumer Staples",
+        "close": 110.02,
+        "change_pct": 1.49
+      },
+      {
+        "ticker": "KIM",
+        "name": "Kimco Realty",
+        "sector": "Real Estate",
+        "close": 24.42,
+        "change_pct": 4.36
+      },
+      {
+        "ticker": "KMI",
+        "name": "Kinder Morgan",
+        "sector": "Energy",
+        "close": 33.97,
+        "change_pct": 1.22
+      },
+      {
+        "ticker": "KKR",
+        "name": "KKR & Co.",
+        "sector": "Financials",
+        "close": 95.82,
+        "change_pct": 2.99
+      },
+      {
+        "ticker": "KLAC",
+        "name": "KLA Corporation",
+        "sector": "Information Technology",
+        "close": 167.43,
+        "change_pct": 5.45
+      },
+      {
+        "ticker": "KHC",
+        "name": "Kraft Heinz",
+        "sector": "Consumer Staples",
+        "close": 23.9,
+        "change_pct": 0.17
+      },
+      {
+        "ticker": "KR",
+        "name": "Kroger",
+        "sector": "Consumer Staples",
+        "close": 65.93,
+        "change_pct": 1.4
+      },
+      {
+        "ticker": "LHX",
+        "name": "L3Harris",
+        "sector": "Industrials",
+        "close": 278.43,
+        "change_pct": 6.84
+      },
+      {
+        "ticker": "LH",
+        "name": "Labcorp",
+        "sector": "Health Care",
+        "close": 368.16,
+        "change_pct": 2.2
+      },
+      {
+        "ticker": "LRCX",
+        "name": "Lam Research",
+        "sector": "Information Technology",
+        "close": 254.39,
+        "change_pct": 0.22
+      },
+      {
+        "ticker": "LVS",
+        "name": "Las Vegas Sands",
+        "sector": "Consumer Discretionary",
+        "close": 37.04,
+        "change_pct": 2.26
+      },
+      {
+        "ticker": "LDOS",
+        "name": "Leidos",
+        "sector": "Industrials",
+        "close": 141.02,
+        "change_pct": 1.02
+      },
+      {
+        "ticker": "LEN",
+        "name": "Lennar",
+        "sector": "Consumer Discretionary",
+        "close": 85.46,
+        "change_pct": 2.41
+      },
+      {
+        "ticker": "LII",
+        "name": "Lennox International",
+        "sector": "Industrials",
+        "close": 348.12,
+        "change_pct": 4.65
+      },
+      {
+        "ticker": "LLY",
+        "name": "Lilly (Eli)",
+        "sector": "Health Care",
+        "close": 1373.7,
+        "change_pct": 6.63
+      },
+      {
+        "ticker": "LIN",
+        "name": "Linde plc",
+        "sector": "Materials",
+        "close": 503.15,
+        "change_pct": -0.99
+      },
+      {
+        "ticker": "LYV",
+        "name": "Live Nation Entertainment",
+        "sector": "Communication Services",
+        "close": 177.83,
+        "change_pct": 3.09
+      },
+      {
+        "ticker": "LMT",
+        "name": "Lockheed Martin",
+        "sector": "Industrials",
+        "close": 643.59,
+        "change_pct": 2.2
+      },
+      {
+        "ticker": "L",
+        "name": "Loews Corporation",
+        "sector": "Financials",
+        "close": 111.69,
+        "change_pct": 1.35
+      },
+      {
+        "ticker": "LOW",
+        "name": "Lowe's",
+        "sector": "Consumer Discretionary",
+        "close": 207.28,
+        "change_pct": 4.48
+      },
+      {
+        "ticker": "LULU",
+        "name": "Lululemon Athletica",
+        "sector": "Consumer Discretionary",
+        "close": 109.82,
+        "change_pct": 4.37
+      },
+      {
+        "ticker": "LITE",
+        "name": "Lumentum",
+        "sector": "Information Technology",
+        "close": 919.53,
+        "change_pct": 0.61
+      },
+      {
+        "ticker": "LYB",
+        "name": "LyondellBasell",
+        "sector": "Materials",
+        "close": 65.37,
+        "change_pct": -2.62
+      },
+      {
+        "ticker": "MTB",
+        "name": "M&T Bank",
+        "sector": "Financials",
+        "close": 224.07,
+        "change_pct": 1.76
+      },
+      {
+        "ticker": "MPC",
+        "name": "Marathon Petroleum",
+        "sector": "Energy",
+        "close": 432.51,
+        "change_pct": -1.87
+      },
+      {
+        "ticker": "MAR",
+        "name": "Marriott International",
+        "sector": "Consumer Discretionary",
+        "close": 399.65,
+        "change_pct": 1.33
+      },
+      {
+        "ticker": "MRSH",
+        "name": "Marsh McLennan",
+        "sector": "Financials",
+        "close": 197.03,
+        "change_pct": 2.46
+      },
+      {
+        "ticker": "MLM",
+        "name": "Martin Marietta Materials",
+        "sector": "Materials",
+        "close": 534.39,
+        "change_pct": 4.78
+      },
+      {
+        "ticker": "MRVL",
+        "name": "Marvell Technology",
+        "sector": "Information Technology",
+        "close": 218.34,
+        "change_pct": -13.24
+      },
+      {
+        "ticker": "MAS",
+        "name": "Masco",
+        "sector": "Industrials",
+        "close": 80.18,
+        "change_pct": 5.43
+      },
+      {
+        "ticker": "MA",
+        "name": "Mastercard",
+        "sector": "Financials",
+        "close": 635.7,
+        "change_pct": 4.16
+      },
+      {
+        "ticker": "MKC",
+        "name": "McCormick & Company",
+        "sector": "Consumer Staples",
+        "close": 46.8,
+        "change_pct": 1.61
+      },
+      {
+        "ticker": "MCD",
+        "name": "McDonald's",
+        "sector": "Consumer Discretionary",
+        "close": 257.38,
+        "change_pct": 2.75
+      },
+      {
+        "ticker": "MCK",
+        "name": "McKesson Corporation",
+        "sector": "Health Care",
+        "close": 980.88,
+        "change_pct": 2.12
+      },
+      {
+        "ticker": "MDT",
+        "name": "Medtronic",
+        "sector": "Health Care",
+        "close": 97.11,
+        "change_pct": 2.46
+      },
+      {
+        "ticker": "MRK",
+        "name": "Merck & Co.",
+        "sector": "Health Care",
+        "close": 146.33,
+        "change_pct": 3.83
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms",
+        "sector": "Communication Services",
+        "close": 624.52,
+        "change_pct": 1.96
+      },
+      {
+        "ticker": "MET",
+        "name": "MetLife",
+        "sector": "Financials",
+        "close": 100.83,
+        "change_pct": 1.19
+      },
+      {
+        "ticker": "MTD",
+        "name": "Mettler Toledo",
+        "sector": "Health Care",
+        "close": 1718.61,
+        "change_pct": 1.19
+      },
+      {
+        "ticker": "MGM",
+        "name": "MGM Resorts",
+        "sector": "Consumer Discretionary",
+        "close": 28.83,
+        "change_pct": 5.72
+      },
+      {
+        "ticker": "MCHP",
+        "name": "Microchip Technology",
+        "sector": "Information Technology",
+        "close": 81.12,
+        "change_pct": 1.87
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron Technology",
+        "sector": "Information Technology",
+        "close": 934.27,
+        "change_pct": -4.98
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "sector": "Information Technology",
+        "close": 530.14,
+        "change_pct": -0.16
+      },
+      {
+        "ticker": "MAA",
+        "name": "Mid-America Apartment Communities",
+        "sector": "Real Estate",
+        "close": 118.26,
+        "change_pct": 1.29
+      },
+      {
+        "ticker": "MRNA",
+        "name": "Moderna",
+        "sector": "Health Care",
+        "close": 222.76,
+        "change_pct": 4.01
+      },
+      {
+        "ticker": "MDLZ",
+        "name": "Mondelez International",
+        "sector": "Consumer Staples",
+        "close": 62.53,
+        "change_pct": 1.07
+      },
+      {
+        "ticker": "MPWR",
+        "name": "Monolithic Power Systems",
+        "sector": "Information Technology",
+        "close": 1198.81,
+        "change_pct": -1.02
+      },
+      {
+        "ticker": "MNST",
+        "name": "Monster Beverage",
+        "sector": "Consumer Staples",
+        "close": 46.35,
+        "change_pct": 1.51
+      },
+      {
+        "ticker": "MCO",
+        "name": "Moody's Corporation",
+        "sector": "Financials",
+        "close": 488.83,
+        "change_pct": 2.42
+      },
+      {
+        "ticker": "MS",
+        "name": "Morgan Stanley",
+        "sector": "Financials",
+        "close": 190,
+        "change_pct": -0.07
+      },
+      {
+        "ticker": "MOS",
+        "name": "Mosaic Company (The)",
+        "sector": "Materials",
+        "close": 18.23,
+        "change_pct": -0.55
+      },
+      {
+        "ticker": "MSI",
+        "name": "Motorola Solutions",
+        "sector": "Information Technology",
+        "close": 492.08,
+        "change_pct": 1.8
+      },
+      {
+        "ticker": "MSCI",
+        "name": "MSCI",
+        "sector": "Financials",
+        "close": 618.55,
+        "change_pct": 2.25
+      },
+      {
+        "ticker": "NDAQ",
+        "name": "Nasdaq, Inc.",
+        "sector": "Financials",
+        "close": 105.6,
+        "change_pct": 0.05
+      },
+      {
+        "ticker": "NTAP",
+        "name": "NetApp",
+        "sector": "Information Technology",
+        "close": 218.42,
+        "change_pct": -2.34
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix",
+        "sector": "Communication Services",
+        "close": 62.05,
+        "change_pct": 0.1
+      },
+      {
+        "ticker": "NEM",
+        "name": "Newmont",
+        "sector": "Materials",
+        "close": 111.8,
+        "change_pct": -1.86
+      },
+      {
+        "ticker": "NWSA",
+        "name": "News Corp (Class A)",
+        "sector": "Communication Services",
+        "close": 29.45,
+        "change_pct": 0.48
+      },
+      {
+        "ticker": "NWS",
+        "name": "News Corp (Class B)",
+        "sector": "Communication Services",
+        "close": 32.18,
+        "change_pct": 0.52
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy",
+        "sector": "Utilities",
+        "close": 82.14,
+        "change_pct": 1.38
+      },
+      {
+        "ticker": "NKE",
+        "name": "Nike, Inc.",
+        "sector": "Consumer Discretionary",
+        "close": 38.42,
+        "change_pct": 3.42
+      },
+      {
+        "ticker": "NI",
+        "name": "NiSource",
+        "sector": "Utilities",
+        "close": 44.75,
+        "change_pct": 2.01
+      },
+      {
+        "ticker": "NDSN",
+        "name": "Nordson Corporation",
+        "sector": "Industrials",
+        "close": 329.1,
+        "change_pct": 0.94
+      },
+      {
+        "ticker": "NSC",
+        "name": "Norfolk Southern",
+        "sector": "Industrials",
+        "close": 342.19,
+        "change_pct": 1.21
+      },
+      {
+        "ticker": "NTRS",
+        "name": "Northern Trust",
+        "sector": "Financials",
+        "close": 172.92,
+        "change_pct": 0.59
+      },
+      {
+        "ticker": "NOC",
+        "name": "Northrop Grumman",
+        "sector": "Industrials",
+        "close": 562.36,
+        "change_pct": 1.73
+      },
+      {
+        "ticker": "NCLH",
+        "name": "Norwegian Cruise Line Holdings",
+        "sector": "Consumer Discretionary",
+        "close": 18.22,
+        "change_pct": 13.45
+      },
+      {
+        "ticker": "NRG",
+        "name": "NRG Energy",
+        "sector": "Utilities",
+        "close": 97.54,
+        "change_pct": 0.59
+      },
+      {
+        "ticker": "NUE",
+        "name": "Nucor",
+        "sector": "Materials",
+        "close": 275.29,
+        "change_pct": 1.29
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "sector": "Information Technology",
+        "close": 213.66,
+        "change_pct": -0.8
+      },
+      {
+        "ticker": "NVR",
+        "name": "NVR, Inc.",
+        "sector": "Consumer Discretionary",
+        "close": 6018.95,
+        "change_pct": 3.91
+      },
+      {
+        "ticker": "NXPI",
+        "name": "NXP Semiconductors",
+        "sector": "Information Technology",
+        "close": 266,
+        "change_pct": 5.69
+      },
+      {
+        "ticker": "ORLY",
+        "name": "O'Reilly Automotive",
+        "sector": "Consumer Discretionary",
+        "close": 88.07,
+        "change_pct": -2.62
+      },
+      {
+        "ticker": "OXY",
+        "name": "Occidental Petroleum",
+        "sector": "Energy",
+        "close": 63.01,
+        "change_pct": 0.24
+      },
+      {
+        "ticker": "ODFL",
+        "name": "Old Dominion",
+        "sector": "Industrials",
+        "close": 172.35,
+        "change_pct": -0.56
+      },
+      {
+        "ticker": "OMC",
+        "name": "Omnicom Group",
+        "sector": "Communication Services",
+        "close": 80.97,
+        "change_pct": 4.11
+      },
+      {
+        "ticker": "ON",
+        "name": "ON Semiconductor",
+        "sector": "Information Technology",
+        "close": 75.24,
+        "change_pct": -0.52
+      },
+      {
+        "ticker": "OKE",
+        "name": "Oneok",
+        "sector": "Energy",
+        "close": 95.82,
+        "change_pct": 1.35
+      },
+      {
+        "ticker": "ORCL",
+        "name": "Oracle Corporation",
+        "sector": "Information Technology",
+        "close": 139.56,
+        "change_pct": -3.45
+      },
+      {
+        "ticker": "OTIS",
+        "name": "Otis Worldwide",
+        "sector": "Industrials",
+        "close": 74.61,
+        "change_pct": 2.39
+      },
+      {
+        "ticker": "PCAR",
+        "name": "Paccar",
+        "sector": "Industrials",
+        "close": 102.29,
+        "change_pct": -0.13
+      },
+      {
+        "ticker": "PKG",
+        "name": "Packaging Corporation of America",
+        "sector": "Materials",
+        "close": 254.53,
+        "change_pct": 2.45
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir Technologies",
+        "sector": "Information Technology",
+        "close": 196.42,
+        "change_pct": -0.2
+      },
+      {
+        "ticker": "PANW",
+        "name": "Palo Alto Networks",
+        "sector": "Information Technology",
+        "close": 380.57,
+        "change_pct": -3.53
+      },
+      {
+        "ticker": "PSKY",
+        "name": "Paramount Skydance Corporation",
+        "sector": "Communication Services",
+        "close": 7.77,
+        "change_pct": 0.26
+      },
+      {
+        "ticker": "PH",
+        "name": "Parker Hannifin",
+        "sector": "Industrials",
+        "close": 928.45,
+        "change_pct": 1.81
+      },
+      {
+        "ticker": "PAYX",
+        "name": "Paychex",
+        "sector": "Industrials",
+        "close": 109.37,
+        "change_pct": 1.07
+      },
+      {
+        "ticker": "PYPL",
+        "name": "PayPal",
+        "sector": "Financials",
+        "close": 56.95,
+        "change_pct": 0.71
+      },
+      {
+        "ticker": "PNR",
+        "name": "Pentair",
+        "sector": "Industrials",
+        "close": 65.84,
+        "change_pct": 2.28
+      },
+      {
+        "ticker": "PEP",
+        "name": "PepsiCo",
+        "sector": "Consumer Staples",
+        "close": 133.79,
+        "change_pct": 0.87
+      },
+      {
+        "ticker": "PFE",
+        "name": "Pfizer",
+        "sector": "Health Care",
+        "close": 29.95,
+        "change_pct": 1.7
+      },
+      {
+        "ticker": "PCG",
+        "name": "PG&E Corporation",
+        "sector": "Utilities",
+        "close": 13.23,
+        "change_pct": 0.61
+      },
+      {
+        "ticker": "PM",
+        "name": "Philip Morris International",
+        "sector": "Consumer Staples",
+        "close": 208.5,
+        "change_pct": 2.89
+      },
+      {
+        "ticker": "PSX",
+        "name": "Phillips 66",
+        "sector": "Energy",
+        "close": 273.61,
+        "change_pct": -0.05
+      },
+      {
+        "ticker": "PNW",
+        "name": "Pinnacle West Capital",
+        "sector": "Utilities",
+        "close": 106.64,
+        "change_pct": 1.69
+      },
+      {
+        "ticker": "PNC",
+        "name": "PNC Financial Services",
+        "sector": "Financials",
+        "close": 231.83,
+        "change_pct": 1.57
+      },
+      {
+        "ticker": "PPG",
+        "name": "PPG Industries",
+        "sector": "Materials",
+        "close": 120,
+        "change_pct": 1.32
+      },
+      {
+        "ticker": "PPL",
+        "name": "PPL Corporation",
+        "sector": "Utilities",
+        "close": 35.63,
+        "change_pct": 1.54
+      },
+      {
+        "ticker": "PFG",
+        "name": "Principal Financial Group",
+        "sector": "Financials",
+        "close": 113.65,
+        "change_pct": 1.62
+      },
+      {
+        "ticker": "PG",
+        "name": "Procter & Gamble",
+        "sector": "Consumer Staples",
+        "close": 160.59,
+        "change_pct": 1.47
+      },
+      {
+        "ticker": "PGR",
+        "name": "Progressive Corporation",
+        "sector": "Financials",
+        "close": 230.18,
+        "change_pct": 2.0
+      },
+      {
+        "ticker": "PLD",
+        "name": "Prologis",
+        "sector": "Real Estate",
+        "close": 128.02,
+        "change_pct": 2.24
+      },
+      {
+        "ticker": "PRU",
+        "name": "Prudential Financial",
+        "sector": "Financials",
+        "close": 116.87,
+        "change_pct": 1.3
+      },
+      {
+        "ticker": "PEG",
+        "name": "Public Service Enterprise Group",
+        "sector": "Utilities",
+        "close": 73.63,
+        "change_pct": 1.6
+      },
+      {
+        "ticker": "PTC",
+        "name": "PTC Inc.",
+        "sector": "Information Technology",
+        "close": 194.8,
+        "change_pct": -0.09
+      },
+      {
+        "ticker": "PSA",
+        "name": "Public Storage",
+        "sector": "Real Estate",
+        "close": 317.06,
+        "change_pct": 2.26
+      },
+      {
+        "ticker": "PHM",
+        "name": "PulteGroup",
+        "sector": "Consumer Discretionary",
+        "close": 124.36,
+        "change_pct": 3.88
+      },
+      {
+        "ticker": "PWR",
+        "name": "Quanta Services",
+        "sector": "Industrials",
+        "close": 635.18,
+        "change_pct": 4.66
+      },
+      {
+        "ticker": "QCOM",
+        "name": "Qualcomm",
+        "sector": "Information Technology",
+        "close": 185.41,
+        "change_pct": 1.33
+      },
+      {
+        "ticker": "DGX",
+        "name": "Quest Diagnostics",
+        "sector": "Health Care",
+        "close": 252.92,
+        "change_pct": 2.97
+      },
+      {
+        "ticker": "Q",
+        "name": "Qnity Electronics",
+        "sector": "Information Technology",
+        "close": 122.66,
+        "change_pct": -0.11
+      },
+      {
+        "ticker": "RL",
+        "name": "Ralph Lauren Corporation",
+        "sector": "Consumer Discretionary",
+        "close": 400.52,
+        "change_pct": 2.81
+      },
+      {
+        "ticker": "RJF",
+        "name": "Raymond James Financial",
+        "sector": "Financials",
+        "close": 161.29,
+        "change_pct": 2.46
+      },
+      {
+        "ticker": "RDDT",
+        "name": "Reddit",
+        "sector": "Communication Services",
+        "close": 129.6,
+        "change_pct": -3.79
+      },
+      {
+        "ticker": "RTX",
+        "name": "RTX Corporation",
+        "sector": "Industrials",
+        "close": 199.4,
+        "change_pct": 1.82
+      },
+      {
+        "ticker": "O",
+        "name": "Realty Income",
+        "sector": "Real Estate",
+        "close": 57.2,
+        "change_pct": 1.73
+      },
+      {
+        "ticker": "REG",
+        "name": "Regency Centers",
+        "sector": "Real Estate",
+        "close": 74.98,
+        "change_pct": 2.45
+      },
+      {
+        "ticker": "REGN",
+        "name": "Regeneron Pharmaceuticals",
+        "sector": "Health Care",
+        "close": 818.77,
+        "change_pct": 0.68
+      },
+      {
+        "ticker": "RF",
+        "name": "Regions Financial Corporation",
+        "sector": "Financials",
+        "close": 28.88,
+        "change_pct": 1.73
+      },
+      {
+        "ticker": "RSG",
+        "name": "Republic Services",
+        "sector": "Industrials",
+        "close": 236.28,
+        "change_pct": 1.23
+      },
+      {
+        "ticker": "RMD",
+        "name": "ResMed|",
+        "sector": "Health Care",
+        "close": 252.83,
+        "change_pct": 1.06
+      },
+      {
+        "ticker": "RVTY",
+        "name": "Revvity",
+        "sector": "Health Care",
+        "close": 165.78,
+        "change_pct": 0.27
+      },
+      {
+        "ticker": "HOOD",
+        "name": "Robinhood Markets",
+        "sector": "Financials",
+        "close": 91.59,
+        "change_pct": 0.17
+      },
+      {
+        "ticker": "ROK",
+        "name": "Rockwell Automation",
+        "sector": "Industrials",
+        "close": 451.4,
+        "change_pct": 1.71
+      },
+      {
+        "ticker": "ROL",
+        "name": "Rollins, Inc.",
+        "sector": "Industrials",
+        "close": 34.69,
+        "change_pct": 3.55
+      },
+      {
+        "ticker": "ROP",
+        "name": "Roper Technologies",
+        "sector": "Information Technology",
+        "close": 449.65,
+        "change_pct": 2.04
+      },
+      {
+        "ticker": "ROST",
+        "name": "Ross Stores",
+        "sector": "Consumer Discretionary",
+        "close": 232.3,
+        "change_pct": 1.89
+      },
+      {
+        "ticker": "RCL",
+        "name": "Royal Caribbean Group",
+        "sector": "Consumer Discretionary",
+        "close": 310.54,
+        "change_pct": 4.1
+      },
+      {
+        "ticker": "SPGI",
+        "name": "S&P Global",
+        "sector": "Financials",
+        "close": 460.66,
+        "change_pct": 2.52
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce",
+        "sector": "Information Technology",
+        "close": 230.9,
+        "change_pct": -4.63
+      },
+      {
+        "ticker": "SNDK",
+        "name": "Sandisk",
+        "sector": "Information Technology",
+        "close": 1330.05,
+        "change_pct": -5.32
+      },
+      {
+        "ticker": "SBAC",
+        "name": "SBA Communications",
+        "sector": "Real Estate",
+        "close": 184.88,
+        "change_pct": 0.06
+      },
+      {
+        "ticker": "SLB",
+        "name": "Schlumberger",
+        "sector": "Energy",
+        "close": 53.81,
+        "change_pct": 0.11
+      },
+      {
+        "ticker": "STX",
+        "name": "Seagate Technology",
+        "sector": "Information Technology",
+        "close": 700.47,
+        "change_pct": 0.36
+      },
+      {
+        "ticker": "SRE",
+        "name": "Sempra",
+        "sector": "Utilities",
+        "close": 85.89,
+        "change_pct": 1.44
+      },
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow",
+        "sector": "Information Technology",
+        "close": 109.67,
+        "change_pct": -26.95
+      },
+      {
+        "ticker": "SHW",
+        "name": "Sherwin-Williams",
+        "sector": "Materials",
+        "close": 330.1,
+        "change_pct": 2.9
+      },
+      {
+        "ticker": "SPG",
+        "name": "Simon Property Group",
+        "sector": "Real Estate",
+        "close": 215.72,
+        "change_pct": 2.12
+      },
+      {
+        "ticker": "SWKS",
+        "name": "Skyworks Solutions",
+        "sector": "Information Technology",
+        "close": 89.43,
+        "change_pct": 2.52
+      },
+      {
+        "ticker": "SJM",
+        "name": "J.M. Smucker Company (The)",
+        "sector": "Consumer Staples",
+        "close": 126.26,
+        "change_pct": 0.64
+      },
+      {
+        "ticker": "SW",
+        "name": "Smurfit Westrock",
+        "sector": "Materials",
+        "close": 42.53,
+        "change_pct": 5.46
+      },
+      {
+        "ticker": "SNA",
+        "name": "Snap-on",
+        "sector": "Industrials",
+        "close": 358.6,
+        "change_pct": 0.84
+      },
+      {
+        "ticker": "SOLV",
+        "name": "Solventum",
+        "sector": "Health Care",
+        "close": 83.56,
+        "change_pct": 2.09
+      },
+      {
+        "ticker": "SO",
+        "name": "Southern Company",
+        "sector": "Utilities",
+        "close": 92.99,
+        "change_pct": 1.61
+      },
+      {
+        "ticker": "LUV",
+        "name": "Southwest Airlines",
+        "sector": "Industrials",
+        "close": 43.68,
+        "change_pct": 0.48
+      },
+      {
+        "ticker": "SWK",
+        "name": "Stanley Black & Decker",
+        "sector": "Industrials",
+        "close": 103.61,
+        "change_pct": 3.23
+      },
+      {
+        "ticker": "SBUX",
+        "name": "Starbucks",
+        "sector": "Consumer Discretionary",
+        "close": 105.51,
+        "change_pct": 2.24
+      },
+      {
+        "ticker": "STT",
+        "name": "State Street Corporation",
+        "sector": "Financials",
+        "close": 173.75,
+        "change_pct": 0.12
+      },
+      {
+        "ticker": "STLD",
+        "name": "Steel Dynamics",
+        "sector": "Materials",
+        "close": 253.53,
+        "change_pct": 1.42
+      },
+      {
+        "ticker": "STE",
+        "name": "Steris",
+        "sector": "Health Care",
+        "close": 232.14,
+        "change_pct": 1.47
+      },
+      {
+        "ticker": "SYK",
+        "name": "Stryker Corporation",
+        "sector": "Health Care",
+        "close": 311.75,
+        "change_pct": 2.55
+      },
+      {
+        "ticker": "SMCI",
+        "name": "Supermicro",
+        "sector": "Information Technology",
+        "close": 34.43,
+        "change_pct": -3.85
+      },
+      {
+        "ticker": "SYF",
+        "name": "Synchrony Financial",
+        "sector": "Financials",
+        "close": 76.97,
+        "change_pct": 2.14
+      },
+      {
+        "ticker": "SNPS",
+        "name": "Synopsys",
+        "sector": "Information Technology",
+        "close": 490.19,
+        "change_pct": 1.72
+      },
+      {
+        "ticker": "SYY",
+        "name": "Sysco",
+        "sector": "Consumer Staples",
+        "close": 82.52,
+        "change_pct": 0.45
+      },
+      {
+        "ticker": "TMUS",
+        "name": "T-Mobile US",
+        "sector": "Communication Services",
+        "close": 147.29,
+        "change_pct": -0.53
+      },
+      {
+        "ticker": "TROW",
+        "name": "T. Rowe Price",
+        "sector": "Financials",
+        "close": 106.63,
+        "change_pct": 2.53
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "sector": "Communication Services",
+        "close": 193.39,
+        "change_pct": -0.97
+      },
+      {
+        "ticker": "TPR",
+        "name": "Tapestry, Inc.",
+        "sector": "Consumer Discretionary",
+        "close": 117.84,
+        "change_pct": 5.93
+      },
+      {
+        "ticker": "TRGP",
+        "name": "Targa Resources",
+        "sector": "Energy",
+        "close": 312.37,
+        "change_pct": 2.12
+      },
+      {
+        "ticker": "TGT",
+        "name": "Target Corporation",
+        "sector": "Consumer Staples",
+        "close": 151.82,
+        "change_pct": 1.92
+      },
+      {
+        "ticker": "TEL",
+        "name": "TE Connectivity",
+        "sector": "Information Technology",
+        "close": 222.76,
+        "change_pct": 0.69
+      },
+      {
+        "ticker": "TDY",
+        "name": "Teledyne Technologies",
+        "sector": "Information Technology",
+        "close": 677.46,
+        "change_pct": 1.79
+      },
+      {
+        "ticker": "TER",
+        "name": "Teradyne",
+        "sector": "Information Technology",
+        "close": 296.23,
+        "change_pct": -5.43
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "Consumer Discretionary",
+        "close": 403.3,
+        "change_pct": -0.23
+      },
+      {
+        "ticker": "TXN",
+        "name": "Texas Instruments",
+        "sector": "Information Technology",
+        "close": 312.94,
+        "change_pct": 1.0
+      },
+      {
+        "ticker": "TPL",
+        "name": "Texas Pacific Land Corporation",
+        "sector": "Energy",
+        "close": 327.96,
+        "change_pct": -1.2
+      },
+      {
+        "ticker": "TXT",
+        "name": "Textron",
+        "sector": "Industrials",
+        "close": 87.46,
+        "change_pct": 11.67
+      },
+      {
+        "ticker": "TMO",
+        "name": "Thermo Fisher Scientific",
+        "sector": "Health Care",
+        "close": 709.18,
+        "change_pct": 0.71
+      },
+      {
+        "ticker": "TJX",
+        "name": "TJX Companies",
+        "sector": "Consumer Discretionary",
+        "close": 141.39,
+        "change_pct": 2.17
+      },
+      {
+        "ticker": "TKO",
+        "name": "TKO Group Holdings",
+        "sector": "Communication Services",
+        "close": 178.77,
+        "change_pct": 2.81
+      },
+      {
+        "ticker": "TSCO",
+        "name": "Tractor Supply",
+        "sector": "Consumer Discretionary",
+        "close": 33.65,
+        "change_pct": 6.45
+      },
+      {
+        "ticker": "TT",
+        "name": "Trane Technologies",
+        "sector": "Industrials",
+        "close": 431.1,
+        "change_pct": -3.87
+      },
+      {
+        "ticker": "TDG",
+        "name": "TransDigm Group",
+        "sector": "Industrials",
+        "close": 1175.91,
+        "change_pct": 3.46
+      },
+      {
+        "ticker": "TRV",
+        "name": "Travelers Companies (The)",
+        "sector": "Financials",
+        "close": 398.27,
+        "change_pct": 1.08
+      },
+      {
+        "ticker": "TRMB",
+        "name": "Trimble Inc.",
+        "sector": "Information Technology",
+        "close": 65.34,
+        "change_pct": 1.54
+      },
+      {
+        "ticker": "TFC",
+        "name": "Truist Financial",
+        "sector": "Financials",
+        "close": 49.32,
+        "change_pct": 1.86
+      },
+      {
+        "ticker": "TYL",
+        "name": "Tyler Technologies",
+        "sector": "Information Technology",
+        "close": 373.93,
+        "change_pct": 3.61
+      },
+      {
+        "ticker": "TSN",
+        "name": "Tyson Foods",
+        "sector": "Consumer Staples",
+        "close": 56.25,
+        "change_pct": 1.61
+      },
+      {
+        "ticker": "USB",
+        "name": "U.S. Bancorp",
+        "sector": "Financials",
+        "close": 60.64,
+        "change_pct": 1.75
+      },
+      {
+        "ticker": "UBER",
+        "name": "Uber",
+        "sector": "Industrials",
+        "close": 65.74,
+        "change_pct": 0.72
+      },
+      {
+        "ticker": "UDR",
+        "name": "UDR, Inc.",
+        "sector": "Real Estate",
+        "close": 35.42,
+        "change_pct": 2.05
+      },
+      {
+        "ticker": "ULTA",
+        "name": "Ulta Beauty",
+        "sector": "Consumer Discretionary",
+        "close": 648.28,
+        "change_pct": 4.69
+      },
+      {
+        "ticker": "UNP",
+        "name": "Union Pacific Corporation",
+        "sector": "Industrials",
+        "close": 301.93,
+        "change_pct": 1.39
+      },
+      {
+        "ticker": "UAL",
+        "name": "United Airlines Holdings",
+        "sector": "Industrials",
+        "close": 105.21,
+        "change_pct": 1.72
+      },
+      {
+        "ticker": "UPS",
+        "name": "United Parcel Service",
+        "sector": "Industrials",
+        "close": 107.33,
+        "change_pct": 1.62
+      },
+      {
+        "ticker": "URI",
+        "name": "United Rentals",
+        "sector": "Industrials",
+        "close": 1198.68,
+        "change_pct": 2.05
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "Health Care",
+        "close": 410.91,
+        "change_pct": 0.94
+      },
+      {
+        "ticker": "UHS",
+        "name": "Universal Health Services",
+        "sector": "Health Care",
+        "close": 176.61,
+        "change_pct": 2.57
+      },
+      {
+        "ticker": "VLO",
+        "name": "Valero Energy",
+        "sector": "Energy",
+        "close": 384.57,
+        "change_pct": -1.01
+      },
+      {
+        "ticker": "VEEV",
+        "name": "Veeva Systems",
+        "sector": "Health Care",
+        "close": 310.34,
+        "change_pct": -2.35
+      },
+      {
+        "ticker": "VTR",
+        "name": "Ventas",
+        "sector": "Real Estate",
+        "close": 83.71,
+        "change_pct": 3.26
+      },
+      {
+        "ticker": "VLTO",
+        "name": "Veralto",
+        "sector": "Industrials",
+        "close": 104.06,
+        "change_pct": 1.23
+      },
+      {
+        "ticker": "VRSN",
+        "name": "Verisign",
+        "sector": "Information Technology",
+        "close": 305.95,
+        "change_pct": -0.35
+      },
+      {
+        "ticker": "VRSK",
+        "name": "Verisk Analytics",
+        "sector": "Industrials",
+        "close": 190.71,
+        "change_pct": 0.48
+      },
+      {
+        "ticker": "VZ",
+        "name": "Verizon",
+        "sector": "Communication Services",
+        "close": 43.66,
+        "change_pct": 1.11
+      },
+      {
+        "ticker": "VRTX",
+        "name": "Vertex Pharmaceuticals",
+        "sector": "Health Care",
+        "close": 540,
+        "change_pct": 1.95
+      },
+      {
+        "ticker": "VRT",
+        "name": "Vertiv",
+        "sector": "Industrials",
+        "close": 245.92,
+        "change_pct": 1.23
+      },
+      {
+        "ticker": "VTRS",
+        "name": "Viatris",
+        "sector": "Health Care",
+        "close": 19.2,
+        "change_pct": 2.29
+      },
+      {
+        "ticker": "VICI",
+        "name": "Vici Properties",
+        "sector": "Real Estate",
+        "close": 24.52,
+        "change_pct": 4.25
+      },
+      {
+        "ticker": "V",
+        "name": "Visa Inc.",
+        "sector": "Financials",
+        "close": 410.54,
+        "change_pct": 2.48
+      },
+      {
+        "ticker": "VST",
+        "name": "Vistra Corp.",
+        "sector": "Utilities",
+        "close": 140.95,
+        "change_pct": -1.24
+      },
+      {
+        "ticker": "VMRK",
+        "name": "Vivmark Residential",
+        "sector": "Real Estate",
+        "close": 61.75,
+        "change_pct": 1.4
+      },
+      {
+        "ticker": "VMC",
+        "name": "Vulcan Materials Company",
+        "sector": "Materials",
+        "close": 280.31,
+        "change_pct": 5.78
+      },
+      {
+        "ticker": "WRB",
+        "name": "W. R. Berkley Corporation",
+        "sector": "Financials",
+        "close": 73.1,
+        "change_pct": 2.05
+      },
+      {
+        "ticker": "GWW",
+        "name": "W. W. Grainger",
+        "sector": "Industrials",
+        "close": 1371.86,
+        "change_pct": 2.32
+      },
+      {
+        "ticker": "WAB",
+        "name": "Wabtec",
+        "sector": "Industrials",
+        "close": 285.56,
+        "change_pct": 1.2
+      },
+      {
+        "ticker": "WMT",
+        "name": "Walmart",
+        "sector": "Consumer Staples",
+        "close": 121.25,
+        "change_pct": 2.09
+      },
+      {
+        "ticker": "DIS",
+        "name": "Walt Disney Company (The)",
+        "sector": "Communication Services",
+        "close": 110.91,
+        "change_pct": 1.72
+      },
+      {
+        "ticker": "WBD",
+        "name": "Warner Bros. Discovery",
+        "sector": "Communication Services",
+        "close": 30.95,
+        "change_pct": 0.03
+      },
+      {
+        "ticker": "WM",
+        "name": "Waste Management",
+        "sector": "Industrials",
+        "close": 230.9,
+        "change_pct": 2.55
+      },
+      {
+        "ticker": "WAT",
+        "name": "Waters Corporation",
+        "sector": "Health Care",
+        "close": 480.07,
+        "change_pct": 0.67
+      },
+      {
+        "ticker": "WEC",
+        "name": "WEC Energy Group",
+        "sector": "Utilities",
+        "close": 114.63,
+        "change_pct": 3.74
+      },
+      {
+        "ticker": "WFC",
+        "name": "Wells Fargo",
+        "sector": "Financials",
+        "close": 84.81,
+        "change_pct": 1.36
+      },
+      {
+        "ticker": "WELL",
+        "name": "Welltower",
+        "sector": "Real Estate",
+        "close": 233.17,
+        "change_pct": 2.63
+      },
+      {
+        "ticker": "WST",
+        "name": "West Pharmaceutical Services",
+        "sector": "Health Care",
+        "close": 416.67,
+        "change_pct": 3.23
+      },
+      {
+        "ticker": "WDC",
+        "name": "Western Digital",
+        "sector": "Information Technology",
+        "close": 395.41,
+        "change_pct": -0.25
+      },
+      {
+        "ticker": "WY",
+        "name": "Weyerhaeuser",
+        "sector": "Real Estate",
+        "close": 19.75,
+        "change_pct": 2.92
+      },
+      {
+        "ticker": "WSM",
+        "name": "Williams-Sonoma, Inc.",
+        "sector": "Consumer Discretionary",
+        "close": 259.86,
+        "change_pct": 3.91
+      },
+      {
+        "ticker": "WMB",
+        "name": "Williams Companies",
+        "sector": "Energy",
+        "close": 74.88,
+        "change_pct": 0.82
+      },
+      {
+        "ticker": "WTW",
+        "name": "Willis Towers Watson",
+        "sector": "Financials",
+        "close": 320.73,
+        "change_pct": -0.28
+      },
+      {
+        "ticker": "WDAY",
+        "name": "Workday, Inc.",
+        "sector": "Information Technology",
+        "close": 195.46,
+        "change_pct": -4.36
+      },
+      {
+        "ticker": "WYNN",
+        "name": "Wynn Resorts",
+        "sector": "Consumer Discretionary",
+        "close": 74.21,
+        "change_pct": 3.96
+      },
+      {
+        "ticker": "XEL",
+        "name": "Xcel Energy",
+        "sector": "Utilities",
+        "close": 79.04,
+        "change_pct": 2.41
+      },
+      {
+        "ticker": "XYL",
+        "name": "Xylem Inc.",
+        "sector": "Industrials",
+        "close": 90.76,
+        "change_pct": 2.87
+      },
+      {
+        "ticker": "YUM",
+        "name": "Yum! Brands",
+        "sector": "Consumer Discretionary",
+        "close": 154.55,
+        "change_pct": 2.92
+      },
+      {
+        "ticker": "ZBRA",
+        "name": "Zebra Technologies",
+        "sector": "Information Technology",
+        "close": 377.38,
+        "change_pct": -1.9
+      },
+      {
+        "ticker": "ZBH",
+        "name": "Zimmer Biomet",
+        "sector": "Health Care",
+        "close": 97.47,
+        "change_pct": 1.12
+      },
+      {
+        "ticker": "ZTS",
+        "name": "Zoetis",
+        "sector": "Health Care",
+        "close": 78.8,
+        "change_pct": 1.29
+      }
+    ]
+  },
+  "movers": [
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "close": 28.2,
+      "change_pct": 15.8111,
+      "headline": "Earnings beat, raised guidance, no M&A fears",
+      "what_happened": "Gen Digital jumped nearly 16% after reporting fiscal Q2 results that topped analyst estimates on both revenue and earnings. The company also raised its full-year guidance for sales and EPS, and management clarified it is not pursuing a large acquisition, which eased investor concerns.",
+      "why": "The surge was driven by a strong earnings beat (EPS $0.74 vs $0.72 estimate, sales $1.369B vs $1.340B estimate), raised FY2027 guidance on both sales and EPS, and management's statement ruling out a 'transformative acquisition,' which removed uncertainty that had been weighing on the stock.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings beat and raise",
+        "lesson": "When a company not only beats quarterly estimates but also raises its forward guidance, the stock often jumps sharply because it signals improving fundamentals rather than a one-time surprise. Removing an overhang, like management denying a risky acquisition, can amplify the move by eliminating a specific fear investors had priced in."
+      },
+      "prediction": {
+        "call": "outperform",
+        "confidence": "medium",
+        "reasoning": "A genuine fundamental beat-and-raise plus removal of M&A uncertainty often leads to continued analyst upgrades and sustained buying interest over the following days, unlike moves driven by speculation or sentiment alone. However, after a 16% single-day pop some retracement or consolidation is possible, so confidence is only medium rather than high."
+      },
+      "sources": [
+        {
+          "headline": "Gen Digital Surges. It Kills M&A Speculation While the Cyber Boom Drives an Earnings Beat.",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=2c25772843bdcf4b5eabc1cb98390b611201482eefee80ef450524954d77b1ab"
+        },
+        {
+          "headline": "Gen Digital surges 11% on raised outlook and strong Q2 beat",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=5cf712aedd16779202df01109f51ec0890d32a0927d555257f989944a24c5a0c"
+        },
+        {
+          "headline": "GEN Q2 Earnings Beat Estimates on Financial Wellness Strength",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=b674a1c418c28c26d8fd0715e256d08912fcc96c031bae13d92d4e175b90e65a"
+        },
+        {
+          "headline": "Gen Digital Raises FY2027 Adj EPS Guidance from $2.87-$2.97 to $2.93-$2.98 vs $2.92 Est; Raises FY2027 Sales Guidance from $5.375B-$5.475B to $5.465B-$5.515B vs $5.427B Est",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=43a249a084c8ae0ea055a81bd5cded5682f0e0ece7e0e9722f3ed72d53318219"
+        },
+        {
+          "headline": "Gen Digital Q2 Adj. EPS $0.74 Beats $0.72 Estimate, Sales $1.369B Beat $1.340B Estimate",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=afd41e11b0872bd60b8b5aaf5feec8c7e3cafa21e98b64674b41c5e5f70a15fe"
+        }
+      ]
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "close": 68.31,
+      "change_pct": 15.6816,
+      "headline": "Record Q3 sales and raised guidance spark rally",
+      "what_happened": "Carvana jumped about 16% intraday and closed up 15.68% after reporting record third-quarter results, with the stock far outpacing a flat-to-down broader market. Shares had already moved higher in after-hours trading Wednesday night before extending gains through Thursday's session on heavy volume.",
+      "why": "Carvana posted record Q3 revenue of $8.04 billion (up 42% year-over-year) and record retail unit sales of 217,385 (up 39%), and management guided full-year adjusted EBITDA toward the high end of its range. Even though EPS missed analyst estimates, investors focused on the strength of unit growth, margin trajectory, and the raised EBITDA outlook, with Morgan Stanley naming it a top pick and several analysts reiterating Buy ratings despite trimming price targets.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings beat on growth, not EPS",
+        "lesson": "A stock can jump sharply even after missing EPS estimates if headline growth metrics (revenue, units sold) and forward guidance impress investors more than the bottom-line miss disappoints them. When analyzing earnings reactions, look beyond a single line item like EPS to see which metric the market is weighting most heavily that day."
+      },
+      "prediction": {
+        "call": "underperform",
+        "confidence": "low",
+        "reasoning": "After a 15.68% single-day pop driven by a well-digested earnings beat, much of the good news is likely already priced in, and several analysts trimmed price targets even while staying bullish long-term, which can cap near-term upside. Large post-earnings gap-ups also sometimes see partial mean-reversion or profit-taking over the following days, but conviction here is low since the fundamental story (record growth, raised guidance) is genuinely strong and could keep attracting buyers."
+      },
+      "sources": [
+        {
+          "headline": "Why Carvana (CVNA) stock is up today",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=566e549a79a2c70029798cbdb5cba61ba50b938e8e3e2e3e550af07a83d98682"
+        },
+        {
+          "headline": "Carvana stock jumps on strong Q3 revenue as profits climb",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=e66e947e2914222bee444dfd35244b76d887dfb8b5edab1d3995eec66fe61ce5"
+        },
+        {
+          "headline": "Carvana Analysts Slash Their Forecasts Following Q3 Earnings",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=9321976cba12c4acb1e259b36be9eeef83d92a12196d106c3526b63f0223a58d"
+        },
+        {
+          "headline": "CVNA Stock On Track For Best Day In Nearly 14 Months As Morgan Stanley Terms It Top Pick On ‘Strong’ Q3 Report",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=366cea1d3cc2f154cb0afee55633c1f24d8495a2022edc6550cc4d26f27055a6"
+        },
+        {
+          "headline": "Carvana Soars 9% on Record 217,000-Unit Quarter, Top-End EBITDA Outlook: “The Moat Is Widening”",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=557ab56dd61823ae9bb21a8b10da751504dc3f5349fc964ec12f77aa955f615b"
+        }
+      ]
+    },
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "close": 18.22,
+      "change_pct": 13.4496,
+      "headline": "Norwegian beats Q3, raises guidance on cost cuts",
+      "what_happened": "Norwegian Cruise Line jumped over 13% after reporting third-quarter results that beat Wall Street estimates on both earnings and revenue. The company raised its full-year 2026 adjusted EPS guidance from $1.50 to $1.70, well above the $1.54 analysts expected, citing cost efficiency and stronger-than-expected close-in bookings.",
+      "why": "The move was driven by a beat-and-raise earnings report: Q3 GAAP EPS of $1.07 topped estimates by over 20%, and management lifted full-year guidance on the back of cost cuts and improved late-cycle demand, even though ticket revenue and 2027 bookings showed some softness.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings beat-and-raise",
+        "lesson": "When a company not only beats quarterly estimates but also raises its forward guidance, the stock often jumps sharply because investors revise their future profit expectations upward, not just react to the past quarter's results. The size of the move often depends on how low expectations were beforehand — a beaten-down stock like NCLH (down over 40% in 5 years) can snap back hard on good news."
+      },
+      "prediction": {
+        "call": "outperform",
+        "confidence": "low",
+        "reasoning": "The strong beat-and-raise and positive 2027 commentary could sustain short-term momentum, but cautionary notes (falling ticket revenue, soft 2027 bookings, CFO transition) add uncertainty. Over 5 days, post-earnings drift could continue modestly in NCLH's favor versus SPY, but confidence is low given the stock's volatility and mixed underlying details."
+      },
+      "sources": [
+        {
+          "headline": "Norwegian shares surge 13% on earnings beat, guidance raise",
+          "source": "CNBC",
+          "url": "https://finnhub.io/api/news?id=214358685426bebfbdf9dc897c70e6add9cea1bd2c6487c0965cef864f26e271"
+        },
+        {
+          "headline": "Norwegian Cruise Line Soars 11% on Raised Guidance as CEO Sees “Meaningful Acceleration” in 2027",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=84cc0e2d3d7de49c52ec097ec2937d601ea5c10d503286453cea1d8e803102cf"
+        },
+        {
+          "headline": "Norwegian Cruise Line Raises FY2026 Adj EPS Guidance from $1.50 to $1.70 vs $1.54 Est",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=229c6aff37f13d7b9eed050bb7e9db4b251a56bd04f29f0dd6d264d8db0db043"
+        },
+        {
+          "headline": "Norwegian Cruise Line Stock Jumps as Passenger Spending Leaves Fuel Costs Astern",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=7fc6d4da61230565fce16d156956747ea8062e24072a36e71b5f9ab94a5a4e22"
+        }
+      ]
+    },
+    {
+      "ticker": "HII",
+      "name": "Huntington Ingalls Industries",
+      "sector": "Industrials",
+      "close": 316.21,
+      "change_pct": 13.2314,
+      "headline": "Huge earnings beat, raised guidance send HII soaring",
+      "what_happened": "Huntington Ingalls jumped over 13% after reporting record third-quarter revenue and EPS that blew past Wall Street estimates. The company also raised its full-year shipbuilding revenue guidance and reported $32.4 billion in new contract awards, including a backlog that now covers roughly 90% of shipbuilding revenue through 2030.",
+      "why": "Q3 EPS of $5.48 beat the $4.42 estimate by nearly 24%, revenue of $3.54 billion topped expectations, and management raised FY26 sales and shipbuilding revenue guidance while highlighting record contract awards. This combination of a strong beat plus raised guidance and secured long-term backlog reassured investors about the defense contractor's growth trajectory.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings beat and raise",
+        "lesson": "When a company not only beats quarterly earnings and revenue estimates but also raises its forward guidance, the stock often reacts far more strongly than from the beat alone, because it signals improving fundamentals are expected to continue, not just a one-time surprise. Always check whether a big earnings-day move includes a guidance change, not just the historical numbers."
+      },
+      "prediction": {
+        "call": "outperform",
+        "confidence": "medium",
+        "reasoning": "A 13% single-day jump on a strong beat-and-raise with a long secured backlog (90% of shipbuilding revenue through 2030) suggests durable positive sentiment that often persists for several days as analysts upgrade price targets post-earnings. Some mean-reversion/profit-taking risk exists after such a large move, but the fundamental re-rating argument favors continued relative strength versus SPY over the next 5 trading days."
+      },
+      "sources": [
+        {
+          "headline": "HII Reports Third Quarter 2026 Results",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=4b5a64e5aba8ec2e4d584b0537df51945118e21e2087413e3ef2c529c8df2f8f"
+        },
+        {
+          "headline": "Huntington Ingalls Indus Q3 EPS $5.48 Beats $4.42 Estimate, Sales $3.537B Beat $3.376B Estimate",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=475e50a2245896096d5ecb4f5fc44e27fe35cc7f2333343f254ef264265bae77"
+        },
+        {
+          "headline": "Huntington Ingalls Indus Raises FY2026 Sales Guidance from $13.200B-$13.600B to $13.500B-$13.900B vs $13.387B Est",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=fb6f8861a4503bcc817ff5103e68bb0c495222aa92e7eae1e4ef8f6e1b52f421"
+        },
+        {
+          "headline": "Huntington Ingalls Soars 11% on Earnings Beat: “Approximately 90 Percent” of Shipbuilding Revenue Secured Through 2030",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=62efb83a253e6514669768a966f49e0ba485c6f4189d134e43f908ec3f358430"
+        },
+        {
+          "headline": "Huntington Ingalls Rallies. Shipbuilding, Sea Drone Demand Drives Q3 Beat.",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=527f2fd467d025ae3105a085b306978ccec77b293525d693b68ce4a91359d30d"
+        }
+      ]
+    },
+    {
+      "ticker": "TXT",
+      "name": "Textron",
+      "sector": "Industrials",
+      "close": 87.46,
+      "change_pct": 11.6701,
+      "headline": "Textron jumps on Q3 earnings beat, raised guidance",
+      "what_happened": "Textron shares surged about 12% after the company reported Q3 2026 earnings well above expectations and raised its full-year EPS and cash flow outlook. The stock gapped up at the open and held gains through the session while the broader S&P 500 slipped slightly.",
+      "why": "Textron posted non-GAAP EPS of $1.76, beating consensus of $1.43 by over 23%, driven by strong Textron Aviation deliveries and Textron Systems performance. The company raised FY2026 adjusted EPS guidance to $6.55-$6.65 (from $6.40-$6.60) and GAAP EPS guidance to $5.64-$5.74, both above analyst estimates, while also lifting its cash flow outlook.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings beat and raise",
+        "lesson": "When a company not only beats quarterly estimates but also raises its forward guidance above what analysts expected, the stock often jumps sharply because investors are repricing future earnings, not just celebrating the past quarter. The bigger the 'raise' relative to prior guidance and consensus, the bigger the typical reaction, since guidance shapes expectations for many quarters ahead."
+      },
+      "prediction": {
+        "call": "outperform",
+        "confidence": "medium",
+        "reasoning": "A strong beat-and-raise quarter with guidance now above consensus often leads to positive analyst estimate revisions and sustained buying interest in the days following the print, which could help TXT outperform SPY over the next 5 trading days. Confidence is medium because large single-day pops can also see some mean reversion or profit-taking, and the broader market/defense-aerospace sector sentiment could offset company-specific momentum."
+      },
+      "sources": [
+        {
+          "headline": "Textron Stock Is Up 12.2% What's Changed After Raised Guidance",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=251a96a3b5000b39111cd7898b693e2693885412838f40469c13127c11b17eca"
+        },
+        {
+          "headline": "Textron (TXT) shares skyrocket, what you need to know",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=689ef4e9a633a4f458518a3f5b1e8dcf15281c72806c503eaecece15afe4bbaa"
+        },
+        {
+          "headline": "Textron Q3 Earnings Outpace Estimates, Revenues Increase Y/Y",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=b09a95cd0915b29c4751f6c77ad6c217d1049e11cd62181501340bc24f765de5"
+        },
+        {
+          "headline": "Textron Raises FY2026 Adj EPS Guidance from $6.40-$6.60 to $6.55-$6.65 vs $6.44 Est",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=329dfae45bd0f6397dfdd681dc16c279016dc3b8c6eab6b54df981b846d2a158"
+        },
+        {
+          "headline": "Textron Raises FY2026 GAAP EPS Guidance from $5.39-$5.59 to $5.64-$5.74 vs $5.58 Est",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=cf7699b0d7428f07d26757757f16c138ce3ef8e3fb351ea03892b0e419c443b7"
+        },
+        {
+          "headline": "Textron Q3 Adj. EPS $1.76 Beats $1.43 Estimate, Sales $3.751B Miss $3.768B Estimate",
+          "source": "Benzinga",
+          "url": "https://finnhub.io/api/news?id=3f59b0d74af9372ef5e222b62aba5770714673333e5ba28425a612ff3266aaf8"
+        }
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "close": 109.67,
+      "change_pct": -26.95,
+      "headline": "ServiceNow crashes 27% on weak backlog guidance",
+      "what_happened": "ServiceNow reported Q3 earnings that beat revenue estimates but missed on adjusted EPS, and raised its full-year AI target. Despite the beat-and-raise, the stock cratered nearly 27%, its worst single-day drop in over 14 years, after guidance implied decelerating current remaining performance obligations (cRPO) growth into Q4.",
+      "why": "The sell-off was driven by ServiceNow guiding Q4 cRPO (a key backlog/bookings growth measure) to decelerate to around 18.5%, reigniting investor fears that AI disruption could be eroding software seat growth even as the company touts AI revenue gains. The miss on adjusted EPS added to the disappointment, and the news dragged down peers like Salesforce, Workday, SAP, and Fortinet (which also reported weak results the same day), signaling a broader re-rating of enterprise software stocks amid AI uncertainty.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Guidance-driven selloff",
+        "lesson": "A company can beat on revenue and even raise some targets, yet still see its stock crash if a key forward-looking metric (like backlog or next-quarter guidance) disappoints. Markets price in expectations about the future, not just past results, so always check what a company says about what's coming next, not just what it already delivered."
+      },
+      "prediction": {
+        "call": "underperform",
+        "confidence": "low",
+        "reasoning": "A 27% single-day drop reflects a serious re-rating of growth expectations, and historically such sharp guidance-driven selloffs in software names can see continued volatility or further downgrades in the following days as analysts revise models, even if some firms (like Piper Sandler) see long-term upside. Peer stocks (Salesforce, Workday, SAP) also fell, suggesting sector-wide pressure that could persist short-term. However, some analysts already flagged undervaluation, which could support a bounce, hence low confidence."
+      },
+      "sources": [
+        {
+          "headline": "Why ServiceNow (NOW) stock is nosediving",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=26a127357dca72e661ac49ed3aedd35644f4cc6bb29b63b5835aab6b9e1ea148"
+        },
+        {
+          "headline": "ServiceNow Guides to Slower Backlog Growth: Rapid Earnings Reaction",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a261edadede1f997b269e840ac72f30020c95c113647a6f1a30f881dc824627b"
+        },
+        {
+          "headline": "ServiceNow Sinks 19% on EPS Miss and Slower Backlog Outlook Despite “Unicorn Growth Company” Pitch",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=82a68c01b51a2cdaf52b81d061f9f96077154dbaadc8762780ee0c23702b1ba2"
+        },
+        {
+          "headline": "ServiceNow Tumbles 19% as Slower Contract Growth Overshadows Raised AI Target; Salesforce Slides 6%, Workday Drops 5%",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=216e98f449998139a95426aa4125351f48ec0ae87aad858a07c46fedf046c7ee"
+        },
+        {
+          "headline": "NOW Stock On Track To Post Worst Single-Day Performance In Over 14 Years — Analysts See AI Upside Despite Slowing Growth",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=ce7df5cfa9fed0aa1441236826e36f2aeadbf3fc5d1094f986bd96efb4438114"
+        }
+      ]
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "close": 139.1,
+      "change_pct": -20.0942,
+      "headline": "Fortinet plunges 20% despite earnings beat",
+      "what_happened": "Fortinet reported Q3 revenue, billings and earnings that beat estimates and raised full-year 2026 revenue guidance, yet the stock cratered over 20%, its worst day in years. The sell-off dragged down peers like Palo Alto Networks, CrowdStrike and Zscaler as well as other software names like ServiceNow and F5.",
+      "why": "Investors focused on a cut to the full-year services revenue forecast and signs of slowing product growth (37% vs prior quarters), which analysts like BofA flagged as a 'disappointing slowdown' that overshadowed the headline beat-and-raise. After a stock up over 100% YTD, the market punished any sign of decelerating growth, especially after F5 saw a similar 20% drop a day earlier on soft guidance, suggesting a broader shift where Wall Street is no longer rewarding AI/software beats unless forward metrics are flawless.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Buy the rumor, sell the news",
+        "lesson": "When a stock has rallied hard (FTNT was up over 100% YTD), expectations get priced in so high that even a genuine beat-and-raise quarter isn't enough — the market instead zeroes in on any soft spot in the details (here, a services revenue forecast cut and slowing product growth) and sells hard. Always check what the market had already priced in before assuming 'good numbers' will move a stock up."
+      },
+      "prediction": {
+        "call": "underperform",
+        "confidence": "low",
+        "reasoning": "A 20%+ single-day drop on a guidance nuance often triggers a few days of continued uncertainty and analyst downgrades as the Street digests the services slowdown, and sector-wide skepticism toward software/AI names (seen also in ServiceNow, F5) could keep pressure on FTNT. However, the stock could also stabilize or bounce after such a sharp overreaction since fundamentals (raised full-year guidance) were still positive, so confidence is low."
+      },
+      "sources": [
+        {
+          "headline": "Fortinet shares plunge 23% despite higher revenue outlook as service growth disappoints",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=cded6c1c934630ea43b54f4d70891f290ad5777807904d71ea2c2b874f2dc75a"
+        },
+        {
+          "headline": "Fortinet's Q3 Results Show Disappointing Slowdown Amid Tight Supply, BofA Says",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=f7611f5f8aeb2b0463e3870a29de01065a73450173a7aac86a594a4c7c1474b3"
+        },
+        {
+          "headline": "Fortinet Tumbles 20% as Service Revenue Forecast Cut Overshadows Beat; Palo Alto Drops 5%, CrowdStrike Falls 4%",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=3060da13bf27c3b6718ff99e6518eab9930495eac708ce5e0443bbbb9548639f"
+        },
+        {
+          "headline": "Fortinet Sinks 20% Despite Q3 Beat and Raise as BofA Flags “Disappointing Slowdown”",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=3cc916f51fa51d13f27ee7d0840120dc64e381f648083e400f68e9d531d1983e"
+        },
+        {
+          "headline": "First F5, Now Fortinet: Wall Street Has Stopped Paying Security Stocks for Beating Earnings",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=f22f601eca1d35f832d388e7a759dffdd484f0f4999a30d1fd286fdaa9209973"
+        }
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "close": 218.34,
+      "change_pct": -13.2366,
+      "headline": "Marvell plunges on reported $83B Lumentum takeover talks",
+      "what_happened": "Marvell Technology shares dropped about 13% after Bloomberg reported it was in advanced talks to acquire optical components maker Lumentum Holdings. The decline came alongside a broader tech selloff triggered by Alphabet's earnings miss, but Marvell's drop was far steeper than the market or its chip peers.",
+      "why": "Investors reacted negatively to reports that Marvell is near a deal to buy Lumentum, an optics supplier worth roughly a third of Marvell's market cap, likely financed with a large amount of new Marvell stock. The market worried about dilution, deal price, and integration risk even though the acquisition would bolster Marvell's AI data center optics capabilities.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Acquirer sell-off",
+        "lesson": "When a company announces or is reported to be pursuing a large acquisition, its stock often falls even if the deal is strategically sound. Investors worry about overpaying, taking on debt, issuing dilutive new shares, and the risk that integration won't go smoothly. Meanwhile the target company's stock usually rises toward the expected buyout price. This pattern repeats across many M&A situations, so a stock dropping on 'we're buying X' news is a classic, predictable reaction worth recognizing rather than panicking over."
+      },
+      "prediction": {
+        "call": "underperform",
+        "confidence": "low",
+        "reasoning": "The stock fell sharply on deal uncertainty and dilution fears, and these concerns (financing structure, premium paid, regulatory review) are unlikely to be resolved within 5 trading days, which could keep pressure on shares or produce continued volatility as more details emerge. However, a denial, a renegotiated/smaller deal, or a market-wide tech rebound could reverse much of the move quickly, so confidence is low."
+      },
+      "sources": [
+        {
+          "headline": "Marvell’s $80 Billion AI Megadeal Has Wall Street Asking: Is This the Dot-Com Bubble All Over Again?",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=663b019c7805ebb6d9339eca0218d1732db526f28ed6795fd86d0a112628013a"
+        },
+        {
+          "headline": "Marvell Sinks 12% as Investors Balk at Reported Lumentum Megadeal Talks",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=9ae983801c6f31cc0896b58690adfb58701729ea785a91ffea666c3a33db73a7"
+        },
+        {
+          "headline": "Why Marvell Stock Is Down Today",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a65fdb921916510ae2a39ce1b1ebb7f9a009565140a8a6c1e0d3bea61dcbb04b"
+        },
+        {
+          "headline": "Marvell Is in Talks to Buy an $83 Billion AI Laser Maker",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=1a7445c91436c650f9b57b0e477c3fac0695924e9d5010f627ba3328965d43da"
+        },
+        {
+          "headline": "Marvell shares slide on reported Lumentum deal talks",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=029fe96e9a916be0aa883c780b756477352cb434f830ab8554afc2078ecffcaa"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "close": 283.82,
+      "change_pct": -12.6412,
+      "headline": "Alphabet's worst day ever on AI spending fears",
+      "what_happened": "Alphabet shares plunged over 12%, their largest single-day drop on record, wiping out nearly $500 billion in market value. The sell-off came despite 25% revenue growth and dragged down the broader Nasdaq and S&P 500.",
+      "why": "Alphabet reported Q3 earnings showing slowing Search advertising growth, negative free cash flow for a second straight quarter, and soaring AI-related capital spending. Investors reacted negatively to the combination of a profit miss and ballooning AI infrastructure costs even though Google Cloud revenue more than doubled, fearing the AI spending spree isn't yet paying off.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings reaction vs. headline growth",
+        "lesson": "A company can post strong top-line growth (here, 25% revenue growth) and still see its stock crash if investors focus on other signals, like deteriorating cash flow or spending that outpaces returns. Markets price in expectations, not just absolute numbers, so always check what estimates and cash flow trends looked like, not just whether revenue grew."
+      },
+      "prediction": {
+        "call": "underperform",
+        "confidence": "low",
+        "reasoning": "A 12%+ drop of this magnitude often triggers continued uncertainty and volatility as analysts digest AI capex and cash flow concerns, and the negative sentiment spilled into other mega-cap tech (Amazon, chips) the same week, suggesting a sector-wide re-rating rather than an isolated event. However, some analysts (SeekingAlpha bulls) argue the sell-off is overdone given strong Cloud growth, so a bounce-back is possible, keeping confidence low."
+      },
+      "sources": [
+        {
+          "headline": "Google parent Alphabet suffers nearly $500B Wall Street wipeout amid AI spending fears",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=81cc62ad10d477fe7f562b95ec233e254dea9bfddfb4a4e95c74d00966910ab3"
+        },
+        {
+          "headline": "Shares of Google’s parent company just had their worst day ever. Here’s what it means",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=1a0a8e1c703829f47e2560ffe41951685eb3ead3ccb1a3e8e2ff3567ad0fe9c3"
+        },
+        {
+          "headline": "Alphabet Stock Drops 12%. Can Its Dividend Survive the AI Spending Boom?",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a48bac82993089a9c7bd07a76a98baa63d00ba76c96938c09605284d54b79d3c"
+        },
+        {
+          "headline": "Alphabet's Cloud Business Just Doubled. The Stock Fell 12%. Is it a Buy?",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a7fe0e9b5474e1158ef51f09c3a7d9d1e00ff75ab27c7615d49b3da62bbffc5b"
+        },
+        {
+          "headline": "Google owner Alphabet reports 25% revenue growth in Q3 2026",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=ef5fe0e1a73cef2f5fac4d356505db462e7f90881f2264abf3a6c9825ae1ad1c"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "close": 282.32,
+      "change_pct": -12.293,
+      "headline": "Alphabet crashes record 12% on AI spending fears",
+      "what_happened": "Alphabet shares fell more than 12%, their worst single-day drop on record, erasing roughly $500 billion in market value. The decline came despite the company reporting 25% revenue growth and a doubling of Google Cloud revenue in its third-quarter results.",
+      "why": "Investors were spooked by Alphabet's massive AI capital spending, which pushed free cash flow negative for a second straight quarter, and by slowing Search advertising growth amid rising competition. Even strong cloud growth and overall revenue beats couldn't offset concerns that AI infrastructure costs are outpacing returns, and the selloff dragged down other tech stocks like Amazon that reported AI-heavy results the same week.",
+      "no_clear_news": false,
+      "concept": {
+        "name": "Earnings reaction vs. fundamentals",
+        "lesson": "A stock can drop sharply even after reporting strong headline growth if investors focus on a specific worry—here, negative free cash flow from AI spending and slowing ad growth. Markets price in expectations, not just absolute results, so the reaction to earnings depends on which numbers investors decide matter most that day."
+      },
+      "prediction": {
+        "call": "underperform",
+        "confidence": "low",
+        "reasoning": "A record one-day drop of this magnitude often sees continued volatility and cautious sentiment in the days following as analysts digest the cash flow concerns and the market reassesses AI capex across the sector (Amazon also fell on similar worries). However, several analysts (SeekingAlpha pieces) argue the selloff is overdone given strong cloud growth, which could support a bounce. Given the mixed signals, this is a low-confidence call that GOOG underperforms SPY over the next 5 trading days as the market continues to digest AI spending concerns."
+      },
+      "sources": [
+        {
+          "headline": "Google parent Alphabet suffers nearly $500B Wall Street wipeout amid AI spending fears",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=81cc62ad10d477fe7f562b95ec233e254dea9bfddfb4a4e95c74d00966910ab3"
+        },
+        {
+          "headline": "Shares of Google’s parent company just had their worst day ever. Here’s what it means",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=1a0a8e1c703829f47e2560ffe41951685eb3ead3ccb1a3e8e2ff3567ad0fe9c3"
+        },
+        {
+          "headline": "Alphabet Stock Drops 12%. Can Its Dividend Survive the AI Spending Boom?",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a48bac82993089a9c7bd07a76a98baa63d00ba76c96938c09605284d54b79d3c"
+        },
+        {
+          "headline": "Alphabet's Cloud Business Just Doubled. The Stock Fell 12%. Is it a Buy?",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=a7fe0e9b5474e1158ef51f09c3a7d9d1e00ff75ab27c7615d49b3da62bbffc5b"
+        },
+        {
+          "headline": "Google owner Alphabet reports 25% revenue growth in Q3 2026",
+          "source": "Yahoo",
+          "url": "https://finnhub.io/api/news?id=ef5fe0e1a73cef2f5fac4d356505db462e7f90881f2264abf3a6c9825ae1ad1c"
+        }
+      ]
+    }
+  ],
+  "resolved": [
+    "2026-10-22:ALLE",
+    "2026-10-22:PSKY",
+    "2026-10-22:ROP",
+    "2026-10-22:LEN",
+    "2026-10-22:BX",
+    "2026-10-22:MRNA",
+    "2026-10-22:COHR",
+    "2026-10-22:LRCX",
+    "2026-10-22:LITE",
+    "2026-10-22:FLEX"
+  ]
+}
