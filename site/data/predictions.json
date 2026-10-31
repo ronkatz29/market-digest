@@ -3220,7 +3220,15 @@
     "confidence": "low",
     "reasoning": "The SpaceX tower-leasing story is a real potential long-term tailwind for Crown Castle, reinforced by better-than-expected Q3 results and raised guidance, plus fresh bullish analyst price target increases. This could keep momentum and analyst upgrades flowing in the near term. However, after a 9% one-day pop, some profit-taking or reversal is possible if deal details disappoint or talks stall, which creates meaningful two-sided risk, hence low confidence. Check if CCI holds gains or partially reverses over the next week relative to SPY.",
     "concept": "Speculative catalyst re-rating",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 88.69,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 3.16,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 3.72,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-23:CRWD",
@@ -3233,7 +3241,15 @@
     "confidence": "low",
     "reasoning": "CrowdStrike has multiple positive catalysts converging (Evercore demand survey, NVIDIA partnership expansion, acquisition talk, analyst price target hikes like Mizuho's to $275), which could sustain momentum over the next week. However, an 8% single-day pop on sector-wide sentiment rather than company-specific fundamentals carries reversal risk if the rally proves to be short-lived profit-taking fodder. Check SPY-relative performance over the next 5 trading days to see if the move holds.",
     "concept": "Sector-wide sentiment rally",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 250.43,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": -2.77,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": -2.21,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:PANW",
@@ -3246,7 +3262,15 @@
     "confidence": "low",
     "reasoning": "The move is driven by a positive demand survey and sector tailwinds (PHP vulnerability, AI security spending) rather than company-specific fundamentals, so momentum could continue short-term if cybersecurity sentiment holds, but a sentiment-driven rally across a whole sector can reverse quickly if broader tech/risk appetite sours, as seen with Cloudflare's prior volatility. Check whether PANW retains gains relative to SPY over the next week.",
     "concept": "Sector-wide sentiment rally",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 365.87,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": -3.86,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": -3.3,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:SLB",
@@ -3259,7 +3283,15 @@
     "confidence": "low",
     "reasoning": "A 7% single-day pop on an earnings beat often has a quick give-back as momentum fades and initial excitement about the AI/data-center narrative gets scrutinized; also note some premarket coverage said the move seemed modest at first (up only ~0.9%) before accelerating, suggesting some of the move could be an overreaction. However, if the data-center narrative sticks, it could continue to outperform, so confidence is low.",
     "concept": "Earnings beat with narrative shift",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 53.74,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 1.28,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 1.84,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:HAL",
@@ -3272,7 +3304,15 @@
     "confidence": "low",
     "reasoning": "Halliburton has multiple analyst price-target raises (Jefferies $48, Barclays $51, RBC $46) and bullish 2027 margin guidance (~15% operating margin) still being digested, plus a tailwind from elevated oil/diesel prices tied to Middle East supply risk. If crude stays elevated and energy sentiment holds, HAL could keep outperforming SPY over the next week, but the stock has already shown volatility (down then up sharply) around earnings, and a reversal in oil prices or profit-taking could quickly flip this, hence low confidence.",
     "concept": "Sector tailwind",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 36.17,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 3.58,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 4.14,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-23:BE",
@@ -3285,7 +3325,15 @@
     "confidence": "low",
     "reasoning": "The sharp, large-volume move reflects real investor concern about cash burn and capital intensity, not just noise, and the stock is now caught in a broader 'AI capex' rotation out of richly valued infrastructure names. However, multiple analysts (Morgan Stanley, RBC, Bernstein) maintained bullish ratings and raised price targets after the print, suggesting underlying fundamentals remain strong, which could support a bounce. Given the mixed signals, I lean toward underperformance over the next 5 days as the market digests cash-flow concerns, but with low confidence given analyst support and already elevated volatility.",
     "concept": "Sell the news",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 203.17,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 5.11,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 5.67,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:FIX",
@@ -3298,7 +3346,15 @@
     "confidence": "low",
     "reasoning": "The sell-off combines sector-wide AI-infrastructure sentiment reversal (also hitting Bloom Energy and other data-center plays) with company-specific uncertainty from the CFO transition and lack of guidance. If the AI capex/data-center theme stays out of favor over the next week, FIX could continue to underperform; but the underlying fundamentals (record backlog, beat on all metrics) could support a bounce-back if sentiment stabilizes, making this a genuinely uncertain call. Check whether backlog-driven name peers recover or continue falling over the next 5 days.",
     "concept": "Sell the news",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 1232.66,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 6.19,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 6.74,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:GL",
@@ -3311,7 +3367,15 @@
     "confidence": "low",
     "reasoning": "The stock dropped sharply on a credible downgrade tied to deteriorating underwriting fundamentals (claims severity, guidance cuts) rather than a one-off event, suggesting further caution from investors. However, the stock's low starting valuation (P/E near 11) and a competing Buy rating from TD Cowen at $215 create some support, so the move could stabilize. Check GL's price relative to SPY over the next 5 trading days to see if the negative sentiment persists or if bargain hunters step in.",
     "concept": "Analyst downgrade",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 159.08,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 2.77,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 3.33,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:T",
@@ -3324,7 +3388,15 @@
     "confidence": "low",
     "reasoning": "The SpaceX competitive threat narrative could continue to weigh on sentiment in the near term, and a nearly 8% single-day drop often sees some further drift as analysts digest the implications, though AT&T's actual earnings beat and raised guidance provide some support. Check AT&T's 5-day price relative to SPY from 2026-10-23 close to confirm whether the stock stabilized or kept sliding on follow-up SpaceX coverage.",
     "concept": "Competitive threat repricing",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 21.41,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 2.29,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 2.85,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-23:TMUS",
@@ -3337,7 +3409,15 @@
     "confidence": "low",
     "reasoning": "The SpaceX competitive threat is a multi-year overhang rather than an immediate earnings hit, and the stock already dropped sharply in one day reflecting most of the near-term fear. However, T-Mobile also has Q3 earnings coming up shortly which could add volatility, and the SpaceX headline risk may continue to pressure sentiment in the short term. If the stock stabilizes or earnings beat, it could recover some losses, but residual overhang makes a bounce back to outperforming SPY over 5 days less likely than continued underperformance or chop.",
     "concept": "Competitive threat repricing",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-10-30",
+    "exit_close": 156.44,
+    "benchmark_exit_close": 755.72,
+    "stock_return_pct": 6.76,
+    "benchmark_return_pct": -0.56,
+    "excess_return_pct": 7.32,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:LITE",
