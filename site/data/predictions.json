@@ -3430,7 +3430,15 @@
     "confidence": "low",
     "reasoning": "The stock is riding a strong AI-optics demand narrative into its November 4 earnings report, and multiple catalysts (StoneX upgrade, Super Micro's forecast hike, broader AI capex optimism) are reinforcing bullish sentiment in the near term. However, one SeekingAlpha article cautions that 'sold out' doesn't mean scalable, and the stock already rallied sharply, raising reversal risk if earnings disappoint or if this is a short covering bounce after a rough month. Given the binary earnings event inside the 5-day window and recent volatility (16% drop the prior week), confidence is low.",
     "concept": "Analyst rating catalyst",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 684.4,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": -16.34,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": -14.61,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:FIX",
@@ -3443,7 +3451,15 @@
     "confidence": "low",
     "reasoning": "The rebound was driven by analyst reaffirmation of a strong fundamental story (record backlog, data center demand) after what multiple sources called an overreaction. This could continue short-term as sentiment stabilizes, but the stock remains volatile (swung ~9% down then ~9% up within days) and tied to AI/data-center capex sentiment, which could reverse quickly. Check FIX vs SPY over the next 5 trading days to see if the bounce held or faded.",
     "concept": "Sell-the-news reversal",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 1200.14,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": -3.54,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": -1.81,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:P",
@@ -3456,7 +3472,15 @@
     "confidence": "low",
     "reasoning": "A 6.49% single-day pop without a clear fresh catalyst often reflects momentum/theme-chasing that can partially reverse or stall once the excitement fades. With no concrete new fundamental driver (the hyperscaler/flash storage article predates the move by days), there's a reasonable chance of mean reversion relative to SPY over the next 5 trading days, though confidence is low given the lack of clear causal evidence either way.",
     "concept": "Sector momentum",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 113.78,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": -13.36,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": -11.63,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-26:COHR",
@@ -3469,7 +3493,15 @@
     "confidence": "low",
     "reasoning": "The rally was driven by a single new analyst initiation rather than company-specific fundamental news, and Coherent still faces underlying concerns about AI funding delays affecting order timing (per the Oct 25 article). Single-analyst-driven sector pops in volatile AI-adjacent names often partially reverse within a week if no confirming news follows. Check COHR vs SPY performance over the next 5 trading days to see if the gain holds or fades.",
     "concept": "Analyst initiation rally",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 199.95,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": -9.73,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": -8.0,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-26:SNPS",
@@ -3482,7 +3514,15 @@
     "confidence": "low",
     "reasoning": "The credit upgrade and AI-driven analyst day optimism could continue to support buying interest in the near term, and SNPS has strong momentum. However, a single-day pop on a ratings upgrade often doesn't sustain multi-day outperformance without further catalysts, so confidence is low. Check SNPS vs SPY performance over the next 5 trading days to see if the move holds.",
     "concept": "Credit rating upgrade",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 466.08,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": 2.59,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": 4.32,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-26:FICO",
@@ -3495,7 +3535,15 @@
     "confidence": "medium",
     "reasoning": "The selloff reflects a structural concern (regulatory pressure on pricing power and competitive threat from VantageScore) rather than a one-off event, and a sell-side downgrade reinforces the negative narrative. Such repricing of a growth/moat story tends to see continued weakness or at least underperformance versus the index over the following days as investors digest the implications ahead of FICO's upcoming earnings report. Confidence is medium because a single-day 13%+ drop sometimes sees a partial bounce if the market decides the reaction was overdone.",
     "concept": "Growth expectations reset",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 724.19,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": 2.28,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": 4.01,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:DASH",
@@ -3508,7 +3556,15 @@
     "confidence": "low",
     "reasoning": "The stock dropped sharply on acquisition talk uncertainty, and if the Instacart deal is finalized at a $17B price tag, further scrutiny over valuation and integration costs could keep pressure on DASH over the next week. However, if talks fall apart or terms are seen as attractive, shares could quickly rebound, so confidence is low given the binary nature of the deal outcome.",
     "concept": "Acquirer sell-off",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 190.07,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": 12.84,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": 14.58,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:CHTR",
@@ -3521,7 +3577,15 @@
     "confidence": "low",
     "reasoning": "Charter is in a competitive cable/broadband sector facing subscriber pressure (as hinted by the Cox-related Spectrum article) and a near 6% single-day drop often reflects a fundamental concern (such as weak guidance or subscriber metrics) that can continue to weigh on sentiment in the short term. However, without a clear confirmed catalyst, this is a low-confidence call; a large one-day drop can also mark an overreaction that partially reverses, which would favor outperformance instead.",
     "concept": "Idiosyncratic move",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 115.54,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": 13.07,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": 14.81,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:NVR",
@@ -3534,7 +3598,15 @@
     "confidence": "low",
     "reasoning": "The combination of a genuine earnings miss and a fresh sell-side downgrade (BofA to Underperform, cutting price target) suggests sentiment has turned negative and homebuilder-specific headwinds (demand, margins) are fresh in investors' minds, which could weigh on the stock over the next week. However, NVR already dropped sharply in one day, so some of the bad news may be priced in, and housing stocks can be volatile/mean-reverting after single-stock news. Confidence is low given the mixed signals (UBS staying Neutral with a higher target vs BofA's bearish downgrade).",
     "concept": "Earnings miss",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 6265.1,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": 9.38,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": 11.11,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-26:RDDT",
@@ -3547,7 +3619,15 @@
     "confidence": "low",
     "reasoning": "Reddit reports earnings on Oct 29, within the 5-day window, so the stock's relative performance will likely hinge on that report rather than the pre-earnings jitters captured here. Given the stock sold off hard into earnings on growth-guidance fears, there's a real chance of a volatile post-earnings move either way, but the weight of recent sentiment (slowing DAU growth, cautious guidance expectations) tilts risk to the downside versus the S&P 500. Confidence is low because earnings reactions are inherently unpredictable and could easily reverse this call.",
     "concept": "Pre-earnings anxiety",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-02",
+    "exit_close": 90.97,
+    "benchmark_exit_close": 752.1,
+    "stock_return_pct": -34.29,
+    "benchmark_return_pct": -1.73,
+    "excess_return_pct": -32.56,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-27:PNR",
