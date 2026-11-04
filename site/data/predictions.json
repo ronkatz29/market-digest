@@ -3640,7 +3640,15 @@
     "confidence": "low",
     "reasoning": "The sharp post-earnings pop was driven by a genuine EPS beat, raised sales guidance, and a new AI-data-center-cooling narrative, which could continue attracting momentum buyers in the short term. However, after a 12.8% single-day jump, some mean reversion or profit-taking is also plausible, so confidence is low; check PNR vs SPY performance over the next 5 trading days to see whether the move extends or fades.",
     "concept": "Earnings beat relief rally",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 69.73,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": 11.94,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 13.93,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-27:FLEX",
@@ -3653,7 +3661,15 @@
     "confidence": "low",
     "reasoning": "An 8% earnings-driven pop often carries some short-term momentum as analysts digest results and may raise estimates, but much of the move is likely already priced in by the close. Confidence is low because specific guidance details and analyst reaction (beyond one lowered price target) aren't available in these articles, and single-day earnings pops can also partially reverse.",
     "concept": "Earnings surprise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 88.1,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": 5.7,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 7.69,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-27:DELL",
@@ -3666,7 +3682,15 @@
     "confidence": "low",
     "reasoning": "The rebound reflects both a relief bounce from oversold levels and a positive company-specific catalyst (new AI security/PC products), set against a backdrop of strong AI infrastructure demand (reported $95B backlog) that bulls argue justifies the stock. However, the unresolved Barclays downgrade concern about memory-price-driven rather than demand-driven revenue growth could resurface and cap gains. Given the stock's recent extreme volatility (down 21% then up 7.5% in days), near-term direction is hard to call with confidence, so I lean toward continued outperformance on momentum but with low conviction.",
     "concept": "Oversold bounce",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 408.4,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": -18.64,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": -16.65,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-27:SMCI",
@@ -3679,7 +3703,15 @@
     "confidence": "low",
     "reasoning": "SMCI has had a multi-day rally driven by a strong preliminary Q1 revenue beat, Wedbush's positive comments, and now the Argentum AI financing news, all pointing to robust near-term demand sentiment in AI infrastructure. However, SMCI is a historically volatile, high-beta stock prone to sharp reversals, and much of the good news may already be priced in after a 7%+ one-day pop. Check whether SMCI closes above or below SPY's return over the next 5 trading days; if no further catalysts emerge, some give-back of today's gain is plausible, but the underlying momentum narrative favors continued relative strength.",
     "concept": "Narrative-driven momentum",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 31.39,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": -10.54,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": -8.56,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-27:BE",
@@ -3692,7 +3724,15 @@
     "confidence": "low",
     "reasoning": "BE has now rallied roughly 18% over two sessions after a sharp post-earnings drop, and at least one analyst (SeekingAlpha) just issued a Sell rating citing inflated demand assumptions and unsustainable unit economics, while Morningstar has the stock under review. After such a fast bounce, some give-back or consolidation is common, especially since the underlying cash-flow concerns from the Q3 report haven't been resolved. Check SPY's 5-day return against BE's from today's $218.50 close to see if the rebound continued or faded.",
     "concept": "Post-earnings overreaction reversal",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 214.01,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": -2.05,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": -0.07,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-27:XYL",
@@ -3705,7 +3745,15 @@
     "confidence": "medium",
     "reasoning": "A 14% single-day drop on a guidance cut plus structural changes (segment reorg and divestitures) typically creates lingering uncertainty, and stocks that gap down hard on guidance cuts often see continued weakness or at least underperformance versus the broader market over the following days as analysts revise estimates downward. Check XYL vs SPY performance over the next 5 trading days to see if this held.",
     "concept": "Guidance cut",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 96.27,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": 3.67,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 5.66,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-27:BA",
@@ -3718,7 +3766,15 @@
     "confidence": "low",
     "reasoning": "A near-11% single-day drop on a credible operational setback (wing supply constraints pushing the 737 ramp to late 2027) often sees some follow-through or at least no quick rebound in the next few days, especially with a Fed decision this week adding volatility. However, Boeing's backlog and cash flow beat give some support, so confidence is low; check BA vs SPY over the next 5 trading days from this close.",
     "concept": "Guidance cut",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 173.31,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": 3.05,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 5.04,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-27:VLO",
@@ -3731,7 +3787,15 @@
     "confidence": "low",
     "reasoning": "The selloff reflects a genuine fundamental reset in expected refining margins (not just sentiment), and sector peers moved similarly, suggesting the market is digesting real news about tightening spreads easing. This kind of guidance-driven repricing can persist for several days as analysts cut estimates, but Valero's growth/momentum story and dividend support could cause a bounce. Confidence is low because refining margins are volatile and geopolitical headlines (Russian diesel, sanctions) could swing sentiment either way within the next week.",
     "concept": "Guidance cut",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 387.65,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": 0.08,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 2.07,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-27:MPC",
@@ -3744,7 +3808,15 @@
     "confidence": "low",
     "reasoning": "MPC fell sharply on sector-wide refining margin concerns just before its earnings report next week, and one source flagged weak odds of an earnings beat. If crack spreads stay compressed and earnings disappoint, MPC could continue to lag the S&P 500 over the next 5 trading days, but a single earnings report could also reverse the move sharply in either direction, so confidence is low.",
     "concept": "Sector-wide repricing",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 427.34,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": -1.98,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 0.01,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-27:PSX",
@@ -3757,7 +3829,15 @@
     "confidence": "low",
     "reasoning": "PSX reports earnings on Oct. 28 with analysts expecting a dramatic EPS jump (to $11.79 from $2.52) on the back of strong refining margins highlighted by several analysts (Zacks, Trefis-style coverage) heading into the print. If the 7% drop was an overreaction to broad market jitters rather than a real deterioration in PSX's fundamentals, a strong earnings beat could prompt a sharp rebound relative to SPY over the next 5 trading days. However, confidence is low because the cause of the initial drop is unclear, and refiners can also sell off hard on a weak or in-line print despite high expectations.",
     "concept": "Pre-earnings volatility",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-03",
+    "exit_close": 271.94,
+    "benchmark_exit_close": 754.35,
+    "stock_return_pct": 1.27,
+    "benchmark_return_pct": -1.99,
+    "excess_return_pct": 3.26,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-28:VRT",
