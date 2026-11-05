@@ -3850,7 +3850,15 @@
     "confidence": "medium",
     "reasoning": "The magnitude of the beat (61% revenue growth, orders more than doubling) and raised guidance suggest genuine fundamental improvement rather than a one-day sentiment spike, and sell-side analysts often raise price targets after such results, which can sustain momentum over the following days. However, a 16% single-day move also raises risk of short-term profit-taking or volatility in a stock already trading at a rich AI-infrastructure multiple, so confidence is only medium; check whether VRT's 5-day return after 2026-10-28 beat SPY's.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 205.55,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": -15.39,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": -14.68,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:FLEX",
@@ -3863,7 +3871,15 @@
     "confidence": "medium",
     "reasoning": "Strong fundamental beat, raised guidance, and a potential value-unlocking spinoff of the AI-exposed Cloud/Power business give Flex multiple near-term catalysts that could sustain momentum over the next 5 trading days, though a post-earnings pop of this size sometimes sees partial give-back or consolidation, which tempers confidence to medium.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 77.24,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": -16.97,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": -16.26,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:ORCL",
@@ -3876,7 +3892,15 @@
     "confidence": "low",
     "reasoning": "The scale of the move (best day in five months on a credible long-term plan) often carries some short-term momentum as analysts raise price targets and funds adjust positions, but after an 11% single-day pop much of the good news may already be priced in, and skepticism about Oracle's AI capex and debt load (noted in article on 'spending question its chip deals can't answer') could cap further gains. Check ORCL vs SPY over the next 5 trading days; if ORCL gives back a meaningful chunk of today's gain, this call was wrong.",
     "concept": "Guidance-driven rally",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 123.73,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": -14.4,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": -13.69,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:LH",
@@ -3889,7 +3913,15 @@
     "confidence": "medium",
     "reasoning": "Labcorp's strong beat-and-raise quarter with six consecutive quarters of margin expansion suggests underlying business momentum that could support continued analyst upgrades and price target increases over the next week, which historically helps sustain post-earnings drift. Check whether LH's 5-day return from 2026-10-28 close exceeds SPY's return over the same window.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 367.79,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": 2.09,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": 2.81,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-28:SNDK",
@@ -3902,7 +3934,15 @@
     "confidence": "low",
     "reasoning": "Sandisk reports its own Q1 FY2027 earnings the very next day (Oct 29), which will likely dominate the next 5 trading days more than today's peer-driven rally. If Sandisk's own results and guidance confirm the AI memory demand story that lifted SK Hynix, the stock could keep outperforming; but after a 45% drawdown from highs and high volatility, a miss or cautious guidance could easily erase today's gain. Confidence is low because the earnings outcome is genuinely uncertain and could swing either way sharply.",
     "concept": "Peer-driven re-rating",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 1037.4,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": -26.15,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": -25.44,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:FFIV",
@@ -3915,7 +3955,15 @@
     "confidence": "low",
     "reasoning": "A 20% single-day drop on margin concerns despite a revenue/EPS beat often reflects a genuine reset in investor expectations about profitability, which can take time to stabilize, and the stock may see continued volatility or further selling as analysts revise models (e.g., Piper Sandler's downgrade). However, some analysts like Evercore raised price targets, suggesting a split view, so confidence is low that this continues to underperform over just 5 days.",
     "concept": "Beat but guide down on margins",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 329.72,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": -9.8,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": -9.08,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-28:CSGP",
@@ -3928,7 +3976,15 @@
     "confidence": "low",
     "reasoning": "The sharp drop reflects a genuine fundamental concern (collapsing bookings growth) rather than a one-off overreaction, and the stock also faces a large new acquisition to digest plus a Wells Fargo underweight rating. However, some analysts (Needham, BTIG) maintained Buy ratings, and the stock was already down over 50% YTD, so a bounce is possible. Confidence is low given mixed analyst reactions and an already-depressed valuation.",
     "concept": "Beat but guide down",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 32.58,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": 18.3,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": 19.01,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:CHRW",
@@ -3941,7 +3997,15 @@
     "confidence": "low",
     "reasoning": "The sharp drop reflects a specific, industry-wide concern about insurance claims costs that could continue to weigh on sentiment for logistics/brokerage names over the next few days, especially with the RXO acquisition integration ahead. However, the stock may also see a technical bounce after such a large single-day move, so confidence is low.",
     "concept": "Buy the rumor, sell the news",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 133.84,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": 4.89,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": 5.6,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:LII",
@@ -3954,7 +4018,15 @@
     "confidence": "medium",
     "reasoning": "A double-digit drop on a guidance cut tied to structural margin pressure (competitive pricing, tariffs) rather than a one-off item suggests the market has reset expectations lower, and such moves often see limited immediate rebound as analysts revise estimates downward in the following days. Check LII vs SPY over the next 5 trading days; if analyst price target cuts follow, downward drift is more likely than a snapback.",
     "concept": "Guidance cut",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 358.96,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": 7.91,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": 8.62,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-28:BKR",
@@ -3967,7 +4039,15 @@
     "confidence": "medium",
     "reasoning": "The sharp post-earnings-call reversal suggests the market found something concerning beneath the headline beat (falling GAAP profit, Chart integration costs, soft Q4 guidance range). Such sentiment-driven selloffs after a disappointing deep-dive often persist for several days as analysts revise estimates and downgrade price targets, which could keep BKR underperforming SPY over the next week.",
     "concept": "Sell the news",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-04",
+    "exit_close": 49.87,
+    "benchmark_exit_close": 766.81,
+    "stock_return_pct": -8.76,
+    "benchmark_return_pct": -0.71,
+    "excess_return_pct": -8.05,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:GEN",
