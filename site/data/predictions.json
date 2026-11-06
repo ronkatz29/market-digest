@@ -4060,7 +4060,15 @@
     "confidence": "medium",
     "reasoning": "A genuine fundamental beat-and-raise plus removal of M&A uncertainty often leads to continued analyst upgrades and sustained buying interest over the following days, unlike moves driven by speculation or sentiment alone. However, after a 16% single-day pop some retracement or consolidation is possible, so confidence is only medium rather than high.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 30.6,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": 8.51,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": 13.24,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:CVNA",
@@ -4073,7 +4081,15 @@
     "confidence": "low",
     "reasoning": "After a 15.68% single-day pop driven by a well-digested earnings beat, much of the good news is likely already priced in, and several analysts trimmed price targets even while staying bullish long-term, which can cap near-term upside. Large post-earnings gap-ups also sometimes see partial mean-reversion or profit-taking over the following days, but conviction here is low since the fundamental story (record growth, raised guidance) is genuinely strong and could keep attracting buyers.",
     "concept": "Earnings beat on growth, not EPS",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 72.08,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": 5.52,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": 10.24,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-29:NCLH",
@@ -4086,7 +4102,15 @@
     "confidence": "low",
     "reasoning": "The strong beat-and-raise and positive 2027 commentary could sustain short-term momentum, but cautionary notes (falling ticket revenue, soft 2027 bookings, CFO transition) add uncertainty. Over 5 days, post-earnings drift could continue modestly in NCLH's favor versus SPY, but confidence is low given the stock's volatility and mixed underlying details.",
     "concept": "Earnings beat-and-raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 17.76,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -2.52,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": 2.2,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:HII",
@@ -4099,7 +4123,15 @@
     "confidence": "medium",
     "reasoning": "A 13% single-day jump on a strong beat-and-raise with a long secured backlog (90% of shipbuilding revenue through 2030) suggests durable positive sentiment that often persists for several days as analysts upgrade price targets post-earnings. Some mean-reversion/profit-taking risk exists after such a large move, but the fundamental re-rating argument favors continued relative strength versus SPY over the next 5 trading days.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 289.41,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -8.48,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": -3.75,
+    "outcome": "underperform",
+    "hit": false
   },
   {
     "id": "2026-10-29:TXT",
@@ -4112,7 +4144,15 @@
     "confidence": "medium",
     "reasoning": "A strong beat-and-raise quarter with guidance now above consensus often leads to positive analyst estimate revisions and sustained buying interest in the days following the print, which could help TXT outperform SPY over the next 5 trading days. Confidence is medium because large single-day pops can also see some mean reversion or profit-taking, and the broader market/defense-aerospace sector sentiment could offset company-specific momentum.",
     "concept": "Earnings beat and raise",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 85.23,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -2.55,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": 2.18,
+    "outcome": "outperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:NOW",
@@ -4125,7 +4165,15 @@
     "confidence": "low",
     "reasoning": "A 27% single-day drop reflects a serious re-rating of growth expectations, and historically such sharp guidance-driven selloffs in software names can see continued volatility or further downgrades in the following days as analysts revise models, even if some firms (like Piper Sandler) see long-term upside. Peer stocks (Salesforce, Workday, SAP) also fell, suggesting sector-wide pressure that could persist short-term. However, some analysts already flagged undervaluation, which could support a bounce, hence low confidence.",
     "concept": "Guidance-driven selloff",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 102.36,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -6.67,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": -1.94,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:FTNT",
@@ -4138,7 +4186,15 @@
     "confidence": "low",
     "reasoning": "A 20%+ single-day drop on a guidance nuance often triggers a few days of continued uncertainty and analyst downgrades as the Street digests the services slowdown, and sector-wide skepticism toward software/AI names (seen also in ServiceNow, F5) could keep pressure on FTNT. However, the stock could also stabilize or bounce after such a sharp overreaction since fundamentals (raised full-year guidance) were still positive, so confidence is low.",
     "concept": "Buy the rumor, sell the news",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 122.51,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -11.93,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": -7.2,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:MRVL",
@@ -4151,7 +4207,15 @@
     "confidence": "low",
     "reasoning": "The stock fell sharply on deal uncertainty and dilution fears, and these concerns (financing structure, premium paid, regulatory review) are unlikely to be resolved within 5 trading days, which could keep pressure on shares or produce continued volatility as more details emerge. However, a denial, a renegotiated/smaller deal, or a market-wide tech rebound could reverse much of the move quickly, so confidence is low.",
     "concept": "Acquirer sell-off",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 133.55,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -38.83,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": -34.11,
+    "outcome": "underperform",
+    "hit": true
   },
   {
     "id": "2026-10-29:GOOGL",
@@ -4164,7 +4228,15 @@
     "confidence": "low",
     "reasoning": "A 12%+ drop of this magnitude often triggers continued uncertainty and volatility as analysts digest AI capex and cash flow concerns, and the negative sentiment spilled into other mega-cap tech (Amazon, chips) the same week, suggesting a sector-wide re-rating rather than an isolated event. However, some analysts (SeekingAlpha bulls) argue the sell-off is overdone given strong Cloud growth, so a bounce-back is possible, keeping confidence low.",
     "concept": "Earnings reaction vs. headline growth",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 282.57,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -0.44,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": 4.29,
+    "outcome": "outperform",
+    "hit": false
   },
   {
     "id": "2026-10-29:GOOG",
@@ -4177,6 +4249,14 @@
     "confidence": "low",
     "reasoning": "A record one-day drop of this magnitude often sees continued volatility and cautious sentiment in the days following as analysts digest the cash flow concerns and the market reassesses AI capex across the sector (Amazon also fell on similar worries). However, several analysts (SeekingAlpha pieces) argue the selloff is overdone given strong cloud growth, which could support a bounce. Given the mixed signals, this is a low-confidence call that GOOG underperforms SPY over the next 5 trading days as the market continues to digest AI spending concerns.",
     "concept": "Earnings reaction vs. fundamentals",
-    "status": "open"
+    "status": "resolved",
+    "resolved_on": "2026-11-05",
+    "exit_close": 281.74,
+    "benchmark_exit_close": 733,
+    "stock_return_pct": -0.21,
+    "benchmark_return_pct": -4.73,
+    "excess_return_pct": 4.52,
+    "outcome": "outperform",
+    "hit": false
   }
 ]
